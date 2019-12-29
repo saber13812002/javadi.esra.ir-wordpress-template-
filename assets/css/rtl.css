@@ -1,0 +1,70 @@
+.asset-hot-news{
+    color:redd
+
+}
+.asset-hot-news .taglib-text {
+    color:red;
+
+}
+.portlet-asset-publisher .asset-actions{
+	float: left;
+}
+
+.portlet-asset-publisher .asset-title a img{
+	float: right;
+	margin-left:5px;
+}
+.asset-summary{
+text-align: right;	
+}
+.portlet-asset-publisher .asset-more{
+	text-align: right;
+}
+.taglib-asset-tags-summary .tag{
+	margin-left: 3px;
+	padding: 1px 20px 2px 5px;
+	text-decoration: none;
+	background-position: right;
+}
+.portlet-asset-publisher .metadata-view-count{
+	margin-left: 10px;
+}
+.portlet-asset-publisher .title-list a.taglib-icon {
+	float: right;
+}
+
+.portlet-asset-publisher .title-list .asset-actions {
+    float: right;
+    position: relative;
+    right: 10px;
+}
+.title-list.icon_2{
+    margin-right: 0!important;
+    margin-top: 0;
+}
+.title-list.icon_1{
+    margin-right: 0!important;
+    margin-top: 0;
+    margin-bottom: 0;
+
+
+}
+.title-list.numeric{
+    margin-right: 0!important;
+    margin-top: 0;
+    margin-bottom: 24px;
+
+}
+.numeric-li-a{
+ color: #4F4F4F;
+ text-align: justify;
+ text-decoration: none;
+ font: normal 8pt Tahoma;
+
+}
+
+.title-list.numeric a:hover
+{
+    color:#4F4F4F;
+
+}

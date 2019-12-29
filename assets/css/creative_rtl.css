@@ -1,0 +1,9 @@
+/* boxlang fa*/
+.rtl .navbar-default .navbar-header .navbar-brand li > #drop-down-language-box {
+  left: 0;
+  right: auto; }
+
+@media (min-width: 768px) {
+  .rtl .navbar-nav > li {
+    float: right; } }
+

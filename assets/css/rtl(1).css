@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'NAZANIN';
+    src: url("/html/portlet/asset_publisher/hook-style/fonts/lead_description_larg/SNAZANIN.TTF.eot");
+    src: local("BTraffic"), url("/html/portlet/asset_publisher/hook-style/fonts/lead_description_larg/SNAZANIN.TTF.woff") format("woff"), url("/html/portlet/asset_publisher/hook-style/fonts/lead_description_larg/SNAZANIN.TTF.svg") format("svg");
+    font-weight: normal;
+    font-style: normal; }
+.lead_description_larg-section-blocker{
+    display: block;
+    margin-top: 10px;
+}
+.ie7 .lead_description_larg-section-blocker{
+    margin-bottom: 23px;
+}
+lead_description_larg-image-link{
+    border: 0px;
+    text-decoration: none;
+}
+
+.lead_description_larg-title-content-block{
+}
+.ie7 .lead_description_larg-title-content-block{
+    margin-right: 20px;
+}
+.lead_description_larg-article-title {
+    font-size: 21px;
+    text-decoration: none;
+    text-align: right;
+    direction: rtl;
+    line-height: 130%;
+    margin-bottom: 10px;
+    color: #1809A6;
+    font-family: 'B Nazanin',Tahoma;
+}
+.lead_description_larg-article-content{
+    font: 11px tahoma, arial, 'Times New Roman';
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: justify;
+    line-height: 130%;
+
+}
+
+
+.lead_description_larg-lead{
+    font: 10px tahoma, arial, helvetica;
+    color: #808080;
+}
+.lead_description_larg-article-image{
+
+    background: url('/html/portlet/asset_publisher/hook-style/image/lead_description_larg/bg_t_ghab_2.gif') no-repeat left top;
+
+    float: right;
+    margin-left: 3px;
+
+}
+.lead_description_larg-article-body-image{
+    margin-left: 4px;
+    width: 288px;
+    overflow: hidden;
+    padding: 3px;
+    border: 1px solid #ABABAB;
+    height: 191px;
+}
+.lead_description_larg-wrapper{
+    clear: both;
+    height: 0px;
+    overflow: hidden;
+}
+.lead_description_larg-article-title-a{
+    color: #1809A6;
+}
+
