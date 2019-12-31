@@ -1,12 +1,12 @@
 <?php
 /*
-Plugin Name: wikimoshaver.com PageTemplaterJAVADI Page Plugin
+Plugin Name: hosseinilavasani.com PageTemplaterJAVADI Page Plugin
 Description: This plugin add page-template to current Wp theme so when you want to create a main page
-Plugin URI: http://www.wikimoshaver.com/
-Version: 0.0.1
+Plugin URI: http://www.hosseinilavasani.com/
+Version: 1.1.1
 Author: Saber Tabatabaee yazdi
-Author URI: http://www.wikimoshaver.com/
-License: wikimoshaver.com
+Author URI: http://www.hosseinilavasani.com/
+License: hosseinilavasani.com
 */
 
 class PageTemplaterJAVADI
@@ -232,3 +232,15 @@ function custom_wiki_registration_page_options()
 	</div>
 <?php
 }
+
+
+
+function wpb_custom_new_menu() {
+	register_nav_menus(
+	  array(
+		'my-custom-menu' => "منوی اصلی سایت در قالب  صفحه ی اول",
+		'extra-menu' => 'منوی اضافه'
+	  )
+	);
+  }
+  add_action( 'init', 'wpb_custom_new_menu' );

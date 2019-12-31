@@ -1,59 +1,95 @@
 .asset-slide-show-12 {
-  position: relative; }
-  .asset-slide-show-12 .rslides {
+    position: relative;
+}
+
+.asset-slide-show-12 .rslides {
     position: relative;
     list-style: none;
     overflow: hidden;
     width: 100%;
     padding: 0;
-    margin: 0; }
-  .asset-slide-show-12 .rslides li {
+    margin: 0;
+}
+
+.asset-slide-show-12 .rslides li {
     -webkit-backface-visibility: hidden;
     position: absolute;
     display: none;
     width: 100%;
     left: 0;
-    top: 0; }
-  .asset-slide-show-12 .rslides li:first-child {
+    top: 0;
+}
+
+.asset-slide-show-12 .rslides li:first-child {
     position: relative;
     display: block;
-    float: left; }
-  .asset-slide-show-12 .rslides img {
+    float: left;
+}
+
+.asset-slide-show-12 .rslides img {
     display: block;
     height: auto;
     float: left;
     width: 100%;
-    border: 0; }
-  .asset-slide-show-12 a {
+    border: 0;
+}
+
+.asset-slide-show-12 a {
     margin: 0;
-    padding: 0; }
-    .asset-slide-show-12 a.caption {
-      display: block;
-      width: auto;
-      height: auto;
-      padding: 2px 2px;
-      color: #ffffff;
-      line-height: 100%; }
-  .asset-slide-show-12 a.prev, .asset-slide-show-12 a.next {
+    padding: 0;
+}
+
+.asset-slide-show-12 a.caption {
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 2px 2px;
+    color: #ffffff;
+    line-height: 100%;
+}
+
+.asset-slide-show-12 a.prev,
+.asset-slide-show-12 a.next {
     position: absolute;
     z-index: 3;
     top: 0;
     opacity: 0.3;
     width: 16px;
     height: 85%;
-    text-indent: -9999px; }
-    .asset-slide-show-12 a.prev:hover, .asset-slide-show-12 a.next:hover {
-      opacity: 1; }
-  .asset-slide-show-12 a.prev {
+    text-indent: -9999px;
+}
+
+.asset-slide-show-12 a.prev:hover,
+.asset-slide-show-12 a.next:hover {
+    opacity: 1;
+}
+
+.asset-slide-show-12 a.prev {
     left: 0;
-    background: url("../images/sain/arrow_left.png") no-repeat center; }
-  .asset-slide-show-12 a.next {
-    background: url("../images/sain/arrow_right.png") no-repeat center; }
-  .asset-slide-show-12 .caption-con {
+    background: url("../images/sain/arrow_left.png") no-repeat center;
+}
+
+.asset-slide-show-12 a.next {
+    background: url("../images/sain/arrow_right.png") no-repeat center;
+}
+
+.asset-slide-show-12 .caption-con {
     position: absolute;
     background: rgba(0, 0, 0, 0.6);
     z-index: 5;
     bottom: 0;
     width: 100%;
-    max-height: 20%; }
+    max-height: 20%;
+}
 
+div.custom-menu-class ul {
+    list-style-type: none;
+    list-style: none;
+    list-style-image: none;
+}
+
+div.custom-menu-class li {
+    display: inline;
+    float: right;
+    padding-right: 20px;
+}
