@@ -1049,9 +1049,9 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li class="logo custom-logo">
                         <a href="./">
-                        <!-- mainlogo -->
-                        <?php
-                            $featimage = plugin_dir_url(__FILE__) ."assets/layout_set_logo";
+                            <!-- mainlogo -->
+                            <?php
+                            $featimage = plugin_dir_url(__FILE__) . "assets/layout_set_logo";
                             $args = array(
                                 'numberposts' => 1,
                                 'offset' => 0,
@@ -1069,10 +1069,10 @@
                                 $featimage = $imageid['0'];
                             }
                             echo '<img alt="" src="' . $featimage . '" >';
-                            
+
                             ?>
-                        <!-- <img alt="دفتر" src="">  -->
-                    </a> </li>
+                            <!-- <img alt="دفتر" src="">  -->
+                        </a> </li>
                 </ul>
                 <!-- <ul class="nav navbar-nav navbar-right">
                     <li class="logo custom-logo"> <a href="./home?p_auth=a8blRCps&amp;p_p_auth=kcMAp4QL&amp;p_p_id=49&amp;p_p_lifecycle=1&amp;p_p_state=normal&amp;p_p_mode=view&amp;p_p_col_pos=7&amp;p_p_col_count=9&amp;_49_struts_action=%2Fmy_sites%2Fview&amp;_49_groupId=28506&amp;_49_privateLayout=false" title="برو به دفتر" dideo-checked="true"> 
@@ -1109,7 +1109,7 @@
                                 <div class="portlet-body">
                                     <div class="journal-content-article" id="article_10155_28506_23515742_1.3">
                                         <?php
-                                        $featimage = plugin_dir_url(__FILE__) ."assets/images/mainslider.jpg";
+                                        $featimage = plugin_dir_url(__FILE__) . "assets/images/mainslider.jpg";
                                         $args = array(
                                             'numberposts' => 1,
                                             'offset' => 0,
@@ -1127,7 +1127,7 @@
                                             $featimage = $imageid['0'];
                                         }
                                         echo '<p> <img alt="" src="' . $featimage . '" style="width: 100%;"></p>';
-                                        
+
                                         ?>
                                     </div>
                                     <div class="entry-links"> </div>
@@ -1192,8 +1192,8 @@
                                                     ?>
                                                     <img src="<?php echo plugin_dir_url(__FILE__) ?>assets/images/shams.jpg" alt="">
                                                     <?php
-                                                    echo '<div class="caption-con"> <a class="caption title" href="'.get_permalink().'" dideo-checked="true">' . get_the_title() . '</a> ';
-                                                    echo '<a class="caption summary" href="'.get_permalink().'" dideo-checked="true">' . get_the_excerpt() . '</a> ';
+                                                    echo '<div class="caption-con"> <a class="caption title" href="' . get_permalink() . '" dideo-checked="true">' . get_the_title() . '</a> ';
+                                                    echo '<a class="caption summary" href="' . get_permalink() . '" dideo-checked="true">' . get_the_excerpt() . '</a> ';
                                                     echo '</div>
                                             </li>';
                                                     ?>
@@ -1222,12 +1222,27 @@
                         <div class="portlet-body">
                             <div class="portlet-borderless-container" style="">
                                 <div class="portlet-body">
-                                    <div class="journal-content-article" id="article_10155_28506_882663_1.9">
+                                    <!-- <div class="journal-content-article" id="article_10155_28506_882663_1.9">
                                         <div class="background-sec placeholders">
                                             <div class="col-xs-6 col-sm-3 placeholder ii"> <a href="./-/%D9%88%D8%AC%D9%88%D9%87%D8%A7%D8%AA-%D8%B4%D8%B1%D8%B9%DB%8C%D9%87" dideo-checked="true"><img alt="Generic placeholder thumbnail" class="pagination-centered img-fluid chimg1" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/Vojohat.png"></a> <img class="pagination-centered img-fluid title img-responsive vojohat" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/4.png" style="width: 171px; height: 72px;"></div>
                                             <div class="col-xs-6 col-sm-3 placeholder"> <a href="http://shahrie.esra.ir/" dideo-checked="true"><img alt="Generic placeholder thumbnail" class="pagination-centered img-fluid chimg2" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/Samaneh.png"></a> <img class="pagination-centered img-fluid title img-responsive shahrie" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/3.png" style="width: 171px; height: 72px;"></div>
                                             <div class="col-xs-6 col-sm-3 placeholder"> <a href="http://iranebook.ir/list.aspx?content=publisher&amp;pubid=a3681c75-8f9a-4076-af3c-eae7c19ec5b7#" dideo-checked="true"> <img alt="Generic placeholder thumbnail" class="pagination-centered img-fluid chimg3" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/ketabkhaneh.png"> <img class="pagination-centered img-fluid title img-responsive tch" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/2.png" style="width: 171px; height: 72px;"></a></div>
                                             <div class="col-xs-6 col-sm-3 placeholder"> <a href="./%D8%B3%D9%88%D8%A7%D9%84%D8%A7%D8%AA-%D8%B4%D8%B1%D8%B9%DB%8C" dideo-checked="true"> <img alt="Generic placeholder thumbnail" class="pagination-centered img-fluid chimg4" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/Soalat.png"> <img class="pagination-centered img-fluid title img-responsive solat" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/1.png" style="width: 171px; height: 72px;"></a></div>
+                                        </div>
+                                    </div> -->
+                                    <div class="journal-content-article" id="article_10155_28506_882663_1.9">
+                                        <div class="background-sec placeholders">
+                                            <!-- <div class="col-xs-6 col-sm-3 placeholder ii"> <a href="./-/%D9%88%D8%AC%D9%88%D9%87%D8%A7%D8%AA-%D8%B4%D8%B1%D8%B9%DB%8C%D9%87" dideo-checked="true"><img alt="Generic placeholder thumbnail" class="pagination-centered img-fluid chimg1" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/Vojohat.png"></a> <img class="pagination-centered img-fluid title img-responsive vojohat" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/4.png" style="width: 171px; height: 72px;"></div>
+                                            <div class="col-xs-6 col-sm-3 placeholder"> <a href="http://shahrie.esra.ir/" dideo-checked="true"><img alt="Generic placeholder thumbnail" class="pagination-centered img-fluid chimg2" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/Samaneh.png"></a> <img class="pagination-centered img-fluid title img-responsive shahrie" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/3.png" style="width: 171px; height: 72px;"></div>
+                                            <div class="col-xs-6 col-sm-3 placeholder"> <a href="http://iranebook.ir/list.aspx?content=publisher&amp;pubid=a3681c75-8f9a-4076-af3c-eae7c19ec5b7#" dideo-checked="true"> <img alt="Generic placeholder thumbnail" class="pagination-centered img-fluid chimg3" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/ketabkhaneh.png"> <img class="pagination-centered img-fluid title img-responsive tch" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/2.png" style="width: 171px; height: 72px;"></a></div>
+                                            <div class="col-xs-6 col-sm-3 placeholder"> <a href="./%D8%B3%D9%88%D8%A7%D9%84%D8%A7%D8%AA-%D8%B4%D8%B1%D8%B9%DB%8C" dideo-checked="true"> <img alt="Generic placeholder thumbnail" class="pagination-centered img-fluid chimg4" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/Soalat.png"> <img class="pagination-centered img-fluid title img-responsive solat" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/1.png" style="width: 171px; height: 72px;"></a></div> -->
+
+                                            <?php
+                                            wp_nav_menu(array(
+                                                'theme_location' => 'my-custom-menu-for-sections',
+                                                'container_class' => 'custom-menu-class my-custom-menu-for-sections'
+                                            ));
+                                            ?>
                                         </div>
                                     </div>
                                     <div class="entry-links"> </div>

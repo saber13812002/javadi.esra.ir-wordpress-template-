@@ -239,8 +239,10 @@ function wpb_custom_new_menu() {
 	register_nav_menus(
 	  array(
 		'my-custom-menu' => "منوی اصلی سایت در قالب  صفحه ی اول",
-		'extra-menu' => 'منوی اضافه'
+		'my-custom-menu-for-sections' => "منوی بخش بخش ها",
+		'extra-menu' => 'منوی اضافه',
 	  )
 	);
   }
   add_action( 'init', 'wpb_custom_new_menu' );
+
