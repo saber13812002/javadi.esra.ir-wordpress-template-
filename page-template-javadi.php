@@ -1,3 +1,7 @@
+<?php
+require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
+
+?>
 <!DOCTYPE html>
 <!-- saved from url=(0022)./ -->
 <html class="rtl yui3-js-enabled webkit rtl js chrome chrome79 chrome79-0 win" dir="rtl" lang="fa-IR">
@@ -1255,7 +1259,13 @@
                             <div class="portlet-borderless-container" style="">
                                 <div class="portlet-body">
                                     <div class="journal-content-article" id="article_10155_28506_882996_2.3">
-                                        <p dir="RTL"> آیت الله العظمی جوادی آملی: برخى افراد تا هنگامى كه مشغول كارى نيستند، سالك‌گونه‌اند، ولى وقتى به رفاه يا مقامى مى‌رسند، آن صلاح وسداد را از دست مى‌دهند؛ اما اگر كسى در دوران جوانى و در دوران تحصيل خود را با استمرار مراقبت و محاسبت كاملاً بسازد وقتى به سمتى برسد مسلّحانه آن سمت را مى‌پذيرد و بدين جهت امورى مانند رشوه، وعده و وعيد او را تهديد نمى‌كند.</p>
+                                        <p dir="RTL">
+                                            <?php if (have_posts()) : while (have_posts()) : the_post();
+                                                    the_content();
+                                                endwhile;
+                                            else : ?>
+                                                <p>Sorry, no posts matched your criteria.</p>
+                                            <?php endif; ?> </p>
                                     </div>
                                     <div class="entry-links"> </div>
                                 </div>
