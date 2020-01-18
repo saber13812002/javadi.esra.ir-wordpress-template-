@@ -46,3 +46,6 @@ good job
 
 
 
+# License
+
+our license is IOSL https://github.com/saber13812002/javadi.esra.ir-wordpress-template-/wiki/license

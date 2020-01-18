@@ -2,10 +2,10 @@
 /*
 Plugin Name: hosseinilavasani.com PageTemplaterJAVADI Page Plugin
 Description: This plugin add page-template to current Wp theme so when you want to create a main page
-Plugin URI: http://www.hosseinilavasani.com/
-Version: 1.1.1
+Plugin URI: http://vrgl.ir/HLZWd
+Version: 1398.10.28.01
 Author: Saber Tabatabaee yazdi
-Author URI: http://www.hosseinilavasani.com/
+Author URI: https://github.com/saber13812002/javadi.esra.ir-wordpress-template-
 License: hosseinilavasani.com
 */
 
