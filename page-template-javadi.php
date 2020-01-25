@@ -903,12 +903,19 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
         }
     </style>
     <style type="text/css">
+        #p_p_id_118_INSTANCE_9pfVMsCLeHvy_,
+        #p_p_id_56_INSTANCE_qDFjvN9ZKIG8_ {
+
+            display: none;
+        }
+
         #p_p_id_118_INSTANCE_GLSMo6d7vSgB_ {
             margin-top: 20px;
             margin-right: 0;
             margin-bottom: 15px;
             margin-left: 0;
-            padding: 0
+            padding: 0;
+            display: none;
         }
 
         #p_p_id_118_INSTANCE_EZBPB2ElWPgk_ {
@@ -1499,8 +1506,8 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                             echo '<div class="lead_description_larg-title-content-block">';
                                             echo '    <div class="lead_description_larg-lead"> ' . $recent["post_title"] . ' </div>';
                                             echo '    <div class="lead_description_larg-article-title"> <a class="lead_description_larg-article-title-a" target="_blank" style="text-decoration: none; " href="' . get_permalink($recent["ID"]) . '" dideo-checked="true">' . $recent["post_title"] . '</a> </div>';
-                                            echo '    <div class="lead_description_larg-article-content">' . $recent["post_content"] . '</div>';
-                                            echo '</div>';
+                                            echo '    <div class="lead_description_larg-article-content">' . strpos($recent["post_content"], '<!--more-->') ? substr($recent["post_content"], 0, strpos($recent["post_content"], '<!--more-->')) : substr($recent["post_content"], 0, 150) . '</div>';
+                                            echo '<a href="' . get_permalink($recent["ID"]) . '">... ادامه خبر...</a> </div>';
                                             echo '<div class="lead_description_larg-wrapper"></div>';
                                             echo '</div>';
 
