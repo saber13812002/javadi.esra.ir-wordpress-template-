@@ -3341,7 +3341,7 @@ section.footer {
 
 section.footer a,
 section.footer p {
-  color: rgba(0, 0, 0, 0.6);
+  color: #fff;
 }
 
 section.footer .footer-head-top {

@@ -258,6 +258,7 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
         .bottomMenu>div>ul {
             display: inline;
             float: right;
+            margin-top: 13px;
         }
 
         .bottomMenu>div>li {
