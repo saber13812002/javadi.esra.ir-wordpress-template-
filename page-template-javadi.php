@@ -250,7 +250,42 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
     <meta content="ویدئو؛ رحمت پروردگار" property="og:title">
     <meta content="/image/journal/article?img_id=2658082&amp;t=1577587899189" property="og:image">
     <link class="lfr-css-file" href="<?php echo plugin_dir_url(__FILE__) ?>assets/css/main(3).css" rel="stylesheet" type="text/css">
-    <style type="text/css"></style>
+    <style type="text/css">
+        .bottomMenu>div {
+            display: block;
+        }
+
+        .bottomMenu>div>ul {
+            display: inline;
+            float: right;
+        }
+
+        .bottomMenu>div>li {
+            list-style-type: none;
+            display: inline;
+            font-size: 12px;
+        }
+
+        .bottomMenu>div>li a {
+            color: #fff;
+            line-height: 15px;
+            text-decoration: none;
+            font-weight: normal;
+            border-right: thin solid #fff;
+            padding: 0 7px 0 3px;
+        }
+
+        .bottomMenu>div>li a:hover {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+        .bottomMenu div>li:last-child>a {
+            border-right: none;
+        }
+
+        /* remove pipe from last item */
+    </style>
     <style type="text/css">
         @font-face {
             font-family: 'sans-light';
@@ -333,7 +368,7 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
         }
 
         .sec-icons .journal-content-article {
-            background: url("http://esra.ir/documents/705937/716743/motoon.jpg") top right repeat;
+            background: url("<?php echo plugin_dir_url(__FILE__) ?>assets/png/motoon.jpg") top right repeat;
             padding: 15px
         }
 
@@ -529,7 +564,7 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
         }
 
         .botton-news .portlet-body {
-            background: url("http://esra.ir/documents/705937/716743/motoon.jpg")
+            background: url("<?php echo plugin_dir_url(__FILE__) ?>assets/png/motoon.jpg")
         }
 
         .botton-news .lead_description_larg-article-content {
@@ -1203,8 +1238,8 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                                     ?>
                                                     <img src="<?php echo plugin_dir_url(__FILE__) ?>assets/images/shams.jpg" alt="">
                                                     <?php
-                                                    echo '<div class="caption-con"> <a class="caption title" href="' . get_permalink() . '" dideo-checked="true">' . get_the_title() . '</a> ';
-                                                    echo '<a class="caption summary" href="' . get_permalink() . '" dideo-checked="true">' . get_the_excerpt() . '</a> ';
+                                                    echo '<div class="caption-con"> <a class="caption title" href="/category/%d8%ae%d8%a8%d8%b1%d9%85%d8%aa%d9%86%db%8c/" dideo-checked="true">' . get_the_title() . '</a> ';
+                                                    echo '<a class="caption summary" href="https://www.hosseinilavasani.com/category/%d8%ae%d8%a8%d8%b1%d9%85%d8%aa%d9%86%db%8c/" dideo-checked="true">' . get_the_excerpt() . '</a> ';
                                                     echo '</div>
                                             </li>';
                                                     ?>
@@ -1481,7 +1516,7 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                     <div>
                                         <?php
                                         $args = array(
-                                            'numberposts' => 8,
+                                            'numberposts' => 4,
                                             'offset' => 0,
                                             'category_name' => 'اخبار',
                                             'orderby' => 'post_date',
@@ -1504,7 +1539,7 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                             echo '</div>';
                                             echo '    </a> </div>';
                                             echo '<div class="lead_description_larg-title-content-block">';
-                                            echo '    <div class="lead_description_larg-lead"> ' . $recent["post_title"] . ' </div>';
+                                            //echo '    <div class="lead_description_larg-lead"> ' . $recent["post_title"] . ' </div>';
                                             echo '    <div class="lead_description_larg-article-title"> <a class="lead_description_larg-article-title-a" target="_blank" style="text-decoration: none; " href="' . get_permalink($recent["ID"]) . '" dideo-checked="true">' . $recent["post_title"] . '</a> </div>';
                                             echo '    <div class="lead_description_larg-article-content">' . strpos($recent["post_content"], '<!--more-->') ? substr($recent["post_content"], 0, strpos($recent["post_content"], '<!--more-->')) : substr($recent["post_content"], 0, 150) . '</div>';
                                             echo '<a href="' . get_permalink($recent["ID"]) . '">... ادامه خبر...</a> </div>';
@@ -1579,7 +1614,7 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                                             <div class="portlet-borderless-container" style="">
                                                                 <div class="portlet-body">
                                                                     <div class="taglib-header ">
-                                                                        <h1 class="header-title" style="font-size: 51.8333px;"> <span> ویدئو؛ رحمت پروردگار </span> </h1>
+                                                                        <h1 class="header-title" style="font-size: 51.8333px;"> <span> ویدئو؛ جان ما فدای اسلام و انقلاب و رهبری </span> </h1>
                                                                     </div>
                                                                     <div class="asset-full-content default-asset-publisher show-asset-title">
                                                                         <div class="asset-content">
@@ -1593,8 +1628,8 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                                                                         }
                                                                                     </style>
                                                                                 </p> <video class="home-video2" controls="" preload="metadata">
-                                                                                    <source src="http://news.esra.ir/documents/28363/2dcbae61-7448-4c6d-b287-8de1303ef3e3" type="video/mp4">
-                                                                                    <source src="./documents/28506/1790393/barane-rahmat-en.webm" type="video/webm"> </video>
+                                                                                    <source src="https://www.hosseinilavasani.com/wp-content/uploads/2020/02/VID-20200204-WA0071.mp4" type="video/mp4">
+                                                                                    <source src="https://www.hosseinilavasani.com/wp-content/uploads/2020/02/VID-20200204-WA0071.mp4" type="video/webm"> </video>
                                                                             </div> <br>
                                                                         </div>
                                                                         <div class="asset-metadata"> </div>
@@ -1608,37 +1643,52 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="portlet-column portlet-column-last col-sm-6 col-xs-12 no-margin" id="_118_INSTANCE_EZBPB2ElWPgk_column-2">
-                                                <div class="portlet-dropzone portlet-column-content portlet-column-content-last" id="layout-column__118_INSTANCE_EZBPB2ElWPgk__column-2">
-                                                    <div id="p_p_id_101_INSTANCE_B1jYkb8G5mfl_" class="portlet-boundary portlet-boundary_101_ portlet-static portlet-static-end portlet-borderless portlet-asset-publisher botton-right"> <span id="p_101_INSTANCE_B1jYkb8G5mfl"></span>
-                                                        <div class="portlet-body">
-                                                            <div class="portlet-borderless-container" style="">
+
+                                            <?php
+                                            // the query
+                                            $the_query = new WP_Query(array(
+                                                'category_name' => 'رحمت بی انتها',
+                                                'posts_per_page' => 1,
+                                            ));
+                                            ?>
+
+                                            <?php if ($the_query->have_posts()) : ?>
+                                                <?php while ($the_query->have_posts()) : $the_query->the_post();
+                                                    $get_the_title = get_the_title();
+                                                    $get_the_excerpt = get_the_excerpt();
+                                                ?>
+
+                                                    <div class="portlet-column portlet-column-last col-sm-6 col-xs-12 no-margin" id="_118_INSTANCE_EZBPB2ElWPgk_column-2">
+                                                        <div class="portlet-dropzone portlet-column-content portlet-column-content-last" id="layout-column__118_INSTANCE_EZBPB2ElWPgk__column-2">
+                                                            <div id="p_p_id_101_INSTANCE_B1jYkb8G5mfl_" class="portlet-boundary portlet-boundary_101_ portlet-static portlet-static-end portlet-borderless portlet-asset-publisher botton-right"> <span id="p_101_INSTANCE_B1jYkb8G5mfl"></span>
                                                                 <div class="portlet-body">
-                                                                    <div class="taglib-header ">
-                                                                        <h1 class="header-title" style="font-size: 50.5px;"> <span> رحمت بی انتها .. </span> </h1>
-                                                                    </div>
-                                                                    <div class="asset-full-content default-asset-publisher show-asset-title">
-                                                                        <div class="asset-content">
-                                                                            <div class="asset-full-content-body">
-                                                                                <p dir="RTL"> اگر خواستیم پیش خدا خجل نشویم چه کنیم؟!</p>
-                                                                                <p dir="RTL"> اینها که توبه می کنند، در بهشت اگر یادشان باشد که در دنیا گناه کرده اند شرمنده اند و این شرم عذاب است و در بهشت جا برای هیچ نحو عذاب نیست<span dir="LTR"> ...</span></p>
-                                                                                <p dir="RTL"> ذات اقدس اِله کاری می کند که از یاد خود ما می رود،</p>
-                                                                                <p dir="RTL"> از صحنه قلب ما برطرف می کند. هم پیش مَلَک می پوشاند و هم پیش فلک، هم پیش انبیا می پوشاند، &nbsp;هم پیش اولیاء...</p>
-                                                                                <p dir="RTL"> &nbsp;لذا تائب در قیامت وقتی وارد بهشت شد، اصلا یادش نیست که گناه کرده است تا خجل بشود،</p>
-                                                                                <p dir="RTL"> <span style="color:#006400;"><strong>&nbsp;ماییم و این رحمت بی انتها<span dir="LTR"> ..</span></strong></span></p>
-                                                                            </div> <br>
+                                                                    <div class="portlet-borderless-container" style="">
+                                                                        <div class="portlet-body">
+                                                                            <div class="taglib-header ">
+                                                                                <h1 class="header-title" style="font-size: 50.5px;"> <span> <?php echo $get_the_title ?> </span> </h1>
+                                                                            </div>
+                                                                            <div class="asset-full-content default-asset-publisher show-asset-title">
+                                                                                <div class="asset-content">
+                                                                                    <div class="asset-full-content-body">
+                                                                                        <p dir="RTL"> <?php echo $get_the_excerpt ?> </p>
+
+                                                                                    </div> <br>
+                                                                                </div>
+                                                                                <div class="asset-metadata"> </div>
+                                                                            </div>
+                                                                            <div class="final-separator">
+                                                                                <!-- -->
+                                                                            </div>
                                                                         </div>
-                                                                        <div class="asset-metadata"> </div>
-                                                                    </div>
-                                                                    <div class="final-separator">
-                                                                        <!-- -->
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
-                                            </div>
+
+                                                <?php endwhile; ?>
+                                                <?php wp_reset_postdata(); ?>
+                                            <?php endif; ?>
                                         </div>
                                     </div>
                                 </div>
@@ -1655,43 +1705,63 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
             <div class="row">
                 <hr style="margin-bottom: 0; width: 100%">
                 <div class="col-xs-12">
-                    <div class="col-md-3 col-xs-12">
+                    <div class="col-md-3 col-xs-12" id="footer-sidebar1">
                         <h3 class="widget-title-footer"> <span class="block-title-footer"><span>سایت های مرتبط</span></span></h3>
+
+                        <div class="bottomMenu">
+                            <?php wp_nav_menu(array('theme_location' => 'primaryfooter')); ?>
+                        </div>
+                        <!-- 
                         <div style="padding-top: 20px;">
                             <div class="footer-fa-esra"> <a href="http://www.portal.esra.ir/Pages/Index.aspx" dideo-checked="true"><span style="color:#ffff00;"><strong>سایت قدیم بنیاد اسراء</strong></span></a></div>
                             <div class="footer-fa-esra"> <a href="http://www.news.esra.ir/" id="esra-link-footer" dideo-checked="true">پایگاه اطلاع رسانی اسراء</a></div>
                             <div class="footer-fa-esra"> <a href="http://tv.esra.ir/" id="esra-link-footer" dideo-checked="true">تلویزیون اینترنتی اسراء</a></div>
                             <div class="footer-fa-esra"> <a href="http://nashresra.ir/" id="esra-link-footer" dideo-checked="true">مرکز بین المللی نشر اسراء</a></div>
-                        </div>
+                        </div> -->
                     </div>
-                    <div class="col-md-3 col-xs-12">
+                    <div class="col-md-3 col-xs-12" id="footer-sidebar2">
                         <h3 class="widget-title-footer"> <span class="block-title-footer"><span>سایت های مرتبط </span></span></h3>
+
+                        <div class="bottomMenu">
+                            <?php wp_nav_menu(array('theme_location' => 'secondaryfooter')); ?>
+                        </div>
+                        <!--
                         <div style="padding-top: 20px;">
                             <div class="footer-fa-esra"> <a href="http://www.maarej.esra.ir/" id="esra-link-footer" dideo-checked="true">پژوهشگاه علوم وحیانی معارج</a></div>
                             <div class="footer-fa-esra"> <a href="http://hikmat.isramags.ir/" id="esra-link-footer" dideo-checked="true">فصلنامه حکمت اسراء</a></div>
                             <div class="footer-fa-esra"> <a href="http://ethics.isramags.ir/" id="esra-link-footer" dideo-checked="true">فصلنامه اخلاق وحیانی</a></div>
                             <div class="footer-fa-esra"> <a href="http://maarij.isramags.ir/" id="esra-link-footer" dideo-checked="true">فصلنامه علوم قرآن و تفسیر معارج</a></div>
-                        </div>
+                        </div> -->
                     </div>
-                    <div class="col-md-3 col-xs-12">
+                    <div class="col-md-3 col-xs-12" id="footer-sidebar3">
                         <h3 class="widget-title-footer"> <span class="block-title-footer"><span>لینک های مرتبط</span></span></h3>
+
+                        <div class="bottomMenu">
+                            <?php wp_nav_menu(array('theme_location' => '3rdfooter')); ?>
+                        </div>
+                        <!--    
                         <div style="padding-top: 20px;">
                             <div class="footer-fa-esra"> <a href="./web/office/master" id="esra-link-footer" dideo-checked="true">زندگینامه آیت الله جوادی آملی</a></div>
                             <div class="footer-fa-esra"> <a href="http://www.portal.esra.ir/Pages/Index.aspx?Command=Q29udGVudHNHcm91cExpc3QxJjh%2bMTEy-hmJ4NzNm2Gg%3d&amp;lang=fa&amp;Argument=IyMjQ29udGVudCMjIw%3d%3d-NXnF4ID5GRE%3d" id="esra-link-footer" dideo-checked="true">خطبه های نماز جمعه </a></div>
                             <div class="footer-fa-esra"> <a href="./archive-esteftat1" id="esra-link-footer" dideo-checked="true"> استفتائات معظم له</a></div>
                             <div class="footer-fa-esra"> <a href="http://mp3.esra.ir/pdf/resaleh.pdf" id="esra-link-footer" dideo-checked="true">توضیح المسائل معظم له</a></div>
                         </div>
-                        <p> &nbsp;</p>
+                        <p> &nbsp;</p> -->
                     </div>
-                    <div class="col-md-3 col-xs-12">
+                    <div class="col-md-3 col-xs-12" id="footer-sidebar4">
                         <h3 class="widget-title-footer"> <span class="block-title-footer"><span>لینک های مرتبط</span></span></h3>
+
+                        <div class="bottomMenu">
+                            <?php wp_nav_menu(array('theme_location' => '4thfooter')); ?>
+                        </div>
+                        <!--
                         <div style="padding-top: 20px;">
                             <div class="footer-fa-esra"> <a href="./archive-tafsir1" id="esra-link-footer" dideo-checked="true">درس تفسیر آیت الله جوادی آملی</a></div>
                             <div class="footer-fa-esra"> <a href="./archive-feghe1" id="esra-link-footer" dideo-checked="true"> دروس فقه معظم له</a></div>
                             <div class="footer-fa-esra"> <a href="./archive-akhlagh1" id="esra-link-footer" dideo-checked="true"> دروس اخلاق معظم له</a></div>
                             <div class="footer-fa-esra"> <a href="./archive-article1" id="esra-link-footer" dideo-checked="true">مقالات معظم له</a></div>
                         </div>
-                        <p> &nbsp;</p>
+                        <p> &nbsp;</p> -->
                     </div>
                 </div>
                 <hr style="margin-bottom: 0; width: 100%">

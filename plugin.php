@@ -1,7 +1,7 @@
 <?php
 /*
-Plugin Name: hosseinilavasani.com PageTemplaterJAVADI Page Plugin
-Description: This plugin add page-template to current Wp theme so when you want to create a main page
+Plugin Name: PageTemplater JAVADI.ir
+Description: This plugin add page-template to current Wp theme so when you want to create a main page hosseinilavasani.com 
 Plugin URI: http://vrgl.ir/HLZWd
 Version: 1398.10.28.01
 Author: Saber Tabatabaee yazdi
@@ -79,7 +79,7 @@ class PageTemplaterJAVADI
 		// Add your templates to this array.
 		$this->templates = array(
 			'page-template-javadi.php' => 'Javadi Landing Template Page',
-			
+
 		);
 	}
 
@@ -192,8 +192,6 @@ add_action('admin_init', 'register_wiki_registration_page_settings');
 function register_wiki_registration_page_settings()
 {
 	register_setting('registration-wiki-page-group', 'googleapisUri_text');
-
-
 };
 
 function custom_wiki_registration_page_menu()
@@ -206,7 +204,7 @@ function custom_wiki_registration_page_options()
 	if (!current_user_can('manage_options')) {
 		wp_die('You do not have sufficient permissions to access this page.');
 	}
-	?>
+?>
 
 	<div>
 		<?php screen_icon(); ?>
@@ -235,14 +233,28 @@ function custom_wiki_registration_page_options()
 
 
 
-function wpb_custom_new_menu() {
+function wpb_custom_new_menu()
+{
 	register_nav_menus(
-	  array(
-		'my-custom-menu' => "منوی اصلی سایت در قالب  صفحه ی اول",
-		'my-custom-menu-for-sections' => "منوی بخش بخش ها",
-		'extra-menu' => 'منوی اضافه',
-	  )
+		array(
+			'my-custom-menu' => "منوی اصلی سایت در قالب  صفحه ی اول",
+			'my-custom-menu-for-sections' => "منوی بخش بخش ها",
+			'extra-menu' => 'منوی اضافه',
+		)
 	);
-  }
-  add_action( 'init', 'wpb_custom_new_menu' );
+}
+add_action('init', 'wpb_custom_new_menu');
 
+
+function wpb_custom_new_menu_infooter()
+{
+	// This theme uses wp_nav_menu() in two locations.  
+	register_nav_menus(array(
+		'primaryfooter' => __('اولین فوتر', 'footer_esra_1'),
+		'secondaryfooter' => __('دومین فوتر', 'footer_esra_2'),
+		'3rdfooter' => __('سومین فوتر', 'footer_esra_3'),
+		'4thfooter' => __('چهارمین فوتر', 'footer_esra_4')
+	));
+}
+
+add_action('init', 'wpb_custom_new_menu_infooter');
