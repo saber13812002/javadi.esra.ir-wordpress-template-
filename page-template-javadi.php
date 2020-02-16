@@ -1098,7 +1098,7 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                         <a href="./">
                             <!-- mainlogo -->
                             <?php
-                            $featimage = plugin_dir_url(__FILE__) . "assets/layout_set_logo";
+                            $fimage = plugin_dir_url(__FILE__) . "assets/layout_set_logo";
                             $args = array(
                                 'numberposts' => 1,
                                 'offset' => 0,
@@ -1113,9 +1113,9 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                             $recent_posts = wp_get_recent_posts($args);
                             foreach ($recent_posts as $recent) {
                                 $imageid = wp_get_attachment_image_src(get_post_thumbnail_id($recent["ID"]), 'full');
-                                $featimage = $imageid['0'];
+                                $fimage = $imageid['0'];
                             }
-                            echo '<img alt="" src="' . $featimage . '" >';
+                            echo '<img alt="" src="' . $fimage . '"  >';
 
                             ?>
                             <!-- <img alt="دفتر" src="">  -->
@@ -1173,7 +1173,7 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                             $imageid = wp_get_attachment_image_src(get_post_thumbnail_id($recent["ID"]), 'full');
                                             $featimage = $imageid['0'];
                                         }
-                                        echo '<p> <img alt="" src="' . $featimage . '" style="width: 100%;"></p>';
+                                        echo '<p> <img alt="" src="' . $featimage . '" style="width: 100%;padding-top: 68px;"></p>';
 
                                         ?>
                                     </div>
@@ -1536,7 +1536,14 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                             echo '<div class="lead_description_larg-article-image">';
                                             echo ' <a class="lead_description_larg-image-link" href="' . get_permalink($recent["ID"]) . '" dideo-checked="true">';
                                             echo '        <div class="lead_description_larg-article-body-image">';
-                                            echo ' <img alt="" class="omran-yazd-small-image" src="' . $featimage  . '" width="288px" height="191px">';
+
+                                            if ($featimage)
+                                                echo ' <img alt="" class="omran-yazd-small-image" src="' . $featimage  . '" width="288px" height="191px">';
+                                            else
+                                                echo ' <img alt="" class="omran-yazd-small-image" src="' .  plugin_dir_url(__FILE__)  . 'assets/images/default.jpg" width="288px" height="191px">';
+
+
+                                            // echo $featimage.'</div>';
                                             echo '</div>';
                                             echo '    </a> </div>';
                                             echo '<div class="lead_description_larg-title-content-block">';

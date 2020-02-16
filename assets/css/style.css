@@ -86,16 +86,24 @@ div.custom-menu-class ul {
   list-style-type: none;
   list-style: none;
   list-style-image: none;
+  display: flex;
+  justify-content: space-between;
 }
 
 div.custom-menu-class li {
   display: inline;
   float: right;
-  padding-right: 20px;
+  /* padding-right: 20px; */
+}
+
+div.my-custom-menu-for-sections {
+  width: 97%;
 }
 
 div.my-custom-menu-for-sections ul {
   text-align: center;
+  display: flex;
+  justify-content: space-between;
 }
 
 div.my-custom-menu-for-sections li > a > span {
