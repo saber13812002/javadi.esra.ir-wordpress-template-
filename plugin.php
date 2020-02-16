@@ -3,11 +3,21 @@
 Plugin Name: PageTemplater JAVADI.ir
 Description: This plugin add page-template to current Wp theme so when you want to create a main page hosseinilavasani.com 
 Plugin URI: http://vrgl.ir/HLZWd
-Version: 1398.10.28.01
+Version: 1398.11.28.02
 Author: Saber Tabatabaee yazdi
 Author URI: https://github.com/saber13812002/javadi.esra.ir-wordpress-template-
 License: hosseinilavasani.com
 */
+
+register_activation_hook( __FILE__, 'child_plugin_activate' );
+function child_plugin_activate(){
+
+    // Require parent plugin
+    if ( ! is_plugin_active( 'menu-image/menu-image.php' ) and current_user_can( 'activate_plugins' ) ) {
+        // Stop activation redirect and show error
+        wp_die('متاسفانه افزونه menu image نصب نیست یا فعال نیست.. <br><a href="' . admin_url( 'plugins.php' ) . '">&laquo; Return to Plugins</a>');
+    }
+}
 
 class PageTemplaterJAVADI
 {

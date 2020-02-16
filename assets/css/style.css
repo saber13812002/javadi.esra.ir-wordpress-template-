@@ -86,16 +86,24 @@ div.custom-menu-class ul {
   list-style-type: none;
   list-style: none;
   list-style-image: none;
+  display: flex;
+  justify-content: space-between;
 }
 
 div.custom-menu-class li {
   display: inline;
   float: right;
-  padding-right: 20px;
+  /* padding-right: 20px; */
+}
+
+div.my-custom-menu-for-sections {
+  width: 97%;
 }
 
 div.my-custom-menu-for-sections ul {
   text-align: center;
+  display: flex;
+  justify-content: space-between;
 }
 
 div.my-custom-menu-for-sections li > a > span {
@@ -107,4 +115,11 @@ div.my-custom-menu-for-sections li > a {
   color: #000000;
   font-size: xx-large;
   font-weight: bold;
+}
+
+
+.home-video2 {
+  max-height: 350px;
+  float: left;
+  max-width: 100%
 }
