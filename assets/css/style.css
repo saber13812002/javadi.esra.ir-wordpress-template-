@@ -116,3 +116,10 @@ div.my-custom-menu-for-sections li > a {
   font-size: xx-large;
   font-weight: bold;
 }
+
+
+.home-video2 {
+  max-height: 350px;
+  float: left;
+  max-width: 100%
+}

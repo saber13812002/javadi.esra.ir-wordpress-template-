@@ -1622,22 +1622,45 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                                             <div class="portlet-borderless-container" style="">
                                                                 <div class="portlet-body">
                                                                     <div class="taglib-header ">
-                                                                        <h1 class="header-title" style="font-size: 51.8333px;"> <span> ویدئو؛ جان ما فدای اسلام و انقلاب و رهبری </span> </h1>
-                                                                    </div>
-                                                                    <div class="asset-full-content default-asset-publisher show-asset-title">
-                                                                        <div class="asset-content">
-                                                                            <div class="asset-full-content-body">
-                                                                                <p>
-                                                                                    <style type="text/css">
-                                                                                        .home-video2 {
-                                                                                            max-height: 350px;
-                                                                                            float: left;
-                                                                                            max-width: 100%
-                                                                                        }
-                                                                                    </style>
-                                                                                </p> <video class="home-video2" controls="" preload="metadata">
-                                                                                    <source src="https://www.hosseinilavasani.com/wp-content/uploads/2020/02/VID-20200204-WA0071.mp4" type="video/mp4">
-                                                                                    <source src="https://www.hosseinilavasani.com/wp-content/uploads/2020/02/VID-20200204-WA0071.mp4" type="video/webm"> </video>
+                                                                        
+                                                                        <!-- video -->
+                                                                        <?php
+                                                                        $args = array(
+                                                                            'numberposts' => 1,
+                                                                            'offset' => 0,
+                                                                            'category_name' => 'خبرویدئویی',
+                                                                            'orderby' => 'post_date',
+                                                                            'order' => 'DESC',
+                                                                            'post_type' => 'post',
+                                                                            'post_status' => 'draft',
+                                                                            'suppress_filters' => true,
+                                                                            'meta_query' => array(
+                                                                                array(
+                                                                                    'key' => 'myvideo',
+                                                                                    'value' => '',
+                                                                                    'compare' => '!='
+                                                                                )
+                                                                            )
+                                                                        );
+
+                                                                        $recent_posts = wp_get_recent_posts($args);
+                                                                        foreach ($recent_posts as $recent) {
+                                                                            $v_title = $recent["post_title"];
+                                                                            $vid_url = get_post_meta($recent["ID"], 'myvideo', true)["guid"];
+                                                                            echo '<h1 class="header-title" style="font-size: 51.8333px;"> <span> ویدئو؛ ' . $v_title . ' </span> </h1>';
+                                                                            echo '</div>';
+                                                                            echo '<div class="asset-full-content default-asset-publisher show-asset-title">';
+                                                                            echo '<div class="asset-content">';
+                                                                            echo '<div class="asset-full-content-body">';
+                                                                            echo '<p>';
+                                                                            echo '</p> <video class="home-video2" controls="" preload="metadata">';
+                                                                            // echo '<img alt="" src="' . $vid_url . '"  >';
+                                                                            echo '<source src="' . $vid_url . '" type="video/mp4">
+                                                                        <source src="' . $vid_url . '" type="video/webm"> </video>';
+                                                                        }
+                                                                        ?>
+                                                                        <!-- <source src="https://www.hosseinilavasani.com/wp-content/uploads/2020/02/VID-20200204-WA0071.mp4" type="video/mp4">
+                                                                        <source src="https://www.hosseinilavasani.com/wp-content/uploads/2020/02/VID-20200204-WA0071.mp4" type="video/webm"> </video> -->
                                                                             </div> <br>
                                                                         </div>
                                                                         <div class="asset-metadata"> </div>
