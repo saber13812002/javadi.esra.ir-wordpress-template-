@@ -547,7 +547,8 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
 
         .botton-news img.omran-yazd-small-image {
             width: 100%;
-            height: auto
+            height: auto;
+            border: 1px solid;
         }
 
         .botton-news .lead_description_larg-article-image {
