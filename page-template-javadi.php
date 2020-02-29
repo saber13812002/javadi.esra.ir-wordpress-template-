@@ -1174,7 +1174,7 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                             $imageid = wp_get_attachment_image_src(get_post_thumbnail_id($recent["ID"]), 'full');
                                             $featimage = $imageid['0'];
                                         }
-                                        echo '<p> <img alt="" src="' . $featimage . '" style="width: 100%;padding-top: 68px;"></p>';
+                                        echo ' <img alt="" src="' . $featimage . '" style="width: 100%;padding-top: 0px;margin-top: -31px;">';
 
                                         ?>
                                     </div>
