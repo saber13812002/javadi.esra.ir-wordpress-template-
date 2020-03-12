@@ -326,7 +326,15 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                 margin-top: -5px !important
             }
         }
-
+        #_118_INSTANCE_9pfVMsCLeHvy_column-3{
+            display: none !important
+        }
+        #layout-column__118_INSTANCE_9pfVMsCLeHvy__column-1{
+            display: none !important
+        }
+        #_118_INSTANCE_9pfVMsCLeHvy_column-2{
+            display: none !important
+        }
         .asset-slide-show-12 .rslides img {
             display: none !important
         }
@@ -469,6 +477,14 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
 
         .dars-akhlagh .image-doross {
             background: url("<?php echo plugin_dir_url(__FILE__) ?>assets/img/akhlaghh.jpg") no-repeat
+        }
+
+        .dars-erfan .title-doross {
+            background: url("<?php echo plugin_dir_url(__FILE__) ?>assets/img/erfan.jpg") no-repeat
+        }
+
+        .dars-erfan .image-doross {
+            background: url("<?php echo plugin_dir_url(__FILE__) ?>assets/img/Feghhh.jpg") no-repeat
         }
 
         .dars-fegh .title-doross {
@@ -941,10 +957,7 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
     </style>
     <style type="text/css">
         #p_p_id_118_INSTANCE_9pfVMsCLeHvy_,
-        #p_p_id_56_INSTANCE_qDFjvN9ZKIG8_ {
-
-            display: none;
-        }
+        #p_p_id_56_INSTANCE_qDFjvN9ZKIG8_ {}
 
         #p_p_id_118_INSTANCE_GLSMo6d7vSgB_ {
             margin-top: 20px;
@@ -952,7 +965,6 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
             margin-bottom: 15px;
             margin-left: 0;
             padding: 0;
-            display: none;
         }
 
         #p_p_id_118_INSTANCE_EZBPB2ElWPgk_ {
@@ -1019,53 +1031,6 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
         @font-face {
             font-family: 'bnazanin';
             src: './../../fonts/bnazanin.ttf';
-        }
-
-        .dideo-tooltip {
-            position: relative;
-            display: inline-block;
-            font-family: 'bnazanin';
-            font-size: 0;
-            padding: 3px 5px;
-        }
-
-        .dideo-tooltip .tooltiptext {
-            visibility: hidden;
-            font-family: 'bnazanin';
-            width: 120px;
-            font-size: 13px;
-            background-color: black;
-            color: #fff;
-            text-align: center;
-            border-radius: 6px;
-            padding: 5px 0;
-            position: absolute;
-            z-index: 1;
-            top: 0px;
-            left: 110%;
-        }
-
-        .dideo-img {
-            width: 18px;
-            height: 18px;
-            margin-bottom: -3px;
-            filter: drop-shadow(0px 0px 2px #adadad);
-            webkit: filter: drop-shadow(0px 0px 2px #adadad);
-        }
-
-        .dideo-tooltip .tooltiptext::after {
-            content: "";
-            position: absolute;
-            top: 50%;
-            right: 100%;
-            margin-top: -5px;
-            border-width: 5px;
-            border-style: solid;
-            border-color: transparent black transparent transparent;
-        }
-
-        .dideo-tooltip:hover .tooltiptext {
-            visibility: visible;
         }
 
         .srg {
@@ -1332,17 +1297,31 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                                                 <div class="portlet-body">
                                                                     <link type="text/css" href="<?php echo plugin_dir_url(__FILE__) ?>assets/css/rtl.css" rel="stylesheet">
                                                                     <ul class="title-list default-icon">
-                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D8%AC%D9%84%D8%B3%D9%87-%D8%AF%D8%B1%D8%B3-%D8%A7%D8%AE%D9%84%D8%A7%D9%82-1398-10-05" id="_101_INSTANCE_0mlBSOfu6TpQ_bhfa" dideo-checked="true"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">جلسه درس اخلاق (1398/10/05)</span> </a> </span>
-                                                                            <div class="asset-metadata"> </div>
-                                                                        </li>
-                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D8%AC%D9%84%D8%B3%D9%87-%D8%AF%D8%B1%D8%B3-%D8%A7%D8%AE%D9%84%D8%A7%D9%82-1398-09-28" id="_101_INSTANCE_0mlBSOfu6TpQ_bqvz" dideo-checked="true"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">جلسه درس اخلاق (1398/09/28)</span> </a> </span>
-                                                                            <div class="asset-metadata"> </div>
-                                                                        </li>
-                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D8%AC%D9%84%D8%B3%D9%87-%D8%AF%D8%B1%D8%B3-%D8%A7%D8%AE%D9%84%D8%A7%D9%82-1398-09-21" id="_101_INSTANCE_0mlBSOfu6TpQ_rlip" dideo-checked="true"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">جلسه درس اخلاق (1398/09/21)</span> </a> </span>
-                                                                            <div class="asset-metadata"> </div>
-                                                                        </li>
+
+                                                                        <?php
+                                                                            $args = array(
+                                                                                'numberposts' => 3,
+                                                                                'offset' => 0,
+                                                                                'category_name' => 'درس اخلاق',
+                                                                                'orderby' => 'post_date',
+                                                                                'order' => 'DESC',
+                                                                                'post_type' => 'post',
+                                                                                'post_status' => 'publish',
+                                                                                'suppress_filters' => true
+                                                                            );
+
+                                                                            $recent_posts = wp_get_recent_posts($args);
+                                                                            foreach ($recent_posts as $recent) {
+
+
+                                                                                echo '<li class="title-list content default-icon"> <span> <a class="taglib-icon" href="' . get_permalink($recent["ID"]) . '" id="_101_INSTANCE_0mlBSOfu6TpQ_bqvz" dideo-checked="true"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">' . $recent["post_title"] . '</span> </a> </span>
+                                                                                <div class="asset-metadata"> </div>
+                                                                                </li>';
+                                                                            }
+                                                                            ?>
+
                                                                     </ul>
-                                                                </div><a href="./archive-akhlagh1" target="_blank" class="btn-droos" dideo-checked="true"> <span class="span-btn"></span> بیشتر </a>
+                                                                </div><a href="category/دروس/درس-اخلاق/" target="_blank" class="btn-droos" dideo-checked="true"> <span class="span-btn"></span> بیشتر </a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1350,7 +1329,7 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                             </div>
                                             <div class="portlet-column col-sm-4 col-xs-12 no-margin" id="_118_INSTANCE_GLSMo6d7vSgB_column-2">
                                                 <div class="portlet-dropzone portlet-column-content" id="layout-column__118_INSTANCE_GLSMo6d7vSgB__column-2">
-                                                    <div id="p_p_id_101_INSTANCE_Cj1mJpYdufV7_" class="portlet-boundary portlet-boundary_101_ portlet-static portlet-static-end portlet-borderless portlet-asset-publisher dars-fegh dars"> <span id="p_101_INSTANCE_Cj1mJpYdufV7"></span>
+                                                    <div id="p_p_id_101_INSTANCE_Cj1mJpYdufV7_" class="portlet-boundary portlet-boundary_101_ portlet-static portlet-static-end portlet-borderless portlet-asset-publisher dars-erfan dars"> <span id="p_101_INSTANCE_Cj1mJpYdufV7"></span>
                                                         <div class="portlet-body">
                                                             <div class="portlet-borderless-container" style="">
                                                                 <div class="image-doross"></div>
@@ -1358,17 +1337,31 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                                                 <div class="portlet-body">
                                                                     <link type="text/css" href="<?php echo plugin_dir_url(__FILE__) ?>assets/css/rtl.css" rel="stylesheet">
                                                                     <ul class="title-list default-icon">
-                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D9%85%D8%A8%D8%A7%D8%AD%D8%AB-%D9%81%D9%82%D9%87-%D9%80-%D9%86%DA%A9%D8%A7%D8%AD-%D9%80-%D8%AC%D9%84%D8%B3%D9%87-497-1398-10-07" id="_101_INSTANCE_Cj1mJpYdufV7_kwje" dideo-checked="true"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">مباحث فقه ـ نکاح ـ جلسه 497 (1398/10/07)</span> </a> </span>
-                                                                            <div class="asset-metadata"> </div>
-                                                                        </li>
-                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D9%85%D8%A8%D8%A7%D8%AD%D8%AB-%D9%81%D9%82%D9%87-%D9%80-%D9%86%DA%A9%D8%A7%D8%AD-%D9%80-%D8%AC%D9%84%D8%B3%D9%87-496-1398-10-04" id="_101_INSTANCE_Cj1mJpYdufV7_hhdj" dideo-checked="true"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">مباحث فقه ـ نکاح ـ جلسه 496 (1398/10/04)</span> </a> </span>
-                                                                            <div class="asset-metadata"> </div>
-                                                                        </li>
-                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D9%85%D8%A8%D8%A7%D8%AD%D8%AB-%D9%81%D9%82%D9%87-%D9%80-%D9%86%DA%A9%D8%A7%D8%AD-%D9%80-%D8%AC%D9%84%D8%B3%D9%87-495-1398-10-03" id="_101_INSTANCE_Cj1mJpYdufV7_owel" dideo-checked="true"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">مباحث فقه ـ نکاح ـ جلسه 495 (1398/10/03)</span> </a> </span>
-                                                                            <div class="asset-metadata"> </div>
-                                                                        </li>
+
+                                                                    <?php
+                                                                            $args = array(
+                                                                                'numberposts' => 3,
+                                                                                'offset' => 0,
+                                                                                'category_name' => 'درس عرفان',
+                                                                                'orderby' => 'post_date',
+                                                                                'order' => 'DESC',
+                                                                                'post_type' => 'post',
+                                                                                'post_status' => 'publish',
+                                                                                'suppress_filters' => true
+                                                                            );
+
+                                                                            $recent_posts = wp_get_recent_posts($args);
+                                                                            foreach ($recent_posts as $recent) {
+
+
+                                                                                echo '<li class="title-list content default-icon"> <span> <a class="taglib-icon" href="' . get_permalink($recent["ID"]) . '" id="_101_INSTANCE_0mlBSOfu6TpQ_bqvz" dideo-checked="true"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">' . $recent["post_title"] . '</span> </a> </span>
+                                                                                <div class="asset-metadata"> </div>
+                                                                                </li>';
+                                                                            }
+                                                                            ?>
+
                                                                     </ul>
-                                                                </div><a href="./archive-feghe1" target="_blank" class="btn-droos" dideo-checked="true"> <span class="span-btn"></span> بیشتر </a>
+                                                                </div><a href="category/دروس/درس-عرفان/" target="_blank" class="btn-droos" dideo-checked="true"> <span class="span-btn"></span> بیشتر </a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1384,17 +1377,31 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                                                 <div class="portlet-body">
                                                                     <link type="text/css" href="<?php echo plugin_dir_url(__FILE__) ?>assets/css/rtl.css" rel="stylesheet">
                                                                     <ul class="title-list default-icon">
-                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D8%AA%D9%81%D8%B3%D9%8A%D8%B1-%D8%B3%D9%88%D8%B1%D9%87-%D9%85%D8%B7%D9%81%D9%81%D9%8A%D9%86-%D8%AC%D9%84%D8%B3%D9%87-2-1398-10-07" id="_101_INSTANCE_m8eg3UQsTVm2_xnby" dideo-checked="true"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">تفسير سوره مطفّفِين جلسه 2 (1398/10/07)</span> </a> </span>
-                                                                            <div class="asset-metadata"> </div>
-                                                                        </li>
-                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D8%AA%D9%81%D8%B3%D9%8A%D8%B1-%D8%B3%D9%88%D8%B1%D9%87-%D9%85%D8%B7%D9%81%D9%81%D9%8A%D9%86-%D8%AC%D9%84%D8%B3%D9%87-1-1398-10-04" id="_101_INSTANCE_m8eg3UQsTVm2_tbsm" dideo-checked="true"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">تفسير سوره مطفّفِين جلسه 1 (1398/10/04)</span> </a> </span>
-                                                                            <div class="asset-metadata"> </div>
-                                                                        </li>
-                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D8%AA%D9%81%D8%B3%D9%8A%D8%B1-%D8%B3%D9%88%D8%B1%D9%87-%D8%A7%D9%86%D9%81%D8%B7%D8%A7%D8%B1-%D8%AC%D9%84%D8%B3%D9%87-4-1398-10-03" id="_101_INSTANCE_m8eg3UQsTVm2_kunf" dideo-checked="true"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">تفسير سوره انفطار جلسه 4 (1398/10/03)</span> </a> </span>
-                                                                            <div class="asset-metadata"> </div>
-                                                                        </li>
+
+                                                                    <?php
+                                                                            $args = array(
+                                                                                'numberposts' => 3,
+                                                                                'offset' => 0,
+                                                                                'category_name' => 'درس تفسیر',
+                                                                                'orderby' => 'post_date',
+                                                                                'order' => 'DESC',
+                                                                                'post_type' => 'post',
+                                                                                'post_status' => 'publish',
+                                                                                'suppress_filters' => true
+                                                                            );
+
+                                                                            $recent_posts = wp_get_recent_posts($args);
+                                                                            foreach ($recent_posts as $recent) {
+
+
+                                                                                echo '<li class="title-list content default-icon"> <span> <a class="taglib-icon" href="' . get_permalink($recent["ID"]) . '" id="_101_INSTANCE_0mlBSOfu6TpQ_bqvz" dideo-checked="true"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">' . $recent["post_title"] . '</span> </a> </span>
+                                                                                <div class="asset-metadata"> </div>
+                                                                                </li>';
+                                                                            }
+                                                                            ?>
+
                                                                     </ul>
-                                                                </div><a href="./archive-tafsir1" target="_blank" class="btn-droos" dideo-checked="true"> <span class="span-btn"></span> بیشتر </a>
+                                                                </div><a href="category/دروس/درس-تفسیر/" target="_blank" class="btn-droos" dideo-checked="true"> <span class="span-btn"></span> بیشتر </a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1623,7 +1630,7 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                                             <div class="portlet-borderless-container" style="">
                                                                 <div class="portlet-body">
                                                                     <div class="taglib-header ">
-                                                                        
+
                                                                         <!-- video -->
                                                                         <?php
                                                                         $args = array(
@@ -1662,6 +1669,48 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                                                         ?>
                                                                         <!-- <source src="https://www.hosseinilavasani.com/wp-content/uploads/2020/02/VID-20200204-WA0071.mp4" type="video/mp4">
                                                                         <source src="https://www.hosseinilavasani.com/wp-content/uploads/2020/02/VID-20200204-WA0071.mp4" type="video/webm"> </video> -->
+                                                                    </div> <br>
+                                                                </div>
+                                                                <div class="asset-metadata"> </div>
+                                                            </div>
+                                                            <div class="final-separator">
+                                                                <!-- -->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <?php
+                                    // the query
+                                    $the_query = new WP_Query(array(
+                                        'category_name' => 'رحمت بی انتها',
+                                        'posts_per_page' => 1,
+                                    ));
+                                    ?>
+
+                                    <?php if ($the_query->have_posts()) : ?>
+                                        <?php while ($the_query->have_posts()) : $the_query->the_post();
+                                            $get_the_title = get_the_title();
+                                            $get_the_excerpt = get_the_excerpt();
+                                        ?>
+
+                                            <div class="portlet-column portlet-column-last col-sm-6 col-xs-12 no-margin" id="_118_INSTANCE_EZBPB2ElWPgk_column-2">
+                                                <div class="portlet-dropzone portlet-column-content portlet-column-content-last" id="layout-column__118_INSTANCE_EZBPB2ElWPgk__column-2">
+                                                    <div id="p_p_id_101_INSTANCE_B1jYkb8G5mfl_" class="portlet-boundary portlet-boundary_101_ portlet-static portlet-static-end portlet-borderless portlet-asset-publisher botton-right"> <span id="p_101_INSTANCE_B1jYkb8G5mfl"></span>
+                                                        <div class="portlet-body">
+                                                            <div class="portlet-borderless-container" style="">
+                                                                <div class="portlet-body">
+                                                                    <div class="taglib-header ">
+                                                                        <h1 class="header-title" style="font-size: 50.5px;"> <span> <?php echo $get_the_title ?> </span> </h1>
+                                                                    </div>
+                                                                    <div class="asset-full-content default-asset-publisher show-asset-title">
+                                                                        <div class="asset-content">
+                                                                            <div class="asset-full-content-body">
+                                                                                <p dir="RTL"> <?php echo $get_the_excerpt ?> </p>
+
                                                                             </div> <br>
                                                                         </div>
                                                                         <div class="asset-metadata"> </div>
@@ -1676,53 +1725,9 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                                 </div>
                                             </div>
 
-                                            <?php
-                                            // the query
-                                            $the_query = new WP_Query(array(
-                                                'category_name' => 'رحمت بی انتها',
-                                                'posts_per_page' => 1,
-                                            ));
-                                            ?>
-
-                                            <?php if ($the_query->have_posts()) : ?>
-                                                <?php while ($the_query->have_posts()) : $the_query->the_post();
-                                                    $get_the_title = get_the_title();
-                                                    $get_the_excerpt = get_the_excerpt();
-                                                ?>
-
-                                                    <div class="portlet-column portlet-column-last col-sm-6 col-xs-12 no-margin" id="_118_INSTANCE_EZBPB2ElWPgk_column-2">
-                                                        <div class="portlet-dropzone portlet-column-content portlet-column-content-last" id="layout-column__118_INSTANCE_EZBPB2ElWPgk__column-2">
-                                                            <div id="p_p_id_101_INSTANCE_B1jYkb8G5mfl_" class="portlet-boundary portlet-boundary_101_ portlet-static portlet-static-end portlet-borderless portlet-asset-publisher botton-right"> <span id="p_101_INSTANCE_B1jYkb8G5mfl"></span>
-                                                                <div class="portlet-body">
-                                                                    <div class="portlet-borderless-container" style="">
-                                                                        <div class="portlet-body">
-                                                                            <div class="taglib-header ">
-                                                                                <h1 class="header-title" style="font-size: 50.5px;"> <span> <?php echo $get_the_title ?> </span> </h1>
-                                                                            </div>
-                                                                            <div class="asset-full-content default-asset-publisher show-asset-title">
-                                                                                <div class="asset-content">
-                                                                                    <div class="asset-full-content-body">
-                                                                                        <p dir="RTL"> <?php echo $get_the_excerpt ?> </p>
-
-                                                                                    </div> <br>
-                                                                                </div>
-                                                                                <div class="asset-metadata"> </div>
-                                                                            </div>
-                                                                            <div class="final-separator">
-                                                                                <!-- -->
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                <?php endwhile; ?>
-                                                <?php wp_reset_postdata(); ?>
-                                            <?php endif; ?>
-                                        </div>
-                                    </div>
+                                        <?php endwhile; ?>
+                                        <?php wp_reset_postdata(); ?>
+                                    <?php endif; ?>
                                 </div>
                             </div>
                         </div>
@@ -1730,6 +1735,8 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                 </div>
             </div>
         </div>
+    </div>
+    </div>
     </div>
     <form action="./#" id="hrefFm" method="post" name="hrefFm"> <span></span> </form>
     <section class="footer" id="contact">
@@ -2095,19 +2102,25 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
             $(".dars-tafsir .portlet-borderless-container ").append('<div class="image-doross"></div>');
             $(".dars-tafsir .portlet-borderless-container ").append('<div class="title-doross"></div>');
             $(".dars-tafsir .portlet-borderless-container").append(a);
-            $(".dars-tafsir .portlet-borderless-container ").append('<a href="./archive-tafsir1" target="_blank" class="btn-droos"> <span class="span-btn"></span> بیشتر </a>');
+            $(".dars-tafsir .portlet-borderless-container ").append('<a href="category/دروس/درس-تفسیر/" target="_blank" class="btn-droos"> <span class="span-btn"></span> بیشتر </a>');
             var a = $(".dars-akhlagh .portlet-borderless-container .portlet-body").clone();
             $(".dars-akhlagh .portlet-borderless-container .portlet-body").remove();
             $(".dars-akhlagh .portlet-borderless-container ").append('<div class="image-doross"></div>');
             $(".dars-akhlagh .portlet-borderless-container ").append('<div class="title-doross"></div>');
             $(".dars-akhlagh .portlet-borderless-container").append(a);
-            $(".dars-akhlagh .portlet-borderless-container ").append('<a href="./archive-akhlagh1" target="_blank" class="btn-droos"> <span class="span-btn"></span> بیشتر </a>');
+            $(".dars-akhlagh .portlet-borderless-container ").append('<a href="category/دروس/درس-اخلاق/" target="_blank" class="btn-droos"> <span class="span-btn"></span> بیشتر </a>');
             var a = $(".dars-fegh .portlet-borderless-container .portlet-body").clone();
             $(".dars-fegh .portlet-borderless-container .portlet-body").remove();
             $(".dars-fegh .portlet-borderless-container ").append('<div class="image-doross"></div>');
             $(".dars-fegh .portlet-borderless-container ").append('<div class="title-doross"></div>');
             $(".dars-fegh .portlet-borderless-container").append(a);
-            $(".dars-fegh .portlet-borderless-container ").append('<a href="./archive-feghe1" target="_blank" class="btn-droos"> <span class="span-btn"></span> بیشتر </a>');
+            $(".dars-fegh .portlet-borderless-container ").append('<a href="category/دروس/درس-عرفان/" target="_blank" class="btn-droos"> <span class="span-btn"></span> بیشتر </a>');
+            var a = $(".dars-erfan .portlet-borderless-container .portlet-body").clone();
+            $(".dars-erfan .portlet-borderless-container .portlet-body").remove();
+            $(".dars-erfan .portlet-borderless-container ").append('<div class="image-doross"></div>');
+            $(".dars-erfan .portlet-borderless-container ").append('<div class="title-doross"></div>');
+            $(".dars-erfan .portlet-borderless-container").append(a);
+            $(".dars-erfan .portlet-borderless-container ").append('<a href="category/دروس/درس-عرفان/" target="_blank" class="btn-droos"> <span class="span-btn"></span> بیشتر </a>');
             var a = $(".dars-esteftaat .portlet-borderless-container .portlet-body").clone();
             $(".dars-esteftaat .portlet-borderless-container .portlet-body").remove();
             $(".dars-esteftaat .portlet-borderless-container ").append('<div class="image-doross"></div>');
