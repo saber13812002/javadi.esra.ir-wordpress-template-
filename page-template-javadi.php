@@ -1049,7 +1049,7 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                     <ul>
                         <li><a class="fa fa-search" href="./?s=خطبه" dideo-checked="true"></a></li>
                         <li><a class="fa fa-user" href="./wp-admin" title="ورود" dideo-checked="true"></a></li>
-                        <li><a class="fa fa-language" href="./#lang" dideo-checked="true"></a>
+                        <li style="display:none"><a class="fa fa-language" href="./#lang" dideo-checked="true"></a>
                             <ul id="drop-down-language-box">
                                 <li> <a href="/" dideo-checked="true">English</a> </li>
                                 <li> <a href="/" dideo-checked="true">Persian</a> </li>
@@ -1121,27 +1121,7 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                             <div class="portlet-borderless-container" style="">
                                 <div class="portlet-body">
                                     <div class="journal-content-article" id="article_10155_28506_23515742_1.3">
-                                        <?php
-                                        $featimage = plugin_dir_url(__FILE__) . "assets/images/mainslider.jpg";
-                                        $args = array(
-                                            'numberposts' => 1,
-                                            'offset' => 0,
-                                            'category_name' => 'اسلایدر',
-                                            'orderby' => 'post_date',
-                                            'order' => 'DESC',
-                                            'post_type' => 'post',
-                                            'post_status' => 'draft',
-                                            'suppress_filters' => true
-                                        );
-
-                                        $recent_posts = wp_get_recent_posts($args);
-                                        foreach ($recent_posts as $recent) {
-                                            $imageid = wp_get_attachment_image_src(get_post_thumbnail_id($recent["ID"]), 'full');
-                                            $featimage = $imageid['0'];
-                                        }
-                                        echo ' <img alt="" src="' . $featimage . '" style="width: 100%;padding-top: 0px;margin-top: -31px;">';
-
-                                        ?>
+                                    <?php echo do_shortcode('[supsystic-slider id=1 position="center"]'); ?>
                                     </div>
                                     <div class="entry-links"> </div>
                                 </div>
