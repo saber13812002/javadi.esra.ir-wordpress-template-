@@ -326,15 +326,19 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                 margin-top: -5px !important
             }
         }
-        #_118_INSTANCE_9pfVMsCLeHvy_column-3{
+
+        #_118_INSTANCE_9pfVMsCLeHvy_column-3 {
             display: none !important
         }
-        #layout-column__118_INSTANCE_9pfVMsCLeHvy__column-1{
+
+        #layout-column__118_INSTANCE_9pfVMsCLeHvy__column-1 {
             display: none !important
         }
-        #_118_INSTANCE_9pfVMsCLeHvy_column-2{
+
+        #_118_INSTANCE_9pfVMsCLeHvy_column-2 {
             display: none !important
         }
+
         .asset-slide-show-12 .rslides img {
             display: none !important
         }
@@ -432,6 +436,19 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
             padding: 6px;
             display: block;
             margin: 5%
+        }
+
+        .btn {
+            width: 100%;
+            text-align: center;
+            background: #c7c7c7;
+            /* padding: 6px; */
+            display: block;
+            /* margin: 5% */
+        }
+
+        .btn-nim {
+            width: 50%;
         }
 
         @media(min-width:992px) {
@@ -1047,12 +1064,12 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
             <div class="navbar-header"> <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
                 <div class="navbar-brand page-scroll">
                     <ul>
-                        <li><a class="fa fa-search" href="./?s=خطبه" dideo-checked="true"></a></li>
-                        <li><a class="fa fa-user" href="./wp-admin" title="ورود" dideo-checked="true"></a></li>
-                        <li style="display:none"><a class="fa fa-language" href="./#lang" dideo-checked="true"></a>
+                        <li><a class="fa fa-search" href="./?s=خطبه" ></a></li>
+                        <li><a class="fa fa-user" href="./wp-admin" title="ورود" ></a></li>
+                        <li style="display:none"><a class="fa fa-language" href="./#lang" ></a>
                             <ul id="drop-down-language-box">
-                                <li> <a href="/" dideo-checked="true">English</a> </li>
-                                <li> <a href="/" dideo-checked="true">Persian</a> </li>
+                                <li> <a href="/" >English</a> </li>
+                                <li> <a href="/" >Persian</a> </li>
                             </ul>
                         </li>
                     </ul>
@@ -1088,13 +1105,13 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                         </a> </li>
                 </ul>
                 <!-- <ul class="nav navbar-nav navbar-right">
-                    <li class="logo custom-logo"> <a href="./home?p_auth=a8blRCps&amp;p_p_auth=kcMAp4QL&amp;p_p_id=49&amp;p_p_lifecycle=1&amp;p_p_state=normal&amp;p_p_mode=view&amp;p_p_col_pos=7&amp;p_p_col_count=9&amp;_49_struts_action=%2Fmy_sites%2Fview&amp;_49_groupId=28506&amp;_49_privateLayout=false" title="برو به دفتر" dideo-checked="true"> 
-                    <li class=""> <a href="./home" dideo-checked="true">صفحه اصلی</a> </li>
-                    <li class=""> <a href="./manasek" dideo-checked="true">مناسک حج</a> </li>
-                    <li class=""> <a href="http://mp3.esra.ir/pdf/resaleh.pdf" dideo-checked="true">توضیح المسائل</a> </li>
-                    <li class=""> <a href="./offices" dideo-checked="true">دفاتر معظم له</a> </li>
-                    <li class=""> <a href="http://news.esra.ir/gallery-news" dideo-checked="true">گزارش تصویری</a> </li>
-                    <li> <a href="./contact" dideo-checked="true">ارتباط با ما</a> </li>
+                    <li class="logo custom-logo"> <a href="./home?p_auth=a8blRCps&amp;p_p_auth=kcMAp4QL&amp;p_p_id=49&amp;p_p_lifecycle=1&amp;p_p_state=normal&amp;p_p_mode=view&amp;p_p_col_pos=7&amp;p_p_col_count=9&amp;_49_struts_action=%2Fmy_sites%2Fview&amp;_49_groupId=28506&amp;_49_privateLayout=false" title="برو به دفتر" > 
+                    <li class=""> <a href="./home" >صفحه اصلی</a> </li>
+                    <li class=""> <a href="./manasek" >مناسک حج</a> </li>
+                    <li class=""> <a href="http://mp3.esra.ir/pdf/resaleh.pdf" >توضیح المسائل</a> </li>
+                    <li class=""> <a href="./offices" >دفاتر معظم له</a> </li>
+                    <li class=""> <a href="http://news.esra.ir/gallery-news" >گزارش تصویری</a> </li>
+                    <li> <a href="./contact" >ارتباط با ما</a> </li>
                 </ul> -->
 
                 <?php
@@ -1121,7 +1138,7 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                             <div class="portlet-borderless-container" style="">
                                 <div class="portlet-body">
                                     <div class="journal-content-article" id="article_10155_28506_23515742_1.3">
-                                    <?php echo do_shortcode('[supsystic-slider id=1 position="center"]'); ?>
+                                        <?php echo do_shortcode('[supsystic-slider id=1 position="center"]'); ?>
                                     </div>
                                     <div class="entry-links"> </div>
                                 </div>
@@ -1155,19 +1172,19 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
 
                                         <ul class="rslides rslides1" id="_101_INSTANCE_u4WITwIcfjPS_rslides">
                                             <!-- <li id="rslides1_s0" class="rslides1_on" style="display: block; float: left; position: relative; opacity: 1; z-index: 2; transition: opacity 500ms ease-in-out 0s;"> <img src="<?php echo plugin_dir_url(__FILE__) ?>assets/images/shams.jpg" alt="">
-                                                <div class="caption-con"> <a class="caption title" href="./-/%D9%BE%DB%8C%D8%A7%D9%85-%D8%AA%D8%B3%D9%84%DB%8C%D8%AA-%D8%A7%DB%8C%D8%AA-%D8%A7%D9%84%D9%84%D9%87-%D8%A7%D9%84%D8%B9%D8%B8%D9%85%DB%8C-%D8%AC%D9%88%D8%A7%D8%AF%DB%8C-%D8%A7%D9%85%D9%84%DB%8C-%D8%AF%D8%B1-%D9%BE%DB%8C-%D8%A7%D8%B1%D8%AA%D8%AD%D8%A7%D9%84-%D8%A7%DB%8C%D8%AA-%D8%A7%D9%84%D9%84%D9%87-%D8%AD%D8%A7%D8%AC-%D8%B3%DB%8C%D8%AF-%D8%AD%D8%B3%DB%8C%D9%86-%D8%B4%D9%85%D8%B3-%D8%AE%D8%B1%D8%A7%D8%B3%D8%A7%D9%86%DB%8C" dideo-checked="true"> پیام تسلیت آیت الله العظمی جوادی آملی در پی ارتحال آیت الله حاج سید حسین شمس خراسانی </a> <a class="caption summary" href="./-/%D9%BE%DB%8C%D8%A7%D9%85-%D8%AA%D8%B3%D9%84%DB%8C%D8%AA-%D8%A7%DB%8C%D8%AA-%D8%A7%D9%84%D9%84%D9%87-%D8%A7%D9%84%D8%B9%D8%B8%D9%85%DB%8C-%D8%AC%D9%88%D8%A7%D8%AF%DB%8C-%D8%A7%D9%85%D9%84%DB%8C-%D8%AF%D8%B1-%D9%BE%DB%8C-%D8%A7%D8%B1%D8%AA%D8%AD%D8%A7%D9%84-%D8%A7%DB%8C%D8%AA-%D8%A7%D9%84%D9%84%D9%87-%D8%AD%D8%A7%D8%AC-%D8%B3%DB%8C%D8%AF-%D8%AD%D8%B3%DB%8C%D9%86-%D8%B4%D9%85%D8%B3-%D8%AE%D8%B1%D8%A7%D8%B3%D8%A7%D9%86%DB%8C" dideo-checked="true"> پایگاه اطلاع رسانی اسراء: حضرت آیت الله العظمی جوادی آملی در پیامی, ارتحال عالم ربانى، فقيه و اصولى وارسته آیت الله حاج سید حسین شمس خراسانی را تسلیت گفتند. </a> </div>
+                                                <div class="caption-con"> <a class="caption title" href="./-/%D9%BE%DB%8C%D8%A7%D9%85-%D8%AA%D8%B3%D9%84%DB%8C%D8%AA-%D8%A7%DB%8C%D8%AA-%D8%A7%D9%84%D9%84%D9%87-%D8%A7%D9%84%D8%B9%D8%B8%D9%85%DB%8C-%D8%AC%D9%88%D8%A7%D8%AF%DB%8C-%D8%A7%D9%85%D9%84%DB%8C-%D8%AF%D8%B1-%D9%BE%DB%8C-%D8%A7%D8%B1%D8%AA%D8%AD%D8%A7%D9%84-%D8%A7%DB%8C%D8%AA-%D8%A7%D9%84%D9%84%D9%87-%D8%AD%D8%A7%D8%AC-%D8%B3%DB%8C%D8%AF-%D8%AD%D8%B3%DB%8C%D9%86-%D8%B4%D9%85%D8%B3-%D8%AE%D8%B1%D8%A7%D8%B3%D8%A7%D9%86%DB%8C" > پیام تسلیت آیت الله العظمی جوادی آملی در پی ارتحال آیت الله حاج سید حسین شمس خراسانی </a> <a class="caption summary" href="./-/%D9%BE%DB%8C%D8%A7%D9%85-%D8%AA%D8%B3%D9%84%DB%8C%D8%AA-%D8%A7%DB%8C%D8%AA-%D8%A7%D9%84%D9%84%D9%87-%D8%A7%D9%84%D8%B9%D8%B8%D9%85%DB%8C-%D8%AC%D9%88%D8%A7%D8%AF%DB%8C-%D8%A7%D9%85%D9%84%DB%8C-%D8%AF%D8%B1-%D9%BE%DB%8C-%D8%A7%D8%B1%D8%AA%D8%AD%D8%A7%D9%84-%D8%A7%DB%8C%D8%AA-%D8%A7%D9%84%D9%84%D9%87-%D8%AD%D8%A7%D8%AC-%D8%B3%DB%8C%D8%AF-%D8%AD%D8%B3%DB%8C%D9%86-%D8%B4%D9%85%D8%B3-%D8%AE%D8%B1%D8%A7%D8%B3%D8%A7%D9%86%DB%8C" > پایگاه اطلاع رسانی اسراء: حضرت آیت الله العظمی جوادی آملی در پیامی, ارتحال عالم ربانى، فقيه و اصولى وارسته آیت الله حاج سید حسین شمس خراسانی را تسلیت گفتند. </a> </div>
                                             </li>
                                             <li id="rslides1_s1" class="" style="float: none; position: absolute; opacity: 0; z-index: 1; display: list-item; transition: opacity 500ms ease-in-out 0s;"> <img src="<?php echo plugin_dir_url(__FILE__) ?>assets/images/IMG_3790.JPG.jpg" alt="">
-                                                <div class="caption-con"> <a class="caption title" href="./-/%D8%BA%D8%B1%D8%A8%DB%8C-%D9%87%D8%A7-%D9%87%D8%B1%DA%AF%D8%B2-%D9%86%D9%85%DB%8C-%D8%AA%D9%88%D8%A7%D9%86%D9%86%D8%AF-%D8%A8%D8%B1%D8%A7%DB%8C-%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA%DB%8C-%D9%87%D9%85%DA%86%D9%88%D9%86-%D8%AD%D9%82%D9%88%D9%82-%D8%A8%D8%B4%D8%B1%D8%8C-%DA%A9%D9%88%D8%AF%DA%A9-%D9%88-%D8%B2%D9%86-%D8%AA%D8%B5%D9%85%DB%8C%D9%85-%D8%A8%DA%AF%DB%8C%D8%B1%D9%86%D8%AF%D8%8C-%DA%86%D8%B1%D8%A7%DA%A9%D9%87-%D8%AF%D8%B1-%D9%86%DA%AF%D8%A7%D9%87-%D8%A7%D9%86%D9%87%D8%A7-%D8%A7%D9%86%D8%B3%D8%A7%D9%86-%DB%8C%DA%A9-%D9%85%D9%88%D8%AC%D9%88%D8%AF-%D9%81%D8%A7%D9%86%DB%8C-%D8%A7%D8%B3%D8%AA" dideo-checked="true"> غربی ها هرگز نمی توانند برای موضوعاتی همچون حقوق بشر، کودک و زن تصمیم بگیرند، چراکه در نگاه آنها انسان یک موجود فانی است </a> <a class="caption summary" href="./-/%D8%BA%D8%B1%D8%A8%DB%8C-%D9%87%D8%A7-%D9%87%D8%B1%DA%AF%D8%B2-%D9%86%D9%85%DB%8C-%D8%AA%D9%88%D8%A7%D9%86%D9%86%D8%AF-%D8%A8%D8%B1%D8%A7%DB%8C-%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA%DB%8C-%D9%87%D9%85%DA%86%D9%88%D9%86-%D8%AD%D9%82%D9%88%D9%82-%D8%A8%D8%B4%D8%B1%D8%8C-%DA%A9%D9%88%D8%AF%DA%A9-%D9%88-%D8%B2%D9%86-%D8%AA%D8%B5%D9%85%DB%8C%D9%85-%D8%A8%DA%AF%DB%8C%D8%B1%D9%86%D8%AF%D8%8C-%DA%86%D8%B1%D8%A7%DA%A9%D9%87-%D8%AF%D8%B1-%D9%86%DA%AF%D8%A7%D9%87-%D8%A7%D9%86%D9%87%D8%A7-%D8%A7%D9%86%D8%B3%D8%A7%D9%86-%DB%8C%DA%A9-%D9%85%D9%88%D8%AC%D9%88%D8%AF-%D9%81%D8%A7%D9%86%DB%8C-%D8%A7%D8%B3%D8%AA" dideo-checked="true"> پایگاه اطلاع رسانی اسراء: جمعی از اعضای شورای فرهنگی اجتماعی زنان شورای عالی انقلاب فرهنگی با حضور در بنیاد بین المللی علوم وحیانی اسراء با حضرت آیت الله العظمی جوادی آملی دیدار و... </a> </div>
+                                                <div class="caption-con"> <a class="caption title" href="./-/%D8%BA%D8%B1%D8%A8%DB%8C-%D9%87%D8%A7-%D9%87%D8%B1%DA%AF%D8%B2-%D9%86%D9%85%DB%8C-%D8%AA%D9%88%D8%A7%D9%86%D9%86%D8%AF-%D8%A8%D8%B1%D8%A7%DB%8C-%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA%DB%8C-%D9%87%D9%85%DA%86%D9%88%D9%86-%D8%AD%D9%82%D9%88%D9%82-%D8%A8%D8%B4%D8%B1%D8%8C-%DA%A9%D9%88%D8%AF%DA%A9-%D9%88-%D8%B2%D9%86-%D8%AA%D8%B5%D9%85%DB%8C%D9%85-%D8%A8%DA%AF%DB%8C%D8%B1%D9%86%D8%AF%D8%8C-%DA%86%D8%B1%D8%A7%DA%A9%D9%87-%D8%AF%D8%B1-%D9%86%DA%AF%D8%A7%D9%87-%D8%A7%D9%86%D9%87%D8%A7-%D8%A7%D9%86%D8%B3%D8%A7%D9%86-%DB%8C%DA%A9-%D9%85%D9%88%D8%AC%D9%88%D8%AF-%D9%81%D8%A7%D9%86%DB%8C-%D8%A7%D8%B3%D8%AA" > غربی ها هرگز نمی توانند برای موضوعاتی همچون حقوق بشر، کودک و زن تصمیم بگیرند، چراکه در نگاه آنها انسان یک موجود فانی است </a> <a class="caption summary" href="./-/%D8%BA%D8%B1%D8%A8%DB%8C-%D9%87%D8%A7-%D9%87%D8%B1%DA%AF%D8%B2-%D9%86%D9%85%DB%8C-%D8%AA%D9%88%D8%A7%D9%86%D9%86%D8%AF-%D8%A8%D8%B1%D8%A7%DB%8C-%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA%DB%8C-%D9%87%D9%85%DA%86%D9%88%D9%86-%D8%AD%D9%82%D9%88%D9%82-%D8%A8%D8%B4%D8%B1%D8%8C-%DA%A9%D9%88%D8%AF%DA%A9-%D9%88-%D8%B2%D9%86-%D8%AA%D8%B5%D9%85%DB%8C%D9%85-%D8%A8%DA%AF%DB%8C%D8%B1%D9%86%D8%AF%D8%8C-%DA%86%D8%B1%D8%A7%DA%A9%D9%87-%D8%AF%D8%B1-%D9%86%DA%AF%D8%A7%D9%87-%D8%A7%D9%86%D9%87%D8%A7-%D8%A7%D9%86%D8%B3%D8%A7%D9%86-%DB%8C%DA%A9-%D9%85%D9%88%D8%AC%D9%88%D8%AF-%D9%81%D8%A7%D9%86%DB%8C-%D8%A7%D8%B3%D8%AA" > پایگاه اطلاع رسانی اسراء: جمعی از اعضای شورای فرهنگی اجتماعی زنان شورای عالی انقلاب فرهنگی با حضور در بنیاد بین المللی علوم وحیانی اسراء با حضرت آیت الله العظمی جوادی آملی دیدار و... </a> </div>
                                             </li>
                                             <li id="rslides1_s2" class="" style="float: none; position: absolute; opacity: 0; z-index: 1; display: list-item; transition: opacity 500ms ease-in-out 0s;"> <img src="<?php echo plugin_dir_url(__FILE__) ?>assets/images/A66Q1728.JPG.jpg" alt="">
-                                                <div class="caption-con"> <a class="caption title" href="./-/%D9%86%D9%85%D8%A7%D8%B2-%D9%86%D8%AC%D9%88%D8%A7%DB%8C-%D8%A7%D9%86%D8%B3%D8%A7%D9%86-%D9%85%D9%88%D9%85%D9%86-%D8%A8%D8%A7-%D8%AE%D8%AF%D8%A7%DB%8C-%D8%AE%D9%88%D8%AF-%D8%A7%D8%B3%D8%AA-%D8%A7%D9%8A%D9%85%D9%87-%D8%AC%D9%85%D8%B9%D9%87-%D9%87%D9%85%D9%88%D8%A7%D8%B1%D9%87-%D8%A8%D8%A7%DB%8C%D8%AF-%D8%AF%D8%B1-%D8%AC%D9%87%D8%AA-%D8%B1%D8%B4%D8%AF-%D9%85%D8%B9%D9%86%D9%88%DB%8C-%D8%AE%D9%88%D8%AF-%D8%A8%DA%A9%D9%88%D8%B4%D9%86%D8%AF" dideo-checked="true"> نماز نجوای انسان مومن با خدای خود است/ائمه جمعه همواره باید در جهت رشد معنوی خود بکوشند </a> <a class="caption summary" href="./-/%D9%86%D9%85%D8%A7%D8%B2-%D9%86%D8%AC%D9%88%D8%A7%DB%8C-%D8%A7%D9%86%D8%B3%D8%A7%D9%86-%D9%85%D9%88%D9%85%D9%86-%D8%A8%D8%A7-%D8%AE%D8%AF%D8%A7%DB%8C-%D8%AE%D9%88%D8%AF-%D8%A7%D8%B3%D8%AA-%D8%A7%D9%8A%D9%85%D9%87-%D8%AC%D9%85%D8%B9%D9%87-%D9%87%D9%85%D9%88%D8%A7%D8%B1%D9%87-%D8%A8%D8%A7%DB%8C%D8%AF-%D8%AF%D8%B1-%D8%AC%D9%87%D8%AA-%D8%B1%D8%B4%D8%AF-%D9%85%D8%B9%D9%86%D9%88%DB%8C-%D8%AE%D9%88%D8%AF-%D8%A8%DA%A9%D9%88%D8%B4%D9%86%D8%AF" dideo-checked="true"> پایگاه اطلاع رسانی اسراء: جمعی از ائمه جمعه شهرهای مختلف استان آذربایجان غربی به همراه مسئول حوزه های علمیه و نمایندگان طلاب این استان با حضور در بنیاد بین المللی علوم وحیانی اسراء... </a> </div>
+                                                <div class="caption-con"> <a class="caption title" href="./-/%D9%86%D9%85%D8%A7%D8%B2-%D9%86%D8%AC%D9%88%D8%A7%DB%8C-%D8%A7%D9%86%D8%B3%D8%A7%D9%86-%D9%85%D9%88%D9%85%D9%86-%D8%A8%D8%A7-%D8%AE%D8%AF%D8%A7%DB%8C-%D8%AE%D9%88%D8%AF-%D8%A7%D8%B3%D8%AA-%D8%A7%D9%8A%D9%85%D9%87-%D8%AC%D9%85%D8%B9%D9%87-%D9%87%D9%85%D9%88%D8%A7%D8%B1%D9%87-%D8%A8%D8%A7%DB%8C%D8%AF-%D8%AF%D8%B1-%D8%AC%D9%87%D8%AA-%D8%B1%D8%B4%D8%AF-%D9%85%D8%B9%D9%86%D9%88%DB%8C-%D8%AE%D9%88%D8%AF-%D8%A8%DA%A9%D9%88%D8%B4%D9%86%D8%AF" > نماز نجوای انسان مومن با خدای خود است/ائمه جمعه همواره باید در جهت رشد معنوی خود بکوشند </a> <a class="caption summary" href="./-/%D9%86%D9%85%D8%A7%D8%B2-%D9%86%D8%AC%D9%88%D8%A7%DB%8C-%D8%A7%D9%86%D8%B3%D8%A7%D9%86-%D9%85%D9%88%D9%85%D9%86-%D8%A8%D8%A7-%D8%AE%D8%AF%D8%A7%DB%8C-%D8%AE%D9%88%D8%AF-%D8%A7%D8%B3%D8%AA-%D8%A7%D9%8A%D9%85%D9%87-%D8%AC%D9%85%D8%B9%D9%87-%D9%87%D9%85%D9%88%D8%A7%D8%B1%D9%87-%D8%A8%D8%A7%DB%8C%D8%AF-%D8%AF%D8%B1-%D8%AC%D9%87%D8%AA-%D8%B1%D8%B4%D8%AF-%D9%85%D8%B9%D9%86%D9%88%DB%8C-%D8%AE%D9%88%D8%AF-%D8%A8%DA%A9%D9%88%D8%B4%D9%86%D8%AF" > پایگاه اطلاع رسانی اسراء: جمعی از ائمه جمعه شهرهای مختلف استان آذربایجان غربی به همراه مسئول حوزه های علمیه و نمایندگان طلاب این استان با حضور در بنیاد بین المللی علوم وحیانی اسراء... </a> </div>
                                             </li>
                                             <li id="rslides1_s3" class="" style="float: none; position: absolute; opacity: 0; z-index: 1; display: list-item; transition: opacity 500ms ease-in-out 0s;"> <img src="<?php echo plugin_dir_url(__FILE__) ?>assets/images/IMG_6258-2.JPG.jpg" alt="">
-                                                <div class="caption-con"> <a class="caption title" href="./-/%D8%AF%DB%8C%D8%AF%D8%A7%D8%B1-%D8%A7%DB%8C%D8%AA-%D8%A7%D9%84%D9%84%D9%87-%D8%A7%D9%84%D8%B9%D8%B8%D9%85%DB%8C-%D8%AC%D9%88%D8%A7%D8%AF%DB%8C-%D8%A7%D9%85%D9%84%DB%8C-%D9%88-%D8%A7%DB%8C%D8%AA-%D8%A7%D9%84%D9%84%D9%87-%D8%A7%D9%84%D8%B9%D8%B8%D9%85%DB%8C-%D9%85%DA%A9%D8%A7%D8%B1%D9%85-%D8%B4%DB%8C%D8%B1%D8%A7%D8%B2%DB%8C" dideo-checked="true"> دیدار آیت الله العظمی جوادی آملی و آیت الله العظمی مکارم شیرازی </a> <a class="caption summary" href="./-/%D8%AF%DB%8C%D8%AF%D8%A7%D8%B1-%D8%A7%DB%8C%D8%AA-%D8%A7%D9%84%D9%84%D9%87-%D8%A7%D9%84%D8%B9%D8%B8%D9%85%DB%8C-%D8%AC%D9%88%D8%A7%D8%AF%DB%8C-%D8%A7%D9%85%D9%84%DB%8C-%D9%88-%D8%A7%DB%8C%D8%AA-%D8%A7%D9%84%D9%84%D9%87-%D8%A7%D9%84%D8%B9%D8%B8%D9%85%DB%8C-%D9%85%DA%A9%D8%A7%D8%B1%D9%85-%D8%B4%DB%8C%D8%B1%D8%A7%D8%B2%DB%8C" dideo-checked="true"> پایگاه اطلاع رسانی اسراء: آیت الله العظمی جوادی آملی با حضور در بیت آیت الله العظمی مکارم شیرازی با ایشان دیدار کردند و در جریان آخرین وضعیت سلامتی ایشان قرار گرفتند. </a> </div>
+                                                <div class="caption-con"> <a class="caption title" href="./-/%D8%AF%DB%8C%D8%AF%D8%A7%D8%B1-%D8%A7%DB%8C%D8%AA-%D8%A7%D9%84%D9%84%D9%87-%D8%A7%D9%84%D8%B9%D8%B8%D9%85%DB%8C-%D8%AC%D9%88%D8%A7%D8%AF%DB%8C-%D8%A7%D9%85%D9%84%DB%8C-%D9%88-%D8%A7%DB%8C%D8%AA-%D8%A7%D9%84%D9%84%D9%87-%D8%A7%D9%84%D8%B9%D8%B8%D9%85%DB%8C-%D9%85%DA%A9%D8%A7%D8%B1%D9%85-%D8%B4%DB%8C%D8%B1%D8%A7%D8%B2%DB%8C" > دیدار آیت الله العظمی جوادی آملی و آیت الله العظمی مکارم شیرازی </a> <a class="caption summary" href="./-/%D8%AF%DB%8C%D8%AF%D8%A7%D8%B1-%D8%A7%DB%8C%D8%AA-%D8%A7%D9%84%D9%84%D9%87-%D8%A7%D9%84%D8%B9%D8%B8%D9%85%DB%8C-%D8%AC%D9%88%D8%A7%D8%AF%DB%8C-%D8%A7%D9%85%D9%84%DB%8C-%D9%88-%D8%A7%DB%8C%D8%AA-%D8%A7%D9%84%D9%84%D9%87-%D8%A7%D9%84%D8%B9%D8%B8%D9%85%DB%8C-%D9%85%DA%A9%D8%A7%D8%B1%D9%85-%D8%B4%DB%8C%D8%B1%D8%A7%D8%B2%DB%8C" > پایگاه اطلاع رسانی اسراء: آیت الله العظمی جوادی آملی با حضور در بیت آیت الله العظمی مکارم شیرازی با ایشان دیدار کردند و در جریان آخرین وضعیت سلامتی ایشان قرار گرفتند. </a> </div>
                                             </li>
                                             <li id="rslides1_s4" class="" style="float: none; position: absolute; opacity: 0; z-index: 1; display: list-item; transition: opacity 500ms ease-in-out 0s;"> <img src="<?php echo plugin_dir_url(__FILE__) ?>assets/images/m (1)-4.jpg" alt="">
-                                                <div class="caption-con"> <a class="caption title" href="./-/%D8%A8%D8%B1%D8%AA%D8%B1%DB%8C-%D8%A7%D8%B3%D9%84%D8%A7%D9%85-%D8%A8%D8%B1-%D8%B3%D8%A7%DB%8C%D8%B1-%D8%A7%D8%AF%DB%8C%D8%A7%D9%86-%D8%A7%D9%84%D9%87%DB%8C-%D9%87%D9%85%D8%A7%D9%86-%C2%AB%D9%85%D9%87%D9%8A%D9%85%D9%86%D8%A7-%D8%B9%D9%84%D9%8A%D9%87%C2%BB-%D8%A7%D8%B3%D8%AA-%D8%AF%D8%B1-%D8%AA%D8%A8%D9%84%DB%8C%D8%BA-%D8%AF%DB%8C%D9%86%D8%8C-%D9%86%D8%A8%D8%A7%DB%8C%D8%AF-%D8%A7%D8%B2-%D8%AA%D9%88%D8%AF%D9%87-%D9%85%D8%B1%D8%AF%D9%85-%D8%BA%D8%A7%D9%81%D9%84-%D8%B4%D8%AF" dideo-checked="true"> برتری اسلام بر سایر ادیان الهی همان «مُهَيْمِناً عَلَيْه» است/ در تبلیغ دین، نباید از توده مردم غافل شد </a> <a class="caption summary" href="./-/%D8%A8%D8%B1%D8%AA%D8%B1%DB%8C-%D8%A7%D8%B3%D9%84%D8%A7%D9%85-%D8%A8%D8%B1-%D8%B3%D8%A7%DB%8C%D8%B1-%D8%A7%D8%AF%DB%8C%D8%A7%D9%86-%D8%A7%D9%84%D9%87%DB%8C-%D9%87%D9%85%D8%A7%D9%86-%C2%AB%D9%85%D9%87%D9%8A%D9%85%D9%86%D8%A7-%D8%B9%D9%84%D9%8A%D9%87%C2%BB-%D8%A7%D8%B3%D8%AA-%D8%AF%D8%B1-%D8%AA%D8%A8%D9%84%DB%8C%D8%BA-%D8%AF%DB%8C%D9%86%D8%8C-%D9%86%D8%A8%D8%A7%DB%8C%D8%AF-%D8%A7%D8%B2-%D8%AA%D9%88%D8%AF%D9%87-%D9%85%D8%B1%D8%AF%D9%85-%D8%BA%D8%A7%D9%81%D9%84-%D8%B4%D8%AF" dideo-checked="true"> پایگاه اطلاع رسانی اسراء: حجت الاسلام و المسلمین دکتر محمد هادی مفتح رییس مرکز اسلامی هامبورگ با حضور در بنیاد بین المللی علوم وحیانی اسراء با آیت الله العظمی جوادی آملی دیدار و... </a> </div>
+                                                <div class="caption-con"> <a class="caption title" href="./-/%D8%A8%D8%B1%D8%AA%D8%B1%DB%8C-%D8%A7%D8%B3%D9%84%D8%A7%D9%85-%D8%A8%D8%B1-%D8%B3%D8%A7%DB%8C%D8%B1-%D8%A7%D8%AF%DB%8C%D8%A7%D9%86-%D8%A7%D9%84%D9%87%DB%8C-%D9%87%D9%85%D8%A7%D9%86-%C2%AB%D9%85%D9%87%D9%8A%D9%85%D9%86%D8%A7-%D8%B9%D9%84%D9%8A%D9%87%C2%BB-%D8%A7%D8%B3%D8%AA-%D8%AF%D8%B1-%D8%AA%D8%A8%D9%84%DB%8C%D8%BA-%D8%AF%DB%8C%D9%86%D8%8C-%D9%86%D8%A8%D8%A7%DB%8C%D8%AF-%D8%A7%D8%B2-%D8%AA%D9%88%D8%AF%D9%87-%D9%85%D8%B1%D8%AF%D9%85-%D8%BA%D8%A7%D9%81%D9%84-%D8%B4%D8%AF" > برتری اسلام بر سایر ادیان الهی همان «مُهَيْمِناً عَلَيْه» است/ در تبلیغ دین، نباید از توده مردم غافل شد </a> <a class="caption summary" href="./-/%D8%A8%D8%B1%D8%AA%D8%B1%DB%8C-%D8%A7%D8%B3%D9%84%D8%A7%D9%85-%D8%A8%D8%B1-%D8%B3%D8%A7%DB%8C%D8%B1-%D8%A7%D8%AF%DB%8C%D8%A7%D9%86-%D8%A7%D9%84%D9%87%DB%8C-%D9%87%D9%85%D8%A7%D9%86-%C2%AB%D9%85%D9%87%D9%8A%D9%85%D9%86%D8%A7-%D8%B9%D9%84%D9%8A%D9%87%C2%BB-%D8%A7%D8%B3%D8%AA-%D8%AF%D8%B1-%D8%AA%D8%A8%D9%84%DB%8C%D8%BA-%D8%AF%DB%8C%D9%86%D8%8C-%D9%86%D8%A8%D8%A7%DB%8C%D8%AF-%D8%A7%D8%B2-%D8%AA%D9%88%D8%AF%D9%87-%D9%85%D8%B1%D8%AF%D9%85-%D8%BA%D8%A7%D9%81%D9%84-%D8%B4%D8%AF" > پایگاه اطلاع رسانی اسراء: حجت الاسلام و المسلمین دکتر محمد هادی مفتح رییس مرکز اسلامی هامبورگ با حضور در بنیاد بین المللی علوم وحیانی اسراء با آیت الله العظمی جوادی آملی دیدار و... </a> </div>
                                             </li> -->
                                             <?php
                                             // the query
@@ -1185,8 +1202,8 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                                     ?>
                                                     <img src="<?php echo plugin_dir_url(__FILE__) ?>assets/images/shams.jpg" alt="">
                                                     <?php
-                                                    echo '<div class="caption-con"> <a class="caption title" href="/category/%d8%ae%d8%a8%d8%b1%d9%85%d8%aa%d9%86%db%8c/" dideo-checked="true">' . get_the_title() . '</a> ';
-                                                    echo '<a class="caption summary" href="https://www.hosseinilavasani.com/category/%d8%ae%d8%a8%d8%b1%d9%85%d8%aa%d9%86%db%8c/" dideo-checked="true">' . get_the_excerpt() . '</a> ';
+                                                    echo '<div class="caption-con"> <a class="caption title" href="/category/%d8%ae%d8%a8%d8%b1%d9%85%d8%aa%d9%86%db%8c/" >' . get_the_title() . '</a> ';
+                                                    echo '<a class="caption summary" href="https://www.hosseinilavasani.com/category/%d8%ae%d8%a8%d8%b1%d9%85%d8%aa%d9%86%db%8c/" >' . get_the_excerpt() . '</a> ';
                                                     echo '</div>
                                             </li>';
                                                     ?>
@@ -1198,14 +1215,14 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                                 <li id="rslides1_s4" class="" style="float: none; position: absolute; opacity: 0; z-index: 1; display: list-item; transition: opacity 500ms ease-in-out 0s;">
                                                     <img src="<?php echo plugin_dir_url(__FILE__) ?>assets/images/m (1)-4.jpg" alt="">
                                                     <div class="caption-con">
-                                                        <a class="caption title" href="./" dideo-checked="true">خبری یافت نشد</a>
-                                                        <a class="caption summary" href="./" dideo-checked="true">شرح خبر ...</a>
+                                                        <a class="caption title" href="./" >خبری یافت نشد</a>
+                                                        <a class="caption summary" href="./" >شرح خبر ...</a>
                                                     </div>
                                                 </li>
                                             <?php endif; ?>
                                         </ul>
 
-                                        <a href="./#" class="rslides_nav rslides1_nav prev" dideo-checked="true">Previous</a><a href="./#" class="rslides_nav rslides1_nav next" dideo-checked="true">Next</a>
+                                        <a href="./#" class="rslides_nav rslides1_nav prev" >Previous</a><a href="./#" class="rslides_nav rslides1_nav next" >Next</a>
                                     </div>
                                 </div>
                             </div>
@@ -1217,18 +1234,18 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                 <div class="portlet-body">
                                     <!-- <div class="journal-content-article" id="article_10155_28506_882663_1.9">
                                         <div class="background-sec placeholders">
-                                            <div class="col-xs-6 col-sm-3 placeholder ii"> <a href="./-/%D9%88%D8%AC%D9%88%D9%87%D8%A7%D8%AA-%D8%B4%D8%B1%D8%B9%DB%8C%D9%87" dideo-checked="true"><img alt="Generic placeholder thumbnail" class="pagination-centered img-fluid chimg1" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/Vojohat.png"></a> <img class="pagination-centered img-fluid title img-responsive vojohat" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/4.png" style="width: 171px; height: 72px;"></div>
-                                            <div class="col-xs-6 col-sm-3 placeholder"> <a href="http://shahrie.esra.ir/" dideo-checked="true"><img alt="Generic placeholder thumbnail" class="pagination-centered img-fluid chimg2" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/Samaneh.png"></a> <img class="pagination-centered img-fluid title img-responsive shahrie" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/3.png" style="width: 171px; height: 72px;"></div>
-                                            <div class="col-xs-6 col-sm-3 placeholder"> <a href="http://iranebook.ir/list.aspx?content=publisher&amp;pubid=a3681c75-8f9a-4076-af3c-eae7c19ec5b7#" dideo-checked="true"> <img alt="Generic placeholder thumbnail" class="pagination-centered img-fluid chimg3" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/ketabkhaneh.png"> <img class="pagination-centered img-fluid title img-responsive tch" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/2.png" style="width: 171px; height: 72px;"></a></div>
-                                            <div class="col-xs-6 col-sm-3 placeholder"> <a href="./%D8%B3%D9%88%D8%A7%D9%84%D8%A7%D8%AA-%D8%B4%D8%B1%D8%B9%DB%8C" dideo-checked="true"> <img alt="Generic placeholder thumbnail" class="pagination-centered img-fluid chimg4" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/Soalat.png"> <img class="pagination-centered img-fluid title img-responsive solat" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/1.png" style="width: 171px; height: 72px;"></a></div>
+                                            <div class="col-xs-6 col-sm-3 placeholder ii"> <a href="./-/%D9%88%D8%AC%D9%88%D9%87%D8%A7%D8%AA-%D8%B4%D8%B1%D8%B9%DB%8C%D9%87" ><img alt="Generic placeholder thumbnail" class="pagination-centered img-fluid chimg1" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/Vojohat.png"></a> <img class="pagination-centered img-fluid title img-responsive vojohat" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/4.png" style="width: 171px; height: 72px;"></div>
+                                            <div class="col-xs-6 col-sm-3 placeholder"> <a href="http://shahrie.esra.ir/" ><img alt="Generic placeholder thumbnail" class="pagination-centered img-fluid chimg2" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/Samaneh.png"></a> <img class="pagination-centered img-fluid title img-responsive shahrie" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/3.png" style="width: 171px; height: 72px;"></div>
+                                            <div class="col-xs-6 col-sm-3 placeholder"> <a href="http://iranebook.ir/list.aspx?content=publisher&amp;pubid=a3681c75-8f9a-4076-af3c-eae7c19ec5b7#" > <img alt="Generic placeholder thumbnail" class="pagination-centered img-fluid chimg3" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/ketabkhaneh.png"> <img class="pagination-centered img-fluid title img-responsive tch" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/2.png" style="width: 171px; height: 72px;"></a></div>
+                                            <div class="col-xs-6 col-sm-3 placeholder"> <a href="./%D8%B3%D9%88%D8%A7%D9%84%D8%A7%D8%AA-%D8%B4%D8%B1%D8%B9%DB%8C" > <img alt="Generic placeholder thumbnail" class="pagination-centered img-fluid chimg4" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/Soalat.png"> <img class="pagination-centered img-fluid title img-responsive solat" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/1.png" style="width: 171px; height: 72px;"></a></div>
                                         </div>
                                     </div> -->
                                     <div class="journal-content-article" id="article_10155_28506_882663_1.9">
                                         <div class="background-sec placeholders">
-                                            <!-- <div class="col-xs-6 col-sm-3 placeholder ii"> <a href="./-/%D9%88%D8%AC%D9%88%D9%87%D8%A7%D8%AA-%D8%B4%D8%B1%D8%B9%DB%8C%D9%87" dideo-checked="true"><img alt="Generic placeholder thumbnail" class="pagination-centered img-fluid chimg1" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/Vojohat.png"></a> <img class="pagination-centered img-fluid title img-responsive vojohat" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/4.png" style="width: 171px; height: 72px;"></div>
-                                            <div class="col-xs-6 col-sm-3 placeholder"> <a href="http://shahrie.esra.ir/" dideo-checked="true"><img alt="Generic placeholder thumbnail" class="pagination-centered img-fluid chimg2" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/Samaneh.png"></a> <img class="pagination-centered img-fluid title img-responsive shahrie" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/3.png" style="width: 171px; height: 72px;"></div>
-                                            <div class="col-xs-6 col-sm-3 placeholder"> <a href="http://iranebook.ir/list.aspx?content=publisher&amp;pubid=a3681c75-8f9a-4076-af3c-eae7c19ec5b7#" dideo-checked="true"> <img alt="Generic placeholder thumbnail" class="pagination-centered img-fluid chimg3" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/ketabkhaneh.png"> <img class="pagination-centered img-fluid title img-responsive tch" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/2.png" style="width: 171px; height: 72px;"></a></div>
-                                            <div class="col-xs-6 col-sm-3 placeholder"> <a href="./%D8%B3%D9%88%D8%A7%D9%84%D8%A7%D8%AA-%D8%B4%D8%B1%D8%B9%DB%8C" dideo-checked="true"> <img alt="Generic placeholder thumbnail" class="pagination-centered img-fluid chimg4" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/Soalat.png"> <img class="pagination-centered img-fluid title img-responsive solat" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/1.png" style="width: 171px; height: 72px;"></a></div> -->
+                                            <!-- <div class="col-xs-6 col-sm-3 placeholder ii"> <a href="./-/%D9%88%D8%AC%D9%88%D9%87%D8%A7%D8%AA-%D8%B4%D8%B1%D8%B9%DB%8C%D9%87" ><img alt="Generic placeholder thumbnail" class="pagination-centered img-fluid chimg1" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/Vojohat.png"></a> <img class="pagination-centered img-fluid title img-responsive vojohat" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/4.png" style="width: 171px; height: 72px;"></div>
+                                            <div class="col-xs-6 col-sm-3 placeholder"> <a href="http://shahrie.esra.ir/" ><img alt="Generic placeholder thumbnail" class="pagination-centered img-fluid chimg2" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/Samaneh.png"></a> <img class="pagination-centered img-fluid title img-responsive shahrie" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/3.png" style="width: 171px; height: 72px;"></div>
+                                            <div class="col-xs-6 col-sm-3 placeholder"> <a href="http://iranebook.ir/list.aspx?content=publisher&amp;pubid=a3681c75-8f9a-4076-af3c-eae7c19ec5b7#" > <img alt="Generic placeholder thumbnail" class="pagination-centered img-fluid chimg3" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/ketabkhaneh.png"> <img class="pagination-centered img-fluid title img-responsive tch" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/2.png" style="width: 171px; height: 72px;"></a></div>
+                                            <div class="col-xs-6 col-sm-3 placeholder"> <a href="./%D8%B3%D9%88%D8%A7%D9%84%D8%A7%D8%AA-%D8%B4%D8%B1%D8%B9%DB%8C" > <img alt="Generic placeholder thumbnail" class="pagination-centered img-fluid chimg4" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/Soalat.png"> <img class="pagination-centered img-fluid title img-responsive solat" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/1.png" style="width: 171px; height: 72px;"></a></div> -->
 
                                             <?php
                                             wp_nav_menu(array(
@@ -1279,29 +1296,29 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                                                     <ul class="title-list default-icon">
 
                                                                         <?php
-                                                                            $args = array(
-                                                                                'numberposts' => 3,
-                                                                                'offset' => 0,
-                                                                                'category_name' => 'درس اخلاق',
-                                                                                'orderby' => 'post_date',
-                                                                                'order' => 'DESC',
-                                                                                'post_type' => 'post',
-                                                                                'post_status' => 'publish',
-                                                                                'suppress_filters' => true
-                                                                            );
+                                                                        $args = array(
+                                                                            'numberposts' => 3,
+                                                                            'offset' => 0,
+                                                                            'category_name' => 'درس اخلاق',
+                                                                            'orderby' => 'post_date',
+                                                                            'order' => 'DESC',
+                                                                            'post_type' => 'post',
+                                                                            'post_status' => 'publish',
+                                                                            'suppress_filters' => true
+                                                                        );
 
-                                                                            $recent_posts = wp_get_recent_posts($args);
-                                                                            foreach ($recent_posts as $recent) {
+                                                                        $recent_posts = wp_get_recent_posts($args);
+                                                                        foreach ($recent_posts as $recent) {
 
 
-                                                                                echo '<li class="title-list content default-icon"> <span> <a class="taglib-icon" href="' . get_permalink($recent["ID"]) . '" id="_101_INSTANCE_0mlBSOfu6TpQ_bqvz" dideo-checked="true"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">' . $recent["post_title"] . '</span> </a> </span>
+                                                                            echo '<li class="title-list content default-icon"> <span> <a class="taglib-icon" href="' . get_permalink($recent["ID"]) . '" id="_101_INSTANCE_0mlBSOfu6TpQ_bqvz" > <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">' . $recent["post_title"] . '</span> </a> </span>
                                                                                 <div class="asset-metadata"> </div>
                                                                                 </li>';
-                                                                            }
-                                                                            ?>
+                                                                        }
+                                                                        ?>
 
                                                                     </ul>
-                                                                </div><a href="category/دروس/درس-اخلاق/" target="_blank" class="btn-droos" dideo-checked="true"> <span class="span-btn"></span> بیشتر </a>
+                                                                </div><a href="category/دروس/درس-اخلاق/" target="_blank" class="btn-droos" > <span class="span-btn"></span> بیشتر </a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1318,30 +1335,30 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                                                     <link type="text/css" href="<?php echo plugin_dir_url(__FILE__) ?>assets/css/rtl.css" rel="stylesheet">
                                                                     <ul class="title-list default-icon">
 
-                                                                    <?php
-                                                                            $args = array(
-                                                                                'numberposts' => 3,
-                                                                                'offset' => 0,
-                                                                                'category_name' => 'درس عرفان',
-                                                                                'orderby' => 'post_date',
-                                                                                'order' => 'DESC',
-                                                                                'post_type' => 'post',
-                                                                                'post_status' => 'publish',
-                                                                                'suppress_filters' => true
-                                                                            );
+                                                                        <?php
+                                                                        $args = array(
+                                                                            'numberposts' => 3,
+                                                                            'offset' => 0,
+                                                                            'category_name' => 'درس عرفان',
+                                                                            'orderby' => 'post_date',
+                                                                            'order' => 'DESC',
+                                                                            'post_type' => 'post',
+                                                                            'post_status' => 'publish',
+                                                                            'suppress_filters' => true
+                                                                        );
 
-                                                                            $recent_posts = wp_get_recent_posts($args);
-                                                                            foreach ($recent_posts as $recent) {
+                                                                        $recent_posts = wp_get_recent_posts($args);
+                                                                        foreach ($recent_posts as $recent) {
 
 
-                                                                                echo '<li class="title-list content default-icon"> <span> <a class="taglib-icon" href="' . get_permalink($recent["ID"]) . '" id="_101_INSTANCE_0mlBSOfu6TpQ_bqvz" dideo-checked="true"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">' . $recent["post_title"] . '</span> </a> </span>
+                                                                            echo '<li class="title-list content default-icon"> <span> <a class="taglib-icon" href="' . get_permalink($recent["ID"]) . '" id="_101_INSTANCE_0mlBSOfu6TpQ_bqvz" > <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">' . $recent["post_title"] . '</span> </a> </span>
                                                                                 <div class="asset-metadata"> </div>
                                                                                 </li>';
-                                                                            }
-                                                                            ?>
+                                                                        }
+                                                                        ?>
 
                                                                     </ul>
-                                                                </div><a href="category/دروس/درس-عرفان/" target="_blank" class="btn-droos" dideo-checked="true"> <span class="span-btn"></span> بیشتر </a>
+                                                                </div><a href="category/دروس/درس-عرفان/" target="_blank" class="btn-droos" > <span class="span-btn"></span> بیشتر </a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1358,30 +1375,30 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                                                     <link type="text/css" href="<?php echo plugin_dir_url(__FILE__) ?>assets/css/rtl.css" rel="stylesheet">
                                                                     <ul class="title-list default-icon">
 
-                                                                    <?php
-                                                                            $args = array(
-                                                                                'numberposts' => 3,
-                                                                                'offset' => 0,
-                                                                                'category_name' => 'درس تفسیر',
-                                                                                'orderby' => 'post_date',
-                                                                                'order' => 'DESC',
-                                                                                'post_type' => 'post',
-                                                                                'post_status' => 'publish',
-                                                                                'suppress_filters' => true
-                                                                            );
+                                                                        <?php
+                                                                        $args = array(
+                                                                            'numberposts' => 3,
+                                                                            'offset' => 0,
+                                                                            'category_name' => 'درس تفسیر',
+                                                                            'orderby' => 'post_date',
+                                                                            'order' => 'DESC',
+                                                                            'post_type' => 'post',
+                                                                            'post_status' => 'publish',
+                                                                            'suppress_filters' => true
+                                                                        );
 
-                                                                            $recent_posts = wp_get_recent_posts($args);
-                                                                            foreach ($recent_posts as $recent) {
+                                                                        $recent_posts = wp_get_recent_posts($args);
+                                                                        foreach ($recent_posts as $recent) {
 
 
-                                                                                echo '<li class="title-list content default-icon"> <span> <a class="taglib-icon" href="' . get_permalink($recent["ID"]) . '" id="_101_INSTANCE_0mlBSOfu6TpQ_bqvz" dideo-checked="true"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">' . $recent["post_title"] . '</span> </a> </span>
+                                                                            echo '<li class="title-list content default-icon"> <span> <a class="taglib-icon" href="' . get_permalink($recent["ID"]) . '" id="_101_INSTANCE_0mlBSOfu6TpQ_bqvz" > <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">' . $recent["post_title"] . '</span> </a> </span>
                                                                                 <div class="asset-metadata"> </div>
                                                                                 </li>';
-                                                                            }
-                                                                            ?>
+                                                                        }
+                                                                        ?>
 
                                                                     </ul>
-                                                                </div><a href="category/دروس/درس-تفسیر/" target="_blank" class="btn-droos" dideo-checked="true"> <span class="span-btn"></span> بیشتر </a>
+                                                                </div><a href="category/دروس/درس-تفسیر/" target="_blank" class="btn-droos" > <span class="span-btn"></span> بیشتر </a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1409,17 +1426,17 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                                                 <div class="portlet-body">
                                                                     <link type="text/css" href="<?php echo plugin_dir_url(__FILE__) ?>assets/css/rtl.css" rel="stylesheet">
                                                                     <ul class="title-list default-icon">
-                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D8%A7%DB%8C%D8%A7-%D8%A7%D8%B3%D8%AA%D8%B9%D9%85%D8%A7%D9%84-%D8%AA%D8%AA%D9%86-%D9%88-%D8%B3%DB%8C%DA%AF%D8%A7%D8%B1-%D8%B1%D9%88%D8%B2%D9%87-%D8%B1%D8%A7-%D8%A8%D8%A7%D8%B7%D9%84-%D9%85%DB%8C-%DA%A9%D9%86%D8%AF%D8%9F" id="_101_INSTANCE_yH953ndVMLZG_zyuh" dideo-checked="true"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">آیا استعمال تتن و سیگار روزه را باطل می کند؟</span> </a> </span>
+                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D8%A7%DB%8C%D8%A7-%D8%A7%D8%B3%D8%AA%D8%B9%D9%85%D8%A7%D9%84-%D8%AA%D8%AA%D9%86-%D9%88-%D8%B3%DB%8C%DA%AF%D8%A7%D8%B1-%D8%B1%D9%88%D8%B2%D9%87-%D8%B1%D8%A7-%D8%A8%D8%A7%D8%B7%D9%84-%D9%85%DB%8C-%DA%A9%D9%86%D8%AF%D8%9F" id="_101_INSTANCE_yH953ndVMLZG_zyuh" > <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">آیا استعمال تتن و سیگار روزه را باطل می کند؟</span> </a> </span>
                                                                             <div class="asset-metadata"> </div>
                                                                         </li>
-                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D8%A7%D8%AE%D8%AA%D8%B5%D8%A7%D8%B5-%D9%81%D8%B6%D8%A7%DB%8C%DB%8C-%D8%A7%D8%B2-%D9%85%D8%B3%D8%AC%D8%AF-%D8%A8%D9%87-%D9%83%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87" id="_101_INSTANCE_yH953ndVMLZG_ozlt" dideo-checked="true"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">اختصاص فضایی از مسجد به كتابخانه</span> </a> </span>
+                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D8%A7%D8%AE%D8%AA%D8%B5%D8%A7%D8%B5-%D9%81%D8%B6%D8%A7%DB%8C%DB%8C-%D8%A7%D8%B2-%D9%85%D8%B3%D8%AC%D8%AF-%D8%A8%D9%87-%D9%83%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87" id="_101_INSTANCE_yH953ndVMLZG_ozlt" > <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">اختصاص فضایی از مسجد به كتابخانه</span> </a> </span>
                                                                             <div class="asset-metadata"> </div>
                                                                         </li>
-                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D9%81%D8%B1%D9%88%D8%B4-%D9%85%D9%84%D9%83-%D9%88%D9%82%D9%81%E2%80%8C%D8%B4%D8%AF%D9%87" id="_101_INSTANCE_yH953ndVMLZG_rpwo" dideo-checked="true"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">فروش ملك وقف‌شده</span> </a> </span>
+                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D9%81%D8%B1%D9%88%D8%B4-%D9%85%D9%84%D9%83-%D9%88%D9%82%D9%81%E2%80%8C%D8%B4%D8%AF%D9%87" id="_101_INSTANCE_yH953ndVMLZG_rpwo" > <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">فروش ملك وقف‌شده</span> </a> </span>
                                                                             <div class="asset-metadata"> </div>
                                                                         </li>
                                                                     </ul>
-                                                                </div><a href="./archive-esteftat1" target="_blank" class="btn-droos" dideo-checked="true"> <span class="span-btn"></span> بیشتر </a>
+                                                                </div><a href="./archive-esteftat1" target="_blank" class="btn-droos" > <span class="span-btn"></span> بیشتر </a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1435,17 +1452,17 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                                                 <div class="portlet-body">
                                                                     <link type="text/css" href="<?php echo plugin_dir_url(__FILE__) ?>assets/css/rtl.css" rel="stylesheet">
                                                                     <ul class="title-list default-icon">
-                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D8%A7%D9%8A%D9%86%D8%AF%D9%87-%D8%AC%D9%87%D8%A7%D9%86-%D8%A7%D8%B2-%D9%86%D8%B8%D8%B1-%D8%A7%D8%B3%D9%84%D8%A7%D9%85" id="_101_INSTANCE_PCXSp7tTrfmo_rjus" dideo-checked="true"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">آينده جهان از نظر اسلام</span> </a> </span>
+                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D8%A7%D9%8A%D9%86%D8%AF%D9%87-%D8%AC%D9%87%D8%A7%D9%86-%D8%A7%D8%B2-%D9%86%D8%B8%D8%B1-%D8%A7%D8%B3%D9%84%D8%A7%D9%85" id="_101_INSTANCE_PCXSp7tTrfmo_rjus" > <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">آينده جهان از نظر اسلام</span> </a> </span>
                                                                             <div class="asset-metadata"> </div>
                                                                         </li>
-                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D9%87%D9%85%D8%AA%D8%A7%D9%8A%D9%8A-%D8%AD%D8%B6%D8%B1%D8%AA-%D9%81%D8%A7%D8%B7%D9%85%D9%87-%D9%88-%D8%B9%D9%84%D9%8A-%D8%B9%D9%84%D9%8A%D9%87%D9%85%D8%A7%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85" id="_101_INSTANCE_PCXSp7tTrfmo_ctvk" dideo-checked="true"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">همتايي حضرت فاطمه و علي (عليهماالسلام)</span> </a> </span>
+                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D9%87%D9%85%D8%AA%D8%A7%D9%8A%D9%8A-%D8%AD%D8%B6%D8%B1%D8%AA-%D9%81%D8%A7%D8%B7%D9%85%D9%87-%D9%88-%D8%B9%D9%84%D9%8A-%D8%B9%D9%84%D9%8A%D9%87%D9%85%D8%A7%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85" id="_101_INSTANCE_PCXSp7tTrfmo_ctvk" > <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">همتايي حضرت فاطمه و علي (عليهماالسلام)</span> </a> </span>
                                                                             <div class="asset-metadata"> </div>
                                                                         </li>
-                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D8%A7%D9%82%D8%AA%D8%AF%D8%A7%D9%8A-%D8%A7%D9%85%D8%A7%D9%85-%D8%AE%D9%85%D9%8A%D9%86%D9%8A-%D8%A8%D9%87-%D9%86%D9%87%D8%B6%D8%AA-%D8%A7%D9%85%D8%A7%D9%85-%D8%AD%D8%B3%D9%8A%D9%86-%D8%B9" id="_101_INSTANCE_PCXSp7tTrfmo_suxb" dideo-checked="true"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">اقتداي امام خميني به نهضت امام حسين(ع)</span> </a> </span>
+                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D8%A7%D9%82%D8%AA%D8%AF%D8%A7%D9%8A-%D8%A7%D9%85%D8%A7%D9%85-%D8%AE%D9%85%D9%8A%D9%86%D9%8A-%D8%A8%D9%87-%D9%86%D9%87%D8%B6%D8%AA-%D8%A7%D9%85%D8%A7%D9%85-%D8%AD%D8%B3%D9%8A%D9%86-%D8%B9" id="_101_INSTANCE_PCXSp7tTrfmo_suxb" > <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">اقتداي امام خميني به نهضت امام حسين(ع)</span> </a> </span>
                                                                             <div class="asset-metadata"> </div>
                                                                         </li>
                                                                     </ul>
-                                                                </div><a href="./archive-article1" target="_blank" class="btn-droos" dideo-checked="true"> <span class="span-btn"></span> بیشتر </a>
+                                                                </div><a href="./archive-article1" target="_blank" class="btn-droos" > <span class="span-btn"></span> بیشتر </a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1461,17 +1478,17 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                                                 <div class="portlet-body">
                                                                     <link type="text/css" href="<?php echo plugin_dir_url(__FILE__) ?>assets/css/rtl.css" rel="stylesheet">
                                                                     <ul class="title-list default-icon">
-                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D9%BE%DB%8C%D8%A7%D9%85-%D8%A8%D9%87-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%D9%85%D9%84%DB%8C-%C2%AB%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C-%D8%A7%D8%B1%D8%A7%D8%A1-%D9%88-%D8%A7%D9%86%D8%AF%DB%8C%D8%B4%D9%87-%D9%87%D8%A7%DB%8C-%D8%AA%D9%81%D8%B3%DB%8C%D8%B1%DB%8C-%D8%A7%DB%8C%D8%AA-%D8%A7%D9%84%D9%84%D9%87-%D8%A7%D9%84%D8%B9%D8%B8%D9%85%DB%8C-%D8%AC%D9%88%D8%A7%D8%AF%DB%8C-%D8%A7%D9%85%D9%84%DB%8C%C2%BB" id="_101_INSTANCE_lpuaXrRhep3Q_gezi" dideo-checked="true"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">پیام به همایش ملی «بررسی آراء و اندیشه های تفسیری آیت الله العظمی جوادی آملی»</span> </a> </span>
+                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D9%BE%DB%8C%D8%A7%D9%85-%D8%A8%D9%87-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%D9%85%D9%84%DB%8C-%C2%AB%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C-%D8%A7%D8%B1%D8%A7%D8%A1-%D9%88-%D8%A7%D9%86%D8%AF%DB%8C%D8%B4%D9%87-%D9%87%D8%A7%DB%8C-%D8%AA%D9%81%D8%B3%DB%8C%D8%B1%DB%8C-%D8%A7%DB%8C%D8%AA-%D8%A7%D9%84%D9%84%D9%87-%D8%A7%D9%84%D8%B9%D8%B8%D9%85%DB%8C-%D8%AC%D9%88%D8%A7%D8%AF%DB%8C-%D8%A7%D9%85%D9%84%DB%8C%C2%BB" id="_101_INSTANCE_lpuaXrRhep3Q_gezi" > <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">پیام به همایش ملی «بررسی آراء و اندیشه های تفسیری آیت الله العظمی جوادی آملی»</span> </a> </span>
                                                                             <div class="asset-metadata"> </div>
                                                                         </li>
-                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D9%BE%DB%8C%D8%A7%D9%85-%D8%A8%D9%87-%DA%86%D9%87%D8%A7%D8%B1%D9%85%DB%8C%D9%86-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%D8%A8%DB%8C%D9%86%E2%80%8C%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C-%C2%AB%D8%B3%DB%8C%D8%B1%D9%87-%D9%86%D8%A8%D9%88%DB%8C-%D8%AF%D8%B1-%D8%B7%D8%A8%C2%BB-%D8%AF%D8%B1-%D8%B4%DB%8C%D8%B1%D8%A7%D8%B2" id="_101_INSTANCE_lpuaXrRhep3Q_fmzi" dideo-checked="true"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">پیام به چهارمین همایش بین‌المللی «سیره نبوی در طب» در شیراز</span> </a> </span>
+                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D9%BE%DB%8C%D8%A7%D9%85-%D8%A8%D9%87-%DA%86%D9%87%D8%A7%D8%B1%D9%85%DB%8C%D9%86-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%D8%A8%DB%8C%D9%86%E2%80%8C%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C-%C2%AB%D8%B3%DB%8C%D8%B1%D9%87-%D9%86%D8%A8%D9%88%DB%8C-%D8%AF%D8%B1-%D8%B7%D8%A8%C2%BB-%D8%AF%D8%B1-%D8%B4%DB%8C%D8%B1%D8%A7%D8%B2" id="_101_INSTANCE_lpuaXrRhep3Q_fmzi" > <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">پیام به چهارمین همایش بین‌المللی «سیره نبوی در طب» در شیراز</span> </a> </span>
                                                                             <div class="asset-metadata"> </div>
                                                                         </li>
-                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D9%BE%DB%8C%D8%A7%D9%85-%D8%A8%D9%87-%DA%86%D9%87%D8%A7%D8%B1%D9%85%DB%8C%D9%86-%D8%A7%D8%AC%D9%84%D8%A7%D8%B3%DB%8C%D9%87-%C2%AB%D9%85%D8%AC%D8%A7%D9%87%D8%AF%D8%A7%D9%86-%D8%AF%D8%B1-%D8%BA%D8%B1%D8%A8%D8%AA%C2%BB" id="_101_INSTANCE_lpuaXrRhep3Q_mefv" dideo-checked="true"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">پیام به چهارمین اجلاسیه «مجاهدان در غربت»</span> </a> </span>
+                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D9%BE%DB%8C%D8%A7%D9%85-%D8%A8%D9%87-%DA%86%D9%87%D8%A7%D8%B1%D9%85%DB%8C%D9%86-%D8%A7%D8%AC%D9%84%D8%A7%D8%B3%DB%8C%D9%87-%C2%AB%D9%85%D8%AC%D8%A7%D9%87%D8%AF%D8%A7%D9%86-%D8%AF%D8%B1-%D8%BA%D8%B1%D8%A8%D8%AA%C2%BB" id="_101_INSTANCE_lpuaXrRhep3Q_mefv" > <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">پیام به چهارمین اجلاسیه «مجاهدان در غربت»</span> </a> </span>
                                                                             <div class="asset-metadata"> </div>
                                                                         </li>
                                                                     </ul>
-                                                                </div><a href="./archive-payamha1" target="_blank" class="btn-droos" dideo-checked="true"> <span class="span-btn"></span> بیشتر </a>
+                                                                </div><a href="./archive-payamha1" target="_blank" class="btn-droos" > <span class="span-btn"></span> بیشتر </a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1522,7 +1539,7 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                             //$printable_url = '<img src="' . $featimage . '">';
                                             echo '<div class="lead_description_larg-section-blocker">';
                                             echo '<div class="lead_description_larg-article-image">';
-                                            echo ' <a class="lead_description_larg-image-link" href="' . get_permalink($recent["ID"]) . '" dideo-checked="true">';
+                                            echo ' <a class="lead_description_larg-image-link" href="' . get_permalink($recent["ID"]) . '" >';
                                             echo '        <div class="lead_description_larg-article-body-image">';
 
                                             if ($featimage)
@@ -1536,7 +1553,7 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                             echo '    </a> </div>';
                                             echo '<div class="lead_description_larg-title-content-block">';
                                             //echo '    <div class="lead_description_larg-lead"> ' . $recent["post_title"] . ' </div>';
-                                            echo '    <div class="lead_description_larg-article-title"> <a class="lead_description_larg-article-title-a" target="_blank" style="text-decoration: none; " href="' . get_permalink($recent["ID"]) . '" dideo-checked="true">' . $recent["post_title"] . '</a> </div>';
+                                            echo '    <div class="lead_description_larg-article-title"> <a class="lead_description_larg-article-title-a" target="_blank" style="text-decoration: none; " href="' . get_permalink($recent["ID"]) . '" >' . $recent["post_title"] . '</a> </div>';
                                             echo '    <div class="lead_description_larg-article-content">' . strpos($recent["post_content"], '<!--more-->') ? substr($recent["post_content"], 0, strpos($recent["post_content"], '<!--more-->')) : substr($recent["post_content"], 0, 150) . '</div>';
                                             echo '<a href="' . get_permalink($recent["ID"]) . '">... ادامه خبر...</a> </div>';
                                             echo '<div class="lead_description_larg-wrapper"></div>';
@@ -1547,174 +1564,289 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                         }
                                         ?>
 
-                                        <!-- <div class="lead_description_larg-section-blocker">
-                                            <div class="lead_description_larg-article-image"> <a class="lead_description_larg-image-link" href="./-/%D9%BE%DB%8C%D8%A7%D9%85-%D8%AA%D8%B3%D9%84%DB%8C%D8%AA-%D8%A7%DB%8C%D8%AA-%D8%A7%D9%84%D9%84%D9%87-%D8%A7%D9%84%D8%B9%D8%B8%D9%85%DB%8C-%D8%AC%D9%88%D8%A7%D8%AF%DB%8C-%D8%A7%D9%85%D9%84%DB%8C-%D8%AF%D8%B1-%D9%BE%DB%8C-%D8%A7%D8%B1%D8%AA%D8%AD%D8%A7%D9%84-%D8%A7%DB%8C%D8%AA-%D8%A7%D9%84%D9%84%D9%87-%D8%AD%D8%A7%D8%AC-%D8%B3%DB%8C%D8%AF-%D8%AD%D8%B3%DB%8C%D9%86-%D8%B4%D9%85%D8%B3-%D8%AE%D8%B1%D8%A7%D8%B3%D8%A7%D9%86%DB%8C" dideo-checked="true">
-                                                    <div class="lead_description_larg-article-body-image"> <img alt="" class="omran-yazd-small-image" src="<?php echo plugin_dir_url(__FILE__) ?>assets/images/shams(1).jpg" width="288px" height="191px"> </div>
-                                                </a> </div>
-                                            <div class="lead_description_larg-title-content-block">
-                                                <div class="lead_description_larg-lead"> پيام تسليت؛ </div>
-                                                <div class="lead_description_larg-article-title"> <a class="lead_description_larg-article-title-a" target="_blank" style="text-decoration: none; " href="./-/%D9%BE%DB%8C%D8%A7%D9%85-%D8%AA%D8%B3%D9%84%DB%8C%D8%AA-%D8%A7%DB%8C%D8%AA-%D8%A7%D9%84%D9%84%D9%87-%D8%A7%D9%84%D8%B9%D8%B8%D9%85%DB%8C-%D8%AC%D9%88%D8%A7%D8%AF%DB%8C-%D8%A7%D9%85%D9%84%DB%8C-%D8%AF%D8%B1-%D9%BE%DB%8C-%D8%A7%D8%B1%D8%AA%D8%AD%D8%A7%D9%84-%D8%A7%DB%8C%D8%AA-%D8%A7%D9%84%D9%84%D9%87-%D8%AD%D8%A7%D8%AC-%D8%B3%DB%8C%D8%AF-%D8%AD%D8%B3%DB%8C%D9%86-%D8%B4%D9%85%D8%B3-%D8%AE%D8%B1%D8%A7%D8%B3%D8%A7%D9%86%DB%8C" dideo-checked="true">پیام تسلیت آیت الله العظمی جوادی آملی در پی ارتحال آیت الله حاج سید حسین شمس خراسانی </a> </div>
-                                                <div class="lead_description_larg-article-content"> پایگاه اطلاع رسانی اسراء: حضرت آیت الله العظمی جوادی آملی در پیامی, ارتحال عالم ربانى، فقيه و اصولى وارسته آیت الله حاج سید حسین شمس خراسانی را تسلیت گفتند. </div>
-                                            </div>
-                                            <div class="lead_description_larg-wrapper"></div>
-                                        </div>
-                                        <div class="lead_description_larg-section-blocker">
-                                            <div class="lead_description_larg-article-image"> <a class="lead_description_larg-image-link" href="./-/%D8%BA%D8%B1%D8%A8%DB%8C-%D9%87%D8%A7-%D9%87%D8%B1%DA%AF%D8%B2-%D9%86%D9%85%DB%8C-%D8%AA%D9%88%D8%A7%D9%86%D9%86%D8%AF-%D8%A8%D8%B1%D8%A7%DB%8C-%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA%DB%8C-%D9%87%D9%85%DA%86%D9%88%D9%86-%D8%AD%D9%82%D9%88%D9%82-%D8%A8%D8%B4%D8%B1%D8%8C-%DA%A9%D9%88%D8%AF%DA%A9-%D9%88-%D8%B2%D9%86-%D8%AA%D8%B5%D9%85%DB%8C%D9%85-%D8%A8%DA%AF%DB%8C%D8%B1%D9%86%D8%AF%D8%8C-%DA%86%D8%B1%D8%A7%DA%A9%D9%87-%D8%AF%D8%B1-%D9%86%DA%AF%D8%A7%D9%87-%D8%A7%D9%86%D9%87%D8%A7-%D8%A7%D9%86%D8%B3%D8%A7%D9%86-%DB%8C%DA%A9-%D9%85%D9%88%D8%AC%D9%88%D8%AF-%D9%81%D8%A7%D9%86%DB%8C-%D8%A7%D8%B3%D8%AA" dideo-checked="true">
-                                                    <div class="lead_description_larg-article-body-image"> <img alt="" class="omran-yazd-small-image" src="<?php echo plugin_dir_url(__FILE__) ?>assets/images/IMG_3790.JPG(1).jpg" width="288px" height="191px"> </div>
-                                                </a> </div>
-                                            <div class="lead_description_larg-title-content-block">
-                                                <div class="lead_description_larg-lead"> حضرت آیت الله العظمی جوادی آملی: </div>
-                                                <div class="lead_description_larg-article-title"> <a class="lead_description_larg-article-title-a" target="_blank" style="text-decoration: none; " href="./-/%D8%BA%D8%B1%D8%A8%DB%8C-%D9%87%D8%A7-%D9%87%D8%B1%DA%AF%D8%B2-%D9%86%D9%85%DB%8C-%D8%AA%D9%88%D8%A7%D9%86%D9%86%D8%AF-%D8%A8%D8%B1%D8%A7%DB%8C-%D9%85%D9%88%D8%B6%D9%88%D8%B9%D8%A7%D8%AA%DB%8C-%D9%87%D9%85%DA%86%D9%88%D9%86-%D8%AD%D9%82%D9%88%D9%82-%D8%A8%D8%B4%D8%B1%D8%8C-%DA%A9%D9%88%D8%AF%DA%A9-%D9%88-%D8%B2%D9%86-%D8%AA%D8%B5%D9%85%DB%8C%D9%85-%D8%A8%DA%AF%DB%8C%D8%B1%D9%86%D8%AF%D8%8C-%DA%86%D8%B1%D8%A7%DA%A9%D9%87-%D8%AF%D8%B1-%D9%86%DA%AF%D8%A7%D9%87-%D8%A7%D9%86%D9%87%D8%A7-%D8%A7%D9%86%D8%B3%D8%A7%D9%86-%DB%8C%DA%A9-%D9%85%D9%88%D8%AC%D9%88%D8%AF-%D9%81%D8%A7%D9%86%DB%8C-%D8%A7%D8%B3%D8%AA" dideo-checked="true">غربی ها هرگز نمی توانند برای موضوعاتی همچون حقوق بشر، کودک و زن تصمیم بگیرند، چراکه در نگاه آنها انسان یک موجود فانی است </a> </div>
-                                                <div class="lead_description_larg-article-content"> پایگاه اطلاع رسانی اسراء: جمعی از اعضای شورای فرهنگی اجتماعی زنان شورای عالی انقلاب فرهنگی با حضور در بنیاد بین المللی علوم وحیانی اسراء با حضرت آیت الله العظمی جوادی آملی دیدار و گفتگو کردند. </div>
-                                            </div>
-                                            <div class="lead_description_larg-wrapper"></div>
-                                        </div>
-                                        <div class="lead_description_larg-section-blocker">
-                                            <div class="lead_description_larg-article-image"> <a class="lead_description_larg-image-link" href="./-/%D9%86%D9%85%D8%A7%D8%B2-%D9%86%D8%AC%D9%88%D8%A7%DB%8C-%D8%A7%D9%86%D8%B3%D8%A7%D9%86-%D9%85%D9%88%D9%85%D9%86-%D8%A8%D8%A7-%D8%AE%D8%AF%D8%A7%DB%8C-%D8%AE%D9%88%D8%AF-%D8%A7%D8%B3%D8%AA-%D8%A7%D9%8A%D9%85%D9%87-%D8%AC%D9%85%D8%B9%D9%87-%D9%87%D9%85%D9%88%D8%A7%D8%B1%D9%87-%D8%A8%D8%A7%DB%8C%D8%AF-%D8%AF%D8%B1-%D8%AC%D9%87%D8%AA-%D8%B1%D8%B4%D8%AF-%D9%85%D8%B9%D9%86%D9%88%DB%8C-%D8%AE%D9%88%D8%AF-%D8%A8%DA%A9%D9%88%D8%B4%D9%86%D8%AF" dideo-checked="true">
-                                                    <div class="lead_description_larg-article-body-image"> <img alt="" class="omran-yazd-small-image" src="<?php echo plugin_dir_url(__FILE__) ?>assets/images/A66Q1728.JPG(1).jpg" width="288px" height="191px"> </div>
-                                                </a> </div>
-                                            <div class="lead_description_larg-title-content-block">
-                                                <div class="lead_description_larg-lead"> آیت الله العظمی جوادی آملی: </div>
-                                                <div class="lead_description_larg-article-title"> <a class="lead_description_larg-article-title-a" target="_blank" style="text-decoration: none; " href="./-/%D9%86%D9%85%D8%A7%D8%B2-%D9%86%D8%AC%D9%88%D8%A7%DB%8C-%D8%A7%D9%86%D8%B3%D8%A7%D9%86-%D9%85%D9%88%D9%85%D9%86-%D8%A8%D8%A7-%D8%AE%D8%AF%D8%A7%DB%8C-%D8%AE%D9%88%D8%AF-%D8%A7%D8%B3%D8%AA-%D8%A7%D9%8A%D9%85%D9%87-%D8%AC%D9%85%D8%B9%D9%87-%D9%87%D9%85%D9%88%D8%A7%D8%B1%D9%87-%D8%A8%D8%A7%DB%8C%D8%AF-%D8%AF%D8%B1-%D8%AC%D9%87%D8%AA-%D8%B1%D8%B4%D8%AF-%D9%85%D8%B9%D9%86%D9%88%DB%8C-%D8%AE%D9%88%D8%AF-%D8%A8%DA%A9%D9%88%D8%B4%D9%86%D8%AF" dideo-checked="true">نماز نجوای انسان مومن با خدای خود است/ائمه جمعه همواره باید در جهت رشد معنوی خود بکوشند </a> </div>
-                                                <div class="lead_description_larg-article-content"> پایگاه اطلاع رسانی اسراء: جمعی از ائمه جمعه شهرهای مختلف استان آذربایجان غربی به همراه مسئول حوزه های علمیه و نمایندگان طلاب این استان با حضور در بنیاد بین المللی علوم وحیانی اسراء با حضرت آیت الله العظمی جوادی آملی دیدار کردند. </div>
-                                            </div>
-                                            <div class="lead_description_larg-wrapper"></div>
-                                        </div>
-                                        <div class="lead_description_larg-section-blocker">
-                                            <div class="lead_description_larg-article-image"> <a class="lead_description_larg-image-link" href="./-/%D8%A8%D8%B1%D8%AA%D8%B1%DB%8C-%D8%A7%D8%B3%D9%84%D8%A7%D9%85-%D8%A8%D8%B1-%D8%B3%D8%A7%DB%8C%D8%B1-%D8%A7%D8%AF%DB%8C%D8%A7%D9%86-%D8%A7%D9%84%D9%87%DB%8C-%D9%87%D9%85%D8%A7%D9%86-%C2%AB%D9%85%D9%87%D9%8A%D9%85%D9%86%D8%A7-%D8%B9%D9%84%D9%8A%D9%87%C2%BB-%D8%A7%D8%B3%D8%AA-%D8%AF%D8%B1-%D8%AA%D8%A8%D9%84%DB%8C%D8%BA-%D8%AF%DB%8C%D9%86%D8%8C-%D9%86%D8%A8%D8%A7%DB%8C%D8%AF-%D8%A7%D8%B2-%D8%AA%D9%88%D8%AF%D9%87-%D9%85%D8%B1%D8%AF%D9%85-%D8%BA%D8%A7%D9%81%D9%84-%D8%B4%D8%AF" dideo-checked="true">
-                                                    <div class="lead_description_larg-article-body-image"> <img alt="" class="omran-yazd-small-image" src="<?php echo plugin_dir_url(__FILE__) ?>assets/images/m (1).jpg" width="288px" height="191px"> </div>
-                                                </a> </div>
-                                            <div class="lead_description_larg-title-content-block">
-                                                <div class="lead_description_larg-lead"> </div>
-                                                <div class="lead_description_larg-article-title"> <a class="lead_description_larg-article-title-a" target="_blank" style="text-decoration: none; " href="./-/%D8%A8%D8%B1%D8%AA%D8%B1%DB%8C-%D8%A7%D8%B3%D9%84%D8%A7%D9%85-%D8%A8%D8%B1-%D8%B3%D8%A7%DB%8C%D8%B1-%D8%A7%D8%AF%DB%8C%D8%A7%D9%86-%D8%A7%D9%84%D9%87%DB%8C-%D9%87%D9%85%D8%A7%D9%86-%C2%AB%D9%85%D9%87%D9%8A%D9%85%D9%86%D8%A7-%D8%B9%D9%84%D9%8A%D9%87%C2%BB-%D8%A7%D8%B3%D8%AA-%D8%AF%D8%B1-%D8%AA%D8%A8%D9%84%DB%8C%D8%BA-%D8%AF%DB%8C%D9%86%D8%8C-%D9%86%D8%A8%D8%A7%DB%8C%D8%AF-%D8%A7%D8%B2-%D8%AA%D9%88%D8%AF%D9%87-%D9%85%D8%B1%D8%AF%D9%85-%D8%BA%D8%A7%D9%81%D9%84-%D8%B4%D8%AF" dideo-checked="true">برتری اسلام بر سایر ادیان الهی همان «مُهَيْمِناً عَلَيْه» است/ در تبلیغ دین، نباید از توده مردم غافل شد </a> </div>
-                                                <div class="lead_description_larg-article-content"> پایگاه اطلاع رسانی اسراء: حجت الاسلام و المسلمین دکتر محمد هادی مفتح رییس مرکز اسلامی هامبورگ با حضور در بنیاد بین المللی علوم وحیانی اسراء با آیت الله العظمی جوادی آملی دیدار و گفتگو کرد </div>
-                                            </div>
-                                            <div class="lead_description_larg-wrapper"></div>
-                                        </div> -->
                                         <div style="clear: both;"></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div id="p_p_id_118_INSTANCE_EZBPB2ElWPgk_" class="portlet-boundary portlet-boundary_118_ portlet-static portlet-static-end portlet-borderless portlet-nested-portlets botton-sec"> <span id="p_118_INSTANCE_EZBPB2ElWPgk"></span>
+
+                    <div style="display:none;" id="p_p_id_101_INSTANCE_yz5GYlekwPmY_" class="portlet-boundary portlet-boundary_101_ portlet-static portlet-static-end portlet-borderless portlet-asset-publisher botton-news"> <span id="p_101_INSTANCE_yz5GYlekwPmY"></span>
                         <div class="portlet-body">
                             <div class="portlet-borderless-container" style="">
                                 <div class="portlet-body">
-                                    <div class="columns-2" id="_118_INSTANCE_EZBPB2ElWPgk_main-content" role="main">
-                                        <div class="portlet-layout">
-                                            <div class="portlet-column portlet-column-first col-sm-6 col-xs-12 no-margin" id="_118_INSTANCE_EZBPB2ElWPgk_column-1">
-                                                <div class="portlet-dropzone portlet-column-content portlet-column-content-first" id="layout-column__118_INSTANCE_EZBPB2ElWPgk__column-1">
-                                                    <div id="p_p_id_101_INSTANCE_Svc6SL2iJkeV_" class="portlet-boundary portlet-boundary_101_ portlet-static portlet-static-end portlet-borderless portlet-asset-publisher botton-right"> <span id="p_101_INSTANCE_Svc6SL2iJkeV"></span>
-                                                        <div class="portlet-body">
-                                                            <div class="portlet-borderless-container" style="">
-                                                                <div class="portlet-body">
-                                                                    <div class="taglib-header ">
+                                    <link type="text/css" href="<?php echo plugin_dir_url(__FILE__) ?>assets/css/rtl(1).css" rel="stylesheet">
+                                    <div>
+                                        <?php
+                                        $args = array(
+                                            'numberposts' => 4,
+                                            'offset' => 4,
+                                            'category_name' => 'اخبار',
+                                            'orderby' => 'post_date',
+                                            'order' => 'DESC',
+                                            'post_type' => 'post',
+                                            'post_status' => 'publish',
+                                            'suppress_filters' => true
+                                        );
 
-                                                                        <!-- video -->
-                                                                        <?php
-                                                                        $args = array(
-                                                                            'numberposts' => 1,
-                                                                            'offset' => 0,
-                                                                            'category_name' => 'خبرویدئویی',
-                                                                            'orderby' => 'post_date',
-                                                                            'order' => 'DESC',
-                                                                            'post_type' => 'post',
-                                                                            'post_status' => 'draft',
-                                                                            'suppress_filters' => true,
-                                                                            'meta_query' => array(
-                                                                                array(
-                                                                                    'key' => 'myvideo',
-                                                                                    'value' => '',
-                                                                                    'compare' => '!='
-                                                                                )
+                                        $recent_posts = wp_get_recent_posts($args);
+                                        foreach ($recent_posts as $recent) {
+                                            $imageid = wp_get_attachment_image_src(get_post_thumbnail_id($recent["ID"]), 'full');
+                                            $featimage = $imageid['0'];
+                                            //$printable_url = '<img src="' . $featimage . '">';
+                                            echo '<div class="lead_description_larg-section-blocker">';
+                                            echo '<div class="lead_description_larg-article-image">';
+                                            echo ' <a class="lead_description_larg-image-link" href="' . get_permalink($recent["ID"]) . '" >';
+                                            echo '        <div class="lead_description_larg-article-body-image">';
+
+                                            if ($featimage)
+                                                echo ' <img alt="" class="omran-yazd-small-image" src="' . $featimage  . '" width="288px" height="191px">';
+                                            else
+                                                echo ' <img alt="" class="omran-yazd-small-image" src="' .  plugin_dir_url(__FILE__)  . 'assets/images/default.jpg" width="288px" height="191px">';
+
+
+                                            // echo $featimage.'</div>';
+                                            echo '</div>';
+                                            echo '    </a> </div>';
+                                            echo '<div class="lead_description_larg-title-content-block">';
+                                            //echo '    <div class="lead_description_larg-lead"> ' . $recent["post_title"] . ' </div>';
+                                            echo '    <div class="lead_description_larg-article-title"> <a class="lead_description_larg-article-title-a" target="_blank" style="text-decoration: none; " href="' . get_permalink($recent["ID"]) . '" >' . $recent["post_title"] . '</a> </div>';
+                                            echo '    <div class="lead_description_larg-article-content">' . strpos($recent["post_content"], '<!--more-->') ? substr($recent["post_content"], 0, strpos($recent["post_content"], '<!--more-->')) : substr($recent["post_content"], 0, 150) . '</div>';
+                                            echo '<a href="' . get_permalink($recent["ID"]) . '">... ادامه خبر...</a> </div>';
+                                            echo '<div class="lead_description_larg-wrapper"></div>';
+                                            echo '</div>';
+
+                                            //echo '<li><a href="' . get_permalink($recent["ID"]) . '">' .$recent["post_title"] . '</a> </li> ';
+
+                                        }
+                                        ?>
+
+                                        <div style="clear: both;"></div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <a href="category/اخبار/" target="_blank" class="btn" style="margin:1px;padding:1px;">اخبار بیشتر </a>
+
+                </div>
+
+
+                <div id="p_p_id_118_INSTANCE_EZBPB2ElWPgk_" class="portlet-boundary portlet-boundary_118_ portlet-static portlet-static-end portlet-borderless portlet-nested-portlets botton-sec"> <span id="p_118_INSTANCE_EZBPB2ElWPgk"></span>
+                    <div class="portlet-body">
+                        <div class="portlet-borderless-container" style="">
+                            <div class="portlet-body">
+                                <div class="columns-2" id="_118_INSTANCE_EZBPB2ElWPgk_main-content" role="main">
+                                    <div class="portlet-layout">
+                                        <div class="portlet-column portlet-column-first col-sm-6 col-xs-12 no-margin" id="_118_INSTANCE_EZBPB2ElWPgk_column-1">
+                                            <div class="portlet-dropzone portlet-column-content portlet-column-content-first" id="layout-column__118_INSTANCE_EZBPB2ElWPgk__column-1">
+                                                <div id="p_p_id_101_INSTANCE_Svc6SL2iJkeV_" class="portlet-boundary portlet-boundary_101_ portlet-static portlet-static-end portlet-borderless portlet-asset-publisher botton-right"> <span id="p_101_INSTANCE_Svc6SL2iJkeV"></span>
+                                                    <div class="portlet-body">
+                                                        <div class="portlet-borderless-container" style="">
+                                                            <div class="portlet-body">
+                                                                <div class="taglib-header ">
+
+                                                                    <!-- video -->
+                                                                    <?php
+                                                                    $args = array(
+                                                                        'numberposts' => 1,
+                                                                        'offset' => 0,
+                                                                        'category_name' => 'خبرویدئویی',
+                                                                        'orderby' => 'post_date',
+                                                                        'order' => 'DESC',
+                                                                        'post_type' => 'post',
+                                                                        'post_status' => 'draft',
+                                                                        'suppress_filters' => true,
+                                                                        'meta_query' => array(
+                                                                            array(
+                                                                                'key' => 'myvideo',
+                                                                                'value' => '',
+                                                                                'compare' => '!='
                                                                             )
-                                                                        );
+                                                                        )
+                                                                    );
 
-                                                                        $recent_posts = wp_get_recent_posts($args);
-                                                                        foreach ($recent_posts as $recent) {
-                                                                            $v_title = $recent["post_title"];
-                                                                            $vid_url = get_post_meta($recent["ID"], 'myvideo', true)["guid"];
-                                                                            echo '<h1 class="header-title" style="font-size: 51.8333px;"> <span> ویدئو؛ ' . $v_title . ' </span> </h1>';
-                                                                            echo '</div>';
-                                                                            echo '<div class="asset-full-content default-asset-publisher show-asset-title">';
-                                                                            echo '<div class="asset-content">';
-                                                                            echo '<div class="asset-full-content-body">';
-                                                                            echo '<p>';
-                                                                            echo '</p> <video class="home-video2" controls="" preload="metadata">';
-                                                                            // echo '<img alt="" src="' . $vid_url . '"  >';
-                                                                            echo '<source src="' . $vid_url . '" type="video/mp4">
+                                                                    $recent_posts = wp_get_recent_posts($args);
+                                                                    foreach ($recent_posts as $recent) {
+                                                                        $v_title = $recent["post_title"];
+                                                                        $vid_url = get_post_meta($recent["ID"], 'myvideo', true)["guid"];
+                                                                        echo '<h1 class="header-title" style="font-size: 51.8333px;"> <a href="category/خبرویدئویی/" ><span> ویدئو؛ ' . $v_title . ' </span> </a> </h1>';
+                                                                        echo '</div>';
+                                                                        echo '<div class="asset-full-content default-asset-publisher show-asset-title">';
+                                                                        echo '<div class="asset-content">';
+                                                                        echo '<div class="asset-full-content-body">';
+                                                                        echo '<p>';
+                                                                        echo '</p> <video class="home-video2" controls="" preload="metadata">';
+                                                                        // echo '<img alt="" src="' . $vid_url . '"  >';
+                                                                        echo '<source src="' . $vid_url . '" type="video/mp4">
                                                                         <source src="' . $vid_url . '" type="video/webm"> </video>';
-                                                                        }
-                                                                        ?>
-                                                                        <!-- <source src="https://www.hosseinilavasani.com/wp-content/uploads/2020/02/VID-20200204-WA0071.mp4" type="video/mp4">
+                                                                    }
+                                                                    ?>
+                                                                    <!-- <source src="https://www.hosseinilavasani.com/wp-content/uploads/2020/02/VID-20200204-WA0071.mp4" type="video/mp4">
                                                                         <source src="https://www.hosseinilavasani.com/wp-content/uploads/2020/02/VID-20200204-WA0071.mp4" type="video/webm"> </video> -->
-                                                                    </div> <br>
-                                                                </div>
-                                                                <div class="asset-metadata"> </div>
+                                                                </div> <br>
+                                                                <a href="category/خبرویدئویی/" target="_blank" class="btn btn-nim" >خبرویدئویی بیشتر </a>
+
                                                             </div>
-                                                            <div class="final-separator">
-                                                                <!-- -->
-                                                            </div>
+                                                            <div class="asset-metadata"> </div>
                                                         </div>
+                                                        <div class="final-separator">
+                                                            <!-- -->
+                                                        </div>
+
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
 
-                                    <?php
-                                    // the query
-                                    $the_query = new WP_Query(array(
-                                        'category_name' => 'رحمت بی انتها',
-                                        'posts_per_page' => 1,
-                                    ));
+                                <?php
+                                // the query
+                                $the_query = new WP_Query(array(
+                                    'category_name' => 'رحمت بی انتها',
+                                    'posts_per_page' => 1,
+                                ));
+                                ?>
+
+                                <?php if ($the_query->have_posts()) : ?>
+                                    <?php while ($the_query->have_posts()) : $the_query->the_post();
+                                        $get_the_title = get_the_title();
+                                        $get_the_excerpt = get_the_excerpt();
                                     ?>
 
-                                    <?php if ($the_query->have_posts()) : ?>
-                                        <?php while ($the_query->have_posts()) : $the_query->the_post();
-                                            $get_the_title = get_the_title();
-                                            $get_the_excerpt = get_the_excerpt();
-                                        ?>
+                                        <div class="portlet-column portlet-column-last col-sm-6 col-xs-12 no-margin" id="_118_INSTANCE_EZBPB2ElWPgk_column-2">
+                                            <div class="portlet-dropzone portlet-column-content portlet-column-content-last" id="layout-column__118_INSTANCE_EZBPB2ElWPgk__column-2">
+                                                <div id="p_p_id_101_INSTANCE_B1jYkb8G5mfl_" class="portlet-boundary portlet-boundary_101_ portlet-static portlet-static-end portlet-borderless portlet-asset-publisher botton-right"> <span id="p_101_INSTANCE_B1jYkb8G5mfl"></span>
+                                                    <div class="portlet-body">
+                                                        <div class="portlet-borderless-container" style="">
+                                                            <div class="portlet-body">
+                                                                <div class="taglib-header ">
+                                                                    <h1 class="header-title" style="font-size: 50.5px;"> <span> <?php echo $get_the_title ?> </span> </h1>
+                                                                </div>
+                                                                <div class="asset-full-content default-asset-publisher show-asset-title">
+                                                                    <div class="asset-content">
+                                                                        <div class="asset-full-content-body">
+                                                                            <p dir="RTL"> <?php echo $get_the_excerpt ?> </p>
 
-                                            <div class="portlet-column portlet-column-last col-sm-6 col-xs-12 no-margin" id="_118_INSTANCE_EZBPB2ElWPgk_column-2">
-                                                <div class="portlet-dropzone portlet-column-content portlet-column-content-last" id="layout-column__118_INSTANCE_EZBPB2ElWPgk__column-2">
-                                                    <div id="p_p_id_101_INSTANCE_B1jYkb8G5mfl_" class="portlet-boundary portlet-boundary_101_ portlet-static portlet-static-end portlet-borderless portlet-asset-publisher botton-right"> <span id="p_101_INSTANCE_B1jYkb8G5mfl"></span>
-                                                        <div class="portlet-body">
-                                                            <div class="portlet-borderless-container" style="">
-                                                                <div class="portlet-body">
-                                                                    <div class="taglib-header ">
-                                                                        <h1 class="header-title" style="font-size: 50.5px;"> <span> <?php echo $get_the_title ?> </span> </h1>
+                                                                        </div> <br>
                                                                     </div>
-                                                                    <div class="asset-full-content default-asset-publisher show-asset-title">
-                                                                        <div class="asset-content">
-                                                                            <div class="asset-full-content-body">
-                                                                                <p dir="RTL"> <?php echo $get_the_excerpt ?> </p>
-
-                                                                            </div> <br>
-                                                                        </div>
-                                                                        <div class="asset-metadata"> </div>
-                                                                    </div>
-                                                                    <div class="final-separator">
-                                                                        <!-- -->
-                                                                    </div>
+                                                                    <div class="asset-metadata"> </div>
+                                                                </div>
+                                                                <div class="final-separator">
+                                                                    <!-- -->
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
+                                            <a href="category/رحمت-بی-انتها/" target="_blank" class="btn btn-nim" >موارد بیشتر </a>
 
-                                        <?php endwhile; ?>
-                                        <?php wp_reset_postdata(); ?>
-                                    <?php endif; ?>
+                                        </div>
+
+                                    <?php endwhile; ?>
+                                    <?php wp_reset_postdata(); ?>
+                                <?php endif; ?>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div id="p_p_id_101_INSTANCE_yz5GYlekwPmY_" class=" twitter-block portlet-boundary portlet-boundary_101_ portlet-static portlet-static-end portlet-borderless portlet-asset-publisher botton-news"> <span id="p_101_INSTANCE_yz5GYlekwPmY"></span>
+                <div class="portlet-body">
+                    <div class="portlet-borderless-container" style="">
+                        <div class="portlet-body">
+                            <link type="text/css" href="<?php echo plugin_dir_url(__FILE__) ?>assets/css/rtl(1).css" rel="stylesheet">
+                            <div class="twitt-block">
+
+                                <div class="tw-block-parent">
+                                    <div class="timeline-TweetList-tweet">
+
+                                        <?php
+                                        // the query
+                                        $the_query = new WP_Query(array(
+                                            'category_name' => 'گاه نوشت',
+                                            'posts_per_page' => 5,
+                                        ));
+                                        ?>
+
+                                        <?php if ($the_query->have_posts()) : ?>
+                                            <?php while ($the_query->have_posts()) : $the_query->the_post();
+                                                $get_the_title = get_the_title();
+                                                $get_the_excerpt = get_the_excerpt();
+                                                $get_permalink = get_permalink();
+                                                $post_tags = get_the_tags();
+
+                                                $separator = ' ';
+                                                $output = "( ";
+                                                if (!empty($post_tags)) {
+                                                    foreach ($post_tags as $tag) {
+                                                        $output .= '#<a href="' . get_tag_link($tag->term_id) . '">' . $tag->name . '</a>' . $separator;
+                                                    }
+                                                    $output .= ")";
+                                                }
+
+                                            ?>
+                                                <div class="timeline-Tweet">
+                                                    <div class="timeline-Tweet-brand">
+                                                        <div class="Icon Icon--twitter"></div>
+                                                    </div>
+                                                    <div class="timeline-Tweet-author">
+                                                        <div class="TweetAuthor"><a class="TweetAuthor-link" href="https://twitter.com/hashtag/%D9%84%D9%88%D8%A7%D8%B3%D8%A7%D9%86%DB%8C?lang=fa"> </a><span class="TweetAuthor-avatar">
+                                                                <div class="Avatar"> </div>
+                                                            </span><span class="TweetAuthor-name">سید سعید حسینی لواسانی</span><span class="Icon Icon--verified"> </span><span class="TweetAuthor-screenName">@HosseiniLavasani_com</span></div>
+                                                    </div>
+                                                    <div class="timeline-Tweet-text"><?php echo $get_the_excerpt ?> <span></span><?php echo $output ?></div>
+                                                    <div class="timeline-Tweet-metadata"><span class="timeline-Tweet-timestamp"><?php echo $get_the_title ?></span></div>
+                                                    <ul class="timeline-Tweet-actions">
+                                                        <li class="timeline-Tweet-action"><a class="Icon Icon--heart" href="<?php echo $get_permalink ?>"></a></li>
+                                                        <li class="timeline-Tweet-action"><a class="Icon Icon--share" href="<?php echo $get_permalink ?>"></a></li>
+                                                    </ul>
+                                                </div>
+
+
+                                            <?php endwhile; ?>
+                                            <?php wp_reset_postdata(); ?>
+                                        <?php endif; ?>
+                                        <!-- <div class="timeline-Tweet">
+                                            <div class="timeline-Tweet-brand">
+                                                <div class="Icon Icon--twitter"></div>
+                                            </div>
+                                            <div class="timeline-Tweet-author">
+                                                <div class="TweetAuthor"><a class="TweetAuthor-link" href="#channel"> </a><span class="TweetAuthor-avatar">
+                                                        <div class="Avatar"> </div>
+                                                    </span><span class="TweetAuthor-name">سید سعید حسینی لواسانی</span><span class="Icon Icon--verified"> </span><span class="TweetAuthor-screenName">@HosseiniLavasani_com</span></div>
+                                            </div>
+                                            <div class="timeline-Tweet-text">همه عمر برندارم سر از این خمار مستی. که هنوز من نبودم که تو در دلم نشستینشستینشستینشستینشستینشستینشستینشستی. <a href="#">@khamenei_ir</a><span>!</span><a href="#">#قرآن</a><a href="#"></a></div>
+                                            <div class="timeline-Tweet-metadata"><span class="timeline-Tweet-timestamp">9 ساعت پیش</span></div>
+                                            <ul class="timeline-Tweet-actions">
+                                                <li class="timeline-Tweet-action"><a class="Icon Icon--heart" href="#"></a></li>
+                                                <li class="timeline-Tweet-action"><a class="Icon Icon--share" href="#"></a></li>
+                                            </ul>
+                                        </div> -->
+                                    </div>
                                 </div>
+                                <a href="category/گاه-نوشت/" target="_blank" class="btn" >توییت های بیشتر </a>
+                                <div style="clear: both;"></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+
+
+    </div>
+    </div>
     </div>
     </div>
     </div>
@@ -1732,10 +1864,10 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                         </div>
                         <!-- 
                         <div style="padding-top: 20px;">
-                            <div class="footer-fa-esra"> <a href="http://www.portal.esra.ir/Pages/Index.aspx" dideo-checked="true"><span style="color:#ffff00;"><strong>سایت قدیم بنیاد اسراء</strong></span></a></div>
-                            <div class="footer-fa-esra"> <a href="http://www.news.esra.ir/" id="esra-link-footer" dideo-checked="true">پایگاه اطلاع رسانی اسراء</a></div>
-                            <div class="footer-fa-esra"> <a href="http://tv.esra.ir/" id="esra-link-footer" dideo-checked="true">تلویزیون اینترنتی اسراء</a></div>
-                            <div class="footer-fa-esra"> <a href="http://nashresra.ir/" id="esra-link-footer" dideo-checked="true">مرکز بین المللی نشر اسراء</a></div>
+                            <div class="footer-fa-esra"> <a href="http://www.portal.esra.ir/Pages/Index.aspx" ><span style="color:#ffff00;"><strong>سایت قدیم بنیاد اسراء</strong></span></a></div>
+                            <div class="footer-fa-esra"> <a href="http://www.news.esra.ir/" id="esra-link-footer" >پایگاه اطلاع رسانی اسراء</a></div>
+                            <div class="footer-fa-esra"> <a href="http://tv.esra.ir/" id="esra-link-footer" >تلویزیون اینترنتی اسراء</a></div>
+                            <div class="footer-fa-esra"> <a href="http://nashresra.ir/" id="esra-link-footer" >مرکز بین المللی نشر اسراء</a></div>
                         </div> -->
                     </div>
                     <div class="col-md-3 col-xs-12" id="footer-sidebar2">
@@ -1746,10 +1878,10 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                         </div>
                         <!--
                         <div style="padding-top: 20px;">
-                            <div class="footer-fa-esra"> <a href="http://www.maarej.esra.ir/" id="esra-link-footer" dideo-checked="true">پژوهشگاه علوم وحیانی معارج</a></div>
-                            <div class="footer-fa-esra"> <a href="http://hikmat.isramags.ir/" id="esra-link-footer" dideo-checked="true">فصلنامه حکمت اسراء</a></div>
-                            <div class="footer-fa-esra"> <a href="http://ethics.isramags.ir/" id="esra-link-footer" dideo-checked="true">فصلنامه اخلاق وحیانی</a></div>
-                            <div class="footer-fa-esra"> <a href="http://maarij.isramags.ir/" id="esra-link-footer" dideo-checked="true">فصلنامه علوم قرآن و تفسیر معارج</a></div>
+                            <div class="footer-fa-esra"> <a href="http://www.maarej.esra.ir/" id="esra-link-footer" >پژوهشگاه علوم وحیانی معارج</a></div>
+                            <div class="footer-fa-esra"> <a href="http://hikmat.isramags.ir/" id="esra-link-footer" >فصلنامه حکمت اسراء</a></div>
+                            <div class="footer-fa-esra"> <a href="http://ethics.isramags.ir/" id="esra-link-footer" >فصلنامه اخلاق وحیانی</a></div>
+                            <div class="footer-fa-esra"> <a href="http://maarij.isramags.ir/" id="esra-link-footer" >فصلنامه علوم قرآن و تفسیر معارج</a></div>
                         </div> -->
                     </div>
                     <div class="col-md-3 col-xs-12" id="footer-sidebar3">
@@ -1760,10 +1892,10 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                         </div>
                         <!--    
                         <div style="padding-top: 20px;">
-                            <div class="footer-fa-esra"> <a href="./web/office/master" id="esra-link-footer" dideo-checked="true">زندگینامه آیت الله جوادی آملی</a></div>
-                            <div class="footer-fa-esra"> <a href="http://www.portal.esra.ir/Pages/Index.aspx?Command=Q29udGVudHNHcm91cExpc3QxJjh%2bMTEy-hmJ4NzNm2Gg%3d&amp;lang=fa&amp;Argument=IyMjQ29udGVudCMjIw%3d%3d-NXnF4ID5GRE%3d" id="esra-link-footer" dideo-checked="true">خطبه های نماز جمعه </a></div>
-                            <div class="footer-fa-esra"> <a href="./archive-esteftat1" id="esra-link-footer" dideo-checked="true"> استفتائات معظم له</a></div>
-                            <div class="footer-fa-esra"> <a href="http://mp3.esra.ir/pdf/resaleh.pdf" id="esra-link-footer" dideo-checked="true">توضیح المسائل معظم له</a></div>
+                            <div class="footer-fa-esra"> <a href="./web/office/master" id="esra-link-footer" >زندگینامه آیت الله جوادی آملی</a></div>
+                            <div class="footer-fa-esra"> <a href="http://www.portal.esra.ir/Pages/Index.aspx?Command=Q29udGVudHNHcm91cExpc3QxJjh%2bMTEy-hmJ4NzNm2Gg%3d&amp;lang=fa&amp;Argument=IyMjQ29udGVudCMjIw%3d%3d-NXnF4ID5GRE%3d" id="esra-link-footer" >خطبه های نماز جمعه </a></div>
+                            <div class="footer-fa-esra"> <a href="./archive-esteftat1" id="esra-link-footer" > استفتائات معظم له</a></div>
+                            <div class="footer-fa-esra"> <a href="http://mp3.esra.ir/pdf/resaleh.pdf" id="esra-link-footer" >توضیح المسائل معظم له</a></div>
                         </div>
                         <p> &nbsp;</p> -->
                     </div>
@@ -1775,10 +1907,10 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                         </div>
                         <!--
                         <div style="padding-top: 20px;">
-                            <div class="footer-fa-esra"> <a href="./archive-tafsir1" id="esra-link-footer" dideo-checked="true">درس تفسیر آیت الله جوادی آملی</a></div>
-                            <div class="footer-fa-esra"> <a href="./archive-feghe1" id="esra-link-footer" dideo-checked="true"> دروس فقه معظم له</a></div>
-                            <div class="footer-fa-esra"> <a href="./archive-akhlagh1" id="esra-link-footer" dideo-checked="true"> دروس اخلاق معظم له</a></div>
-                            <div class="footer-fa-esra"> <a href="./archive-article1" id="esra-link-footer" dideo-checked="true">مقالات معظم له</a></div>
+                            <div class="footer-fa-esra"> <a href="./archive-tafsir1" id="esra-link-footer" >درس تفسیر آیت الله جوادی آملی</a></div>
+                            <div class="footer-fa-esra"> <a href="./archive-feghe1" id="esra-link-footer" > دروس فقه معظم له</a></div>
+                            <div class="footer-fa-esra"> <a href="./archive-akhlagh1" id="esra-link-footer" > دروس اخلاق معظم له</a></div>
+                            <div class="footer-fa-esra"> <a href="./archive-article1" id="esra-link-footer" >مقالات معظم له</a></div>
                         </div>
                         <p> &nbsp;</p> -->
                     </div>
@@ -2077,48 +2209,48 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
         /*<![CDATA[*/
         $(document).ready(function() {
             document.getElementById("main-content").style.display = "none ";
-            var a = $(".dars-tafsir .portlet-borderless-container .portlet-body").clone();
-            $(".dars-tafsir .portlet-borderless-container .portlet-body").remove();
-            $(".dars-tafsir .portlet-borderless-container ").append('<div class="image-doross"></div>');
-            $(".dars-tafsir .portlet-borderless-container ").append('<div class="title-doross"></div>');
-            $(".dars-tafsir .portlet-borderless-container").append(a);
-            $(".dars-tafsir .portlet-borderless-container ").append('<a href="category/دروس/درس-تفسیر/" target="_blank" class="btn-droos"> <span class="span-btn"></span> بیشتر </a>');
-            var a = $(".dars-akhlagh .portlet-borderless-container .portlet-body").clone();
-            $(".dars-akhlagh .portlet-borderless-container .portlet-body").remove();
-            $(".dars-akhlagh .portlet-borderless-container ").append('<div class="image-doross"></div>');
-            $(".dars-akhlagh .portlet-borderless-container ").append('<div class="title-doross"></div>');
-            $(".dars-akhlagh .portlet-borderless-container").append(a);
-            $(".dars-akhlagh .portlet-borderless-container ").append('<a href="category/دروس/درس-اخلاق/" target="_blank" class="btn-droos"> <span class="span-btn"></span> بیشتر </a>');
-            var a = $(".dars-fegh .portlet-borderless-container .portlet-body").clone();
-            $(".dars-fegh .portlet-borderless-container .portlet-body").remove();
-            $(".dars-fegh .portlet-borderless-container ").append('<div class="image-doross"></div>');
-            $(".dars-fegh .portlet-borderless-container ").append('<div class="title-doross"></div>');
-            $(".dars-fegh .portlet-borderless-container").append(a);
-            $(".dars-fegh .portlet-borderless-container ").append('<a href="category/دروس/درس-عرفان/" target="_blank" class="btn-droos"> <span class="span-btn"></span> بیشتر </a>');
-            var a = $(".dars-erfan .portlet-borderless-container .portlet-body").clone();
-            $(".dars-erfan .portlet-borderless-container .portlet-body").remove();
-            $(".dars-erfan .portlet-borderless-container ").append('<div class="image-doross"></div>');
-            $(".dars-erfan .portlet-borderless-container ").append('<div class="title-doross"></div>');
-            $(".dars-erfan .portlet-borderless-container").append(a);
-            $(".dars-erfan .portlet-borderless-container ").append('<a href="category/دروس/درس-عرفان/" target="_blank" class="btn-droos"> <span class="span-btn"></span> بیشتر </a>');
-            var a = $(".dars-esteftaat .portlet-borderless-container .portlet-body").clone();
-            $(".dars-esteftaat .portlet-borderless-container .portlet-body").remove();
-            $(".dars-esteftaat .portlet-borderless-container ").append('<div class="image-doross"></div>');
-            $(".dars-esteftaat .portlet-borderless-container ").append('<div class="title-doross"></div>');
-            $(".dars-esteftaat .portlet-borderless-container").append(a);
-            $(".dars-esteftaat .portlet-borderless-container ").append('<a href="./archive-esteftat1" target="_blank" class="btn-droos"> <span class="span-btn"></span> بیشتر </a>');
-            var a = $(".dars-maghalat .portlet-borderless-container .portlet-body").clone();
-            $(".dars-maghalat .portlet-borderless-container .portlet-body").remove();
-            $(".dars-maghalat .portlet-borderless-container ").append('<div class="image-doross"></div>');
-            $(".dars-maghalat .portlet-borderless-container ").append('<div class="title-doross"></div>');
-            $(".dars-maghalat .portlet-borderless-container").append(a);
-            $(".dars-maghalat .portlet-borderless-container ").append('<a href="./archive-article1" target="_blank" class="btn-droos"> <span class="span-btn"></span> بیشتر </a>');
-            var a = $(".dars-payam .portlet-borderless-container .portlet-body").clone();
-            $(".dars-payam .portlet-borderless-container .portlet-body").remove();
-            $(".dars-payam .portlet-borderless-container ").append('<div class="image-doross"></div>');
-            $(".dars-payam .portlet-borderless-container ").append('<div class="title-doross"></div>');
-            $(".dars-payam .portlet-borderless-container").append(a);
-            $(".dars-payam .portlet-borderless-container ").append('<a href="./archive-payamha1" target="_blank" class="btn-droos"> <span class="span-btn"></span> بیشتر </a>');
+            // var a = $(".dars-tafsir .portlet-borderless-container .portlet-body").clone();
+            // $(".dars-tafsir .portlet-borderless-container .portlet-body").remove();
+            // $(".dars-tafsir .portlet-borderless-container ").append('<div class="image-doross"></div>');
+            // $(".dars-tafsir .portlet-borderless-container ").append('<div class="title-doross"></div>');
+            // $(".dars-tafsir .portlet-borderless-container").append(a);
+            // $(".dars-tafsir .portlet-borderless-container ").append('<a href="category/دروس/درس-تفسیر/" target="_blank" class="btn-droos"> <span class="span-btn"></span> بیشتر </a>');
+            // var a = $(".dars-akhlagh .portlet-borderless-container .portlet-body").clone();
+            // $(".dars-akhlagh .portlet-borderless-container .portlet-body").remove();
+            // $(".dars-akhlagh .portlet-borderless-container ").append('<div class="image-doross"></div>');
+            // $(".dars-akhlagh .portlet-borderless-container ").append('<div class="title-doross"></div>');
+            // $(".dars-akhlagh .portlet-borderless-container").append(a);
+            // $(".dars-akhlagh .portlet-borderless-container ").append('<a href="category/دروس/درس-اخلاق/" target="_blank" class="btn-droos"> <span class="span-btn"></span> بیشتر </a>');
+            // var a = $(".dars-fegh .portlet-borderless-container .portlet-body").clone();
+            // $(".dars-fegh .portlet-borderless-container .portlet-body").remove();
+            // $(".dars-fegh .portlet-borderless-container ").append('<div class="image-doross"></div>');
+            // $(".dars-fegh .portlet-borderless-container ").append('<div class="title-doross"></div>');
+            // $(".dars-fegh .portlet-borderless-container").append(a);
+            // $(".dars-fegh .portlet-borderless-container ").append('<a href="category/دروس/درس-عرفان/" target="_blank" class="btn-droos"> <span class="span-btn"></span> بیشتر </a>');
+            // var a = $(".dars-erfan .portlet-borderless-container .portlet-body").clone();
+            // $(".dars-erfan .portlet-borderless-container .portlet-body").remove();
+            // $(".dars-erfan .portlet-borderless-container ").append('<div class="image-doross"></div>');
+            // $(".dars-erfan .portlet-borderless-container ").append('<div class="title-doross"></div>');
+            // $(".dars-erfan .portlet-borderless-container").append(a);
+            // $(".dars-erfan .portlet-borderless-container ").append('<a href="category/دروس/درس-عرفان/" target="_blank" class="btn-droos"> <span class="span-btn"></span> بیشتر </a>');
+            // var a = $(".dars-esteftaat .portlet-borderless-container .portlet-body").clone();
+            // $(".dars-esteftaat .portlet-borderless-container .portlet-body").remove();
+            // $(".dars-esteftaat .portlet-borderless-container ").append('<div class="image-doross"></div>');
+            // $(".dars-esteftaat .portlet-borderless-container ").append('<div class="title-doross"></div>');
+            // $(".dars-esteftaat .portlet-borderless-container").append(a);
+            // $(".dars-esteftaat .portlet-borderless-container ").append('<a href="./archive-esteftat1" target="_blank" class="btn-droos"> <span class="span-btn"></span> بیشتر </a>');
+            // var a = $(".dars-maghalat .portlet-borderless-container .portlet-body").clone();
+            // $(".dars-maghalat .portlet-borderless-container .portlet-body").remove();
+            // $(".dars-maghalat .portlet-borderless-container ").append('<div class="image-doross"></div>');
+            // $(".dars-maghalat .portlet-borderless-container ").append('<div class="title-doross"></div>');
+            // $(".dars-maghalat .portlet-borderless-container").append(a);
+            // $(".dars-maghalat .portlet-borderless-container ").append('<a href="./archive-article1" target="_blank" class="btn-droos"> <span class="span-btn"></span> بیشتر </a>');
+            // var a = $(".dars-payam .portlet-borderless-container .portlet-body").clone();
+            // $(".dars-payam .portlet-borderless-container .portlet-body").remove();
+            // $(".dars-payam .portlet-borderless-container ").append('<div class="image-doross"></div>');
+            // $(".dars-payam .portlet-borderless-container ").append('<div class="title-doross"></div>');
+            // $(".dars-payam .portlet-borderless-container").append(a);
+            // $(".dars-payam .portlet-borderless-container ").append('<a href="./archive-payamha1" target="_blank" class="btn-droos"> <span class="span-btn"></span> بیشتر </a>');
             document.getElementById("main-content").style.display = "block"
         }); /*]]>*/
     </script>
