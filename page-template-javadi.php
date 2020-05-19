@@ -1064,12 +1064,12 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
             <div class="navbar-header"> <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
                 <div class="navbar-brand page-scroll">
                     <ul>
-                        <li><a class="fa fa-search" href="./?s=خطبه" ></a></li>
-                        <li><a class="fa fa-user" href="./wp-admin" title="ورود" ></a></li>
-                        <li style="display:none"><a class="fa fa-language" href="./#lang" ></a>
+                        <li><a class="fa fa-search" href="./?s=خطبه"></a></li>
+                        <li><a class="fa fa-user" href="./wp-admin" title="ورود"></a></li>
+                        <li style="display:none"><a class="fa fa-language" href="./#lang"></a>
                             <ul id="drop-down-language-box">
-                                <li> <a href="/" >English</a> </li>
-                                <li> <a href="/" >Persian</a> </li>
+                                <li> <a href="/">English</a> </li>
+                                <li> <a href="/">Persian</a> </li>
                             </ul>
                         </li>
                     </ul>
@@ -1215,14 +1215,14 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                                 <li id="rslides1_s4" class="" style="float: none; position: absolute; opacity: 0; z-index: 1; display: list-item; transition: opacity 500ms ease-in-out 0s;">
                                                     <img src="<?php echo plugin_dir_url(__FILE__) ?>assets/images/m (1)-4.jpg" alt="">
                                                     <div class="caption-con">
-                                                        <a class="caption title" href="./" >خبری یافت نشد</a>
-                                                        <a class="caption summary" href="./" >شرح خبر ...</a>
+                                                        <a class="caption title" href="./">خبری یافت نشد</a>
+                                                        <a class="caption summary" href="./">شرح خبر ...</a>
                                                     </div>
                                                 </li>
                                             <?php endif; ?>
                                         </ul>
 
-                                        <a href="./#" class="rslides_nav rslides1_nav prev" >Previous</a><a href="./#" class="rslides_nav rslides1_nav next" >Next</a>
+                                        <a href="./#" class="rslides_nav rslides1_nav prev">Previous</a><a href="./#" class="rslides_nav rslides1_nav next">Next</a>
                                     </div>
                                 </div>
                             </div>
@@ -1318,7 +1318,7 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                                                         ?>
 
                                                                     </ul>
-                                                                </div><a href="category/دروس/درس-اخلاق/" target="_blank" class="btn-droos" > <span class="span-btn"></span> بیشتر </a>
+                                                                </div><a href="category/دروس/درس-اخلاق/" target="_blank" class="btn-droos"> <span class="span-btn"></span> بیشتر </a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1358,7 +1358,7 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                                                         ?>
 
                                                                     </ul>
-                                                                </div><a href="category/دروس/درس-عرفان/" target="_blank" class="btn-droos" > <span class="span-btn"></span> بیشتر </a>
+                                                                </div><a href="category/دروس/درس-عرفان/" target="_blank" class="btn-droos"> <span class="span-btn"></span> بیشتر </a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1398,7 +1398,7 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                                                         ?>
 
                                                                     </ul>
-                                                                </div><a href="category/دروس/درس-تفسیر/" target="_blank" class="btn-droos" > <span class="span-btn"></span> بیشتر </a>
+                                                                </div><a href="category/دروس/درس-تفسیر/" target="_blank" class="btn-droos"> <span class="span-btn"></span> بیشتر </a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1426,17 +1426,17 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                                                 <div class="portlet-body">
                                                                     <link type="text/css" href="<?php echo plugin_dir_url(__FILE__) ?>assets/css/rtl.css" rel="stylesheet">
                                                                     <ul class="title-list default-icon">
-                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D8%A7%DB%8C%D8%A7-%D8%A7%D8%B3%D8%AA%D8%B9%D9%85%D8%A7%D9%84-%D8%AA%D8%AA%D9%86-%D9%88-%D8%B3%DB%8C%DA%AF%D8%A7%D8%B1-%D8%B1%D9%88%D8%B2%D9%87-%D8%B1%D8%A7-%D8%A8%D8%A7%D8%B7%D9%84-%D9%85%DB%8C-%DA%A9%D9%86%D8%AF%D8%9F" id="_101_INSTANCE_yH953ndVMLZG_zyuh" > <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">آیا استعمال تتن و سیگار روزه را باطل می کند؟</span> </a> </span>
+                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D8%A7%DB%8C%D8%A7-%D8%A7%D8%B3%D8%AA%D8%B9%D9%85%D8%A7%D9%84-%D8%AA%D8%AA%D9%86-%D9%88-%D8%B3%DB%8C%DA%AF%D8%A7%D8%B1-%D8%B1%D9%88%D8%B2%D9%87-%D8%B1%D8%A7-%D8%A8%D8%A7%D8%B7%D9%84-%D9%85%DB%8C-%DA%A9%D9%86%D8%AF%D8%9F" id="_101_INSTANCE_yH953ndVMLZG_zyuh"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">آیا استعمال تتن و سیگار روزه را باطل می کند؟</span> </a> </span>
                                                                             <div class="asset-metadata"> </div>
                                                                         </li>
-                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D8%A7%D8%AE%D8%AA%D8%B5%D8%A7%D8%B5-%D9%81%D8%B6%D8%A7%DB%8C%DB%8C-%D8%A7%D8%B2-%D9%85%D8%B3%D8%AC%D8%AF-%D8%A8%D9%87-%D9%83%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87" id="_101_INSTANCE_yH953ndVMLZG_ozlt" > <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">اختصاص فضایی از مسجد به كتابخانه</span> </a> </span>
+                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D8%A7%D8%AE%D8%AA%D8%B5%D8%A7%D8%B5-%D9%81%D8%B6%D8%A7%DB%8C%DB%8C-%D8%A7%D8%B2-%D9%85%D8%B3%D8%AC%D8%AF-%D8%A8%D9%87-%D9%83%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87" id="_101_INSTANCE_yH953ndVMLZG_ozlt"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">اختصاص فضایی از مسجد به كتابخانه</span> </a> </span>
                                                                             <div class="asset-metadata"> </div>
                                                                         </li>
-                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D9%81%D8%B1%D9%88%D8%B4-%D9%85%D9%84%D9%83-%D9%88%D9%82%D9%81%E2%80%8C%D8%B4%D8%AF%D9%87" id="_101_INSTANCE_yH953ndVMLZG_rpwo" > <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">فروش ملك وقف‌شده</span> </a> </span>
+                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D9%81%D8%B1%D9%88%D8%B4-%D9%85%D9%84%D9%83-%D9%88%D9%82%D9%81%E2%80%8C%D8%B4%D8%AF%D9%87" id="_101_INSTANCE_yH953ndVMLZG_rpwo"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">فروش ملك وقف‌شده</span> </a> </span>
                                                                             <div class="asset-metadata"> </div>
                                                                         </li>
                                                                     </ul>
-                                                                </div><a href="./archive-esteftat1" target="_blank" class="btn-droos" > <span class="span-btn"></span> بیشتر </a>
+                                                                </div><a href="./archive-esteftat1" target="_blank" class="btn-droos"> <span class="span-btn"></span> بیشتر </a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1452,17 +1452,17 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                                                 <div class="portlet-body">
                                                                     <link type="text/css" href="<?php echo plugin_dir_url(__FILE__) ?>assets/css/rtl.css" rel="stylesheet">
                                                                     <ul class="title-list default-icon">
-                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D8%A7%D9%8A%D9%86%D8%AF%D9%87-%D8%AC%D9%87%D8%A7%D9%86-%D8%A7%D8%B2-%D9%86%D8%B8%D8%B1-%D8%A7%D8%B3%D9%84%D8%A7%D9%85" id="_101_INSTANCE_PCXSp7tTrfmo_rjus" > <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">آينده جهان از نظر اسلام</span> </a> </span>
+                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D8%A7%D9%8A%D9%86%D8%AF%D9%87-%D8%AC%D9%87%D8%A7%D9%86-%D8%A7%D8%B2-%D9%86%D8%B8%D8%B1-%D8%A7%D8%B3%D9%84%D8%A7%D9%85" id="_101_INSTANCE_PCXSp7tTrfmo_rjus"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">آينده جهان از نظر اسلام</span> </a> </span>
                                                                             <div class="asset-metadata"> </div>
                                                                         </li>
-                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D9%87%D9%85%D8%AA%D8%A7%D9%8A%D9%8A-%D8%AD%D8%B6%D8%B1%D8%AA-%D9%81%D8%A7%D8%B7%D9%85%D9%87-%D9%88-%D8%B9%D9%84%D9%8A-%D8%B9%D9%84%D9%8A%D9%87%D9%85%D8%A7%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85" id="_101_INSTANCE_PCXSp7tTrfmo_ctvk" > <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">همتايي حضرت فاطمه و علي (عليهماالسلام)</span> </a> </span>
+                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D9%87%D9%85%D8%AA%D8%A7%D9%8A%D9%8A-%D8%AD%D8%B6%D8%B1%D8%AA-%D9%81%D8%A7%D8%B7%D9%85%D9%87-%D9%88-%D8%B9%D9%84%D9%8A-%D8%B9%D9%84%D9%8A%D9%87%D9%85%D8%A7%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85" id="_101_INSTANCE_PCXSp7tTrfmo_ctvk"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">همتايي حضرت فاطمه و علي (عليهماالسلام)</span> </a> </span>
                                                                             <div class="asset-metadata"> </div>
                                                                         </li>
-                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D8%A7%D9%82%D8%AA%D8%AF%D8%A7%D9%8A-%D8%A7%D9%85%D8%A7%D9%85-%D8%AE%D9%85%D9%8A%D9%86%D9%8A-%D8%A8%D9%87-%D9%86%D9%87%D8%B6%D8%AA-%D8%A7%D9%85%D8%A7%D9%85-%D8%AD%D8%B3%D9%8A%D9%86-%D8%B9" id="_101_INSTANCE_PCXSp7tTrfmo_suxb" > <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">اقتداي امام خميني به نهضت امام حسين(ع)</span> </a> </span>
+                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D8%A7%D9%82%D8%AA%D8%AF%D8%A7%D9%8A-%D8%A7%D9%85%D8%A7%D9%85-%D8%AE%D9%85%D9%8A%D9%86%D9%8A-%D8%A8%D9%87-%D9%86%D9%87%D8%B6%D8%AA-%D8%A7%D9%85%D8%A7%D9%85-%D8%AD%D8%B3%D9%8A%D9%86-%D8%B9" id="_101_INSTANCE_PCXSp7tTrfmo_suxb"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">اقتداي امام خميني به نهضت امام حسين(ع)</span> </a> </span>
                                                                             <div class="asset-metadata"> </div>
                                                                         </li>
                                                                     </ul>
-                                                                </div><a href="./archive-article1" target="_blank" class="btn-droos" > <span class="span-btn"></span> بیشتر </a>
+                                                                </div><a href="./archive-article1" target="_blank" class="btn-droos"> <span class="span-btn"></span> بیشتر </a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1478,17 +1478,17 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                                                 <div class="portlet-body">
                                                                     <link type="text/css" href="<?php echo plugin_dir_url(__FILE__) ?>assets/css/rtl.css" rel="stylesheet">
                                                                     <ul class="title-list default-icon">
-                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D9%BE%DB%8C%D8%A7%D9%85-%D8%A8%D9%87-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%D9%85%D9%84%DB%8C-%C2%AB%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C-%D8%A7%D8%B1%D8%A7%D8%A1-%D9%88-%D8%A7%D9%86%D8%AF%DB%8C%D8%B4%D9%87-%D9%87%D8%A7%DB%8C-%D8%AA%D9%81%D8%B3%DB%8C%D8%B1%DB%8C-%D8%A7%DB%8C%D8%AA-%D8%A7%D9%84%D9%84%D9%87-%D8%A7%D9%84%D8%B9%D8%B8%D9%85%DB%8C-%D8%AC%D9%88%D8%A7%D8%AF%DB%8C-%D8%A7%D9%85%D9%84%DB%8C%C2%BB" id="_101_INSTANCE_lpuaXrRhep3Q_gezi" > <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">پیام به همایش ملی «بررسی آراء و اندیشه های تفسیری آیت الله العظمی جوادی آملی»</span> </a> </span>
+                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D9%BE%DB%8C%D8%A7%D9%85-%D8%A8%D9%87-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%D9%85%D9%84%DB%8C-%C2%AB%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C-%D8%A7%D8%B1%D8%A7%D8%A1-%D9%88-%D8%A7%D9%86%D8%AF%DB%8C%D8%B4%D9%87-%D9%87%D8%A7%DB%8C-%D8%AA%D9%81%D8%B3%DB%8C%D8%B1%DB%8C-%D8%A7%DB%8C%D8%AA-%D8%A7%D9%84%D9%84%D9%87-%D8%A7%D9%84%D8%B9%D8%B8%D9%85%DB%8C-%D8%AC%D9%88%D8%A7%D8%AF%DB%8C-%D8%A7%D9%85%D9%84%DB%8C%C2%BB" id="_101_INSTANCE_lpuaXrRhep3Q_gezi"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">پیام به همایش ملی «بررسی آراء و اندیشه های تفسیری آیت الله العظمی جوادی آملی»</span> </a> </span>
                                                                             <div class="asset-metadata"> </div>
                                                                         </li>
-                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D9%BE%DB%8C%D8%A7%D9%85-%D8%A8%D9%87-%DA%86%D9%87%D8%A7%D8%B1%D9%85%DB%8C%D9%86-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%D8%A8%DB%8C%D9%86%E2%80%8C%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C-%C2%AB%D8%B3%DB%8C%D8%B1%D9%87-%D9%86%D8%A8%D9%88%DB%8C-%D8%AF%D8%B1-%D8%B7%D8%A8%C2%BB-%D8%AF%D8%B1-%D8%B4%DB%8C%D8%B1%D8%A7%D8%B2" id="_101_INSTANCE_lpuaXrRhep3Q_fmzi" > <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">پیام به چهارمین همایش بین‌المللی «سیره نبوی در طب» در شیراز</span> </a> </span>
+                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D9%BE%DB%8C%D8%A7%D9%85-%D8%A8%D9%87-%DA%86%D9%87%D8%A7%D8%B1%D9%85%DB%8C%D9%86-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%D8%A8%DB%8C%D9%86%E2%80%8C%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C-%C2%AB%D8%B3%DB%8C%D8%B1%D9%87-%D9%86%D8%A8%D9%88%DB%8C-%D8%AF%D8%B1-%D8%B7%D8%A8%C2%BB-%D8%AF%D8%B1-%D8%B4%DB%8C%D8%B1%D8%A7%D8%B2" id="_101_INSTANCE_lpuaXrRhep3Q_fmzi"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">پیام به چهارمین همایش بین‌المللی «سیره نبوی در طب» در شیراز</span> </a> </span>
                                                                             <div class="asset-metadata"> </div>
                                                                         </li>
-                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D9%BE%DB%8C%D8%A7%D9%85-%D8%A8%D9%87-%DA%86%D9%87%D8%A7%D8%B1%D9%85%DB%8C%D9%86-%D8%A7%D8%AC%D9%84%D8%A7%D8%B3%DB%8C%D9%87-%C2%AB%D9%85%D8%AC%D8%A7%D9%87%D8%AF%D8%A7%D9%86-%D8%AF%D8%B1-%D8%BA%D8%B1%D8%A8%D8%AA%C2%BB" id="_101_INSTANCE_lpuaXrRhep3Q_mefv" > <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">پیام به چهارمین اجلاسیه «مجاهدان در غربت»</span> </a> </span>
+                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D9%BE%DB%8C%D8%A7%D9%85-%D8%A8%D9%87-%DA%86%D9%87%D8%A7%D8%B1%D9%85%DB%8C%D9%86-%D8%A7%D8%AC%D9%84%D8%A7%D8%B3%DB%8C%D9%87-%C2%AB%D9%85%D8%AC%D8%A7%D9%87%D8%AF%D8%A7%D9%86-%D8%AF%D8%B1-%D8%BA%D8%B1%D8%A8%D8%AA%C2%BB" id="_101_INSTANCE_lpuaXrRhep3Q_mefv"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">پیام به چهارمین اجلاسیه «مجاهدان در غربت»</span> </a> </span>
                                                                             <div class="asset-metadata"> </div>
                                                                         </li>
                                                                     </ul>
-                                                                </div><a href="./archive-payamha1" target="_blank" class="btn-droos" > <span class="span-btn"></span> بیشتر </a>
+                                                                </div><a href="./archive-payamha1" target="_blank" class="btn-droos"> <span class="span-btn"></span> بیشتر </a>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1688,7 +1688,7 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                                                     <!-- <source src="https://www.hosseinilavasani.com/wp-content/uploads/2020/02/VID-20200204-WA0071.mp4" type="video/mp4">
                                                                         <source src="https://www.hosseinilavasani.com/wp-content/uploads/2020/02/VID-20200204-WA0071.mp4" type="video/webm"> </video> -->
                                                                 </div> <br>
-                                                                <a href="category/خبرویدئویی/" target="_blank" class="btn btn-nim" >خبرویدئویی بیشتر </a>
+                                                                <a href="category/خبرویدئویی/" target="_blank" class="btn btn-nim">خبرویدئویی بیشتر </a>
 
                                                             </div>
                                                             <div class="asset-metadata"> </div>
@@ -1744,7 +1744,7 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                                     </div>
                                                 </div>
                                             </div>
-                                            <a href="category/رحمت-بی-انتها/" target="_blank" class="btn btn-nim" >موارد بیشتر </a>
+                                            <a href="category/رحمت-بی-انتها/" target="_blank" class="btn btn-nim">موارد بیشتر </a>
 
                                         </div>
 
@@ -1774,7 +1774,7 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                         // the query
                                         $the_query = new WP_Query(array(
                                             'category_name' => 'گاه نوشت',
-                                            'posts_per_page' => 5,
+                                            'posts_per_page' => 4,
                                         ));
                                         ?>
 
@@ -1802,7 +1802,7 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                                     <div class="timeline-Tweet-author">
                                                         <div class="TweetAuthor"><a class="TweetAuthor-link" href="https://twitter.com/hashtag/%D9%84%D9%88%D8%A7%D8%B3%D8%A7%D9%86%DB%8C?lang=fa"> </a><span class="TweetAuthor-avatar">
                                                                 <div class="Avatar"> </div>
-                                                            </span><span class="TweetAuthor-name">سید سعید حسینی لواسانی</span><span class="Icon Icon--verified"> </span><span class="TweetAuthor-screenName">@HosseiniLavasani_com</span></div>
+                                                            </span><span class="TweetAuthor-name">سید سعید حسینی لواسانی</span><span class="Icon Icon--verified"> </span><span class="TweetAuthor-screenName"><a href="https://twitter.com/lavasani_13">@lavasani_13</span></a></div>
                                                     </div>
                                                     <div class="timeline-Tweet-text"><?php echo $get_the_excerpt ?> <span></span><?php echo $output ?></div>
                                                     <div class="timeline-Tweet-metadata"><span class="timeline-Tweet-timestamp"><?php echo $get_the_title ?></span></div>
@@ -1834,7 +1834,7 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                         </div> -->
                                     </div>
                                 </div>
-                                <a href="category/گاه-نوشت/" target="_blank" class="btn" >توییت های بیشتر </a>
+                                <a href="category/گاه-نوشت/" target="_blank" class="btn">توییت های بیشتر </a>
                                 <div style="clear: both;"></div>
                             </div>
                         </div>
