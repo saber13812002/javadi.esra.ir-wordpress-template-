@@ -1505,9 +1505,12 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                             <div class="portlet-borderless-container" style="">
                                 <div class="portlet-body">
                                     <div class="journal-content-article" id="article_10155_28506_890131_1.2">
-                                        <div class="div-video"> <video autoplay="" class="video-style2" id="my-video" loop="" preload="metadata">
-                                                <source src="<?php echo plugin_dir_url(__FILE__) ?>assets/videos/wide.mp4" type="video/mp4">
-                                                <source src="http://esra.ir/web/media/home.webm" type="video/webm"> </video> </div>
+                                        <div class="div-video">
+                                            <video autoplay class="video-style2" id="my-video" loop="" preload="metadata">
+                                                <source src="<?php echo plugin_dir_url(__FILE__) ?>assets/videos/lavasani.mp4" type="video/mp4">
+                                                <source src="<?php echo plugin_dir_url(__FILE__) ?>assets/videos/lavasani.webm" type="video/webm">
+                                            </video>
+                                        </div>
                                     </div>
                                     <div class="entry-links"> </div>
                                 </div>
@@ -1635,6 +1638,90 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                 </div>
 
 
+
+                <div id="p_p_id_101_INSTANCE_yz5GYlekwPmY_" class=" twitter-block portlet-boundary portlet-boundary_101_ portlet-static portlet-static-end portlet-borderless portlet-asset-publisher botton-news"> <span id="p_101_INSTANCE_yz5GYlekwPmY"></span>
+                    <div class="portlet-body">
+                        <div class="portlet-borderless-container" style="">
+                            <div class="portlet-body">
+                                <link type="text/css" href="<?php echo plugin_dir_url(__FILE__) ?>assets/css/rtl(1).css" rel="stylesheet">
+                                <div class="twitt-block">
+
+                                    <div class="tw-block-parent">
+                                        <div class="timeline-TweetList-tweet">
+
+                                            <?php
+                                            // the query
+                                            $the_query = new WP_Query(array(
+                                                'category_name' => 'گاه نوشت',
+                                                'posts_per_page' => 4,
+                                            ));
+                                            ?>
+
+                                            <?php if ($the_query->have_posts()) : ?>
+                                                <?php while ($the_query->have_posts()) : $the_query->the_post();
+                                                    $get_the_title = get_the_title();
+                                                    $get_the_excerpt = get_the_excerpt();
+                                                    $get_permalink = get_permalink();
+                                                    $post_tags = get_the_tags();
+
+                                                    $separator = ' ';
+                                                    $output = "( ";
+                                                    if (!empty($post_tags)) {
+                                                        foreach ($post_tags as $tag) {
+                                                            $output .= '#<a href="' . get_tag_link($tag->term_id) . '">' . $tag->name . '</a>' . $separator;
+                                                        }
+                                                        $output .= ")";
+                                                    }
+
+                                                ?>
+                                                    <div class="timeline-Tweet">
+                                                        <div class="timeline-Tweet-brand">
+                                                            <div class="Icon Icon--twitter"></div>
+                                                        </div>
+                                                        <div class="timeline-Tweet-author">
+                                                            <div class="TweetAuthor"><a class="TweetAuthor-link" href="https://twitter.com/hashtag/%D9%84%D9%88%D8%A7%D8%B3%D8%A7%D9%86%DB%8C?lang=fa"> </a><span class="TweetAuthor-avatar">
+                                                                    <div class="Avatar"> </div>
+                                                                </span><span class="TweetAuthor-name">سید سعید حسینی لواسانی</span><span class="Icon Icon--verified"> </span><span class="TweetAuthor-screenName"><a href="https://twitter.com/lavasani_13">@lavasani_13</span></a></div>
+                                                        </div>
+                                                        <div class="timeline-Tweet-text"><?php echo $get_the_excerpt ?> <span></span><?php echo $output ?></div>
+                                                        <div class="timeline-Tweet-metadata"><span class="timeline-Tweet-timestamp"><?php echo $get_the_title ?></span></div>
+                                                        <ul class="timeline-Tweet-actions">
+                                                            <li class="timeline-Tweet-action"><a class="Icon Icon--heart" href="<?php echo $get_permalink ?>"></a></li>
+                                                            <li class="timeline-Tweet-action"><a class="Icon Icon--share" href="<?php echo $get_permalink ?>"></a></li>
+                                                        </ul>
+                                                    </div>
+
+
+                                                <?php endwhile; ?>
+                                                <?php wp_reset_postdata(); ?>
+                                            <?php endif; ?>
+                                            <!-- <div class="timeline-Tweet">
+                                            <div class="timeline-Tweet-brand">
+                                                <div class="Icon Icon--twitter"></div>
+                                            </div>
+                                            <div class="timeline-Tweet-author">
+                                                <div class="TweetAuthor"><a class="TweetAuthor-link" href="#channel"> </a><span class="TweetAuthor-avatar">
+                                                        <div class="Avatar"> </div>
+                                                    </span><span class="TweetAuthor-name">سید سعید حسینی لواسانی</span><span class="Icon Icon--verified"> </span><span class="TweetAuthor-screenName">@HosseiniLavasani_com</span></div>
+                                            </div>
+                                            <div class="timeline-Tweet-text">همه عمر برندارم سر از این خمار مستی. که هنوز من نبودم که تو در دلم نشستینشستینشستینشستینشستینشستینشستینشستی. <a href="#">@khamenei_ir</a><span>!</span><a href="#">#قرآن</a><a href="#"></a></div>
+                                            <div class="timeline-Tweet-metadata"><span class="timeline-Tweet-timestamp">9 ساعت پیش</span></div>
+                                            <ul class="timeline-Tweet-actions">
+                                                <li class="timeline-Tweet-action"><a class="Icon Icon--heart" href="#"></a></li>
+                                                <li class="timeline-Tweet-action"><a class="Icon Icon--share" href="#"></a></li>
+                                            </ul>
+                                        </div> -->
+                                        </div>
+                                    </div>
+                                    <a href="category/گاه-نوشت/" target="_blank" class="btn">توییت های بیشتر </a>
+                                    <div style="clear: both;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
                 <div id="p_p_id_118_INSTANCE_EZBPB2ElWPgk_" class="portlet-boundary portlet-boundary_118_ portlet-static portlet-static-end portlet-borderless portlet-nested-portlets botton-sec"> <span id="p_118_INSTANCE_EZBPB2ElWPgk"></span>
                     <div class="portlet-body">
                         <div class="portlet-borderless-container" style="">
@@ -1759,88 +1846,6 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
             </div>
 
 
-
-            <div id="p_p_id_101_INSTANCE_yz5GYlekwPmY_" class=" twitter-block portlet-boundary portlet-boundary_101_ portlet-static portlet-static-end portlet-borderless portlet-asset-publisher botton-news"> <span id="p_101_INSTANCE_yz5GYlekwPmY"></span>
-                <div class="portlet-body">
-                    <div class="portlet-borderless-container" style="">
-                        <div class="portlet-body">
-                            <link type="text/css" href="<?php echo plugin_dir_url(__FILE__) ?>assets/css/rtl(1).css" rel="stylesheet">
-                            <div class="twitt-block">
-
-                                <div class="tw-block-parent">
-                                    <div class="timeline-TweetList-tweet">
-
-                                        <?php
-                                        // the query
-                                        $the_query = new WP_Query(array(
-                                            'category_name' => 'گاه نوشت',
-                                            'posts_per_page' => 4,
-                                        ));
-                                        ?>
-
-                                        <?php if ($the_query->have_posts()) : ?>
-                                            <?php while ($the_query->have_posts()) : $the_query->the_post();
-                                                $get_the_title = get_the_title();
-                                                $get_the_excerpt = get_the_excerpt();
-                                                $get_permalink = get_permalink();
-                                                $post_tags = get_the_tags();
-
-                                                $separator = ' ';
-                                                $output = "( ";
-                                                if (!empty($post_tags)) {
-                                                    foreach ($post_tags as $tag) {
-                                                        $output .= '#<a href="' . get_tag_link($tag->term_id) . '">' . $tag->name . '</a>' . $separator;
-                                                    }
-                                                    $output .= ")";
-                                                }
-
-                                            ?>
-                                                <div class="timeline-Tweet">
-                                                    <div class="timeline-Tweet-brand">
-                                                        <div class="Icon Icon--twitter"></div>
-                                                    </div>
-                                                    <div class="timeline-Tweet-author">
-                                                        <div class="TweetAuthor"><a class="TweetAuthor-link" href="https://twitter.com/hashtag/%D9%84%D9%88%D8%A7%D8%B3%D8%A7%D9%86%DB%8C?lang=fa"> </a><span class="TweetAuthor-avatar">
-                                                                <div class="Avatar"> </div>
-                                                            </span><span class="TweetAuthor-name">سید سعید حسینی لواسانی</span><span class="Icon Icon--verified"> </span><span class="TweetAuthor-screenName"><a href="https://twitter.com/lavasani_13">@lavasani_13</span></a></div>
-                                                    </div>
-                                                    <div class="timeline-Tweet-text"><?php echo $get_the_excerpt ?> <span></span><?php echo $output ?></div>
-                                                    <div class="timeline-Tweet-metadata"><span class="timeline-Tweet-timestamp"><?php echo $get_the_title ?></span></div>
-                                                    <ul class="timeline-Tweet-actions">
-                                                        <li class="timeline-Tweet-action"><a class="Icon Icon--heart" href="<?php echo $get_permalink ?>"></a></li>
-                                                        <li class="timeline-Tweet-action"><a class="Icon Icon--share" href="<?php echo $get_permalink ?>"></a></li>
-                                                    </ul>
-                                                </div>
-
-
-                                            <?php endwhile; ?>
-                                            <?php wp_reset_postdata(); ?>
-                                        <?php endif; ?>
-                                        <!-- <div class="timeline-Tweet">
-                                            <div class="timeline-Tweet-brand">
-                                                <div class="Icon Icon--twitter"></div>
-                                            </div>
-                                            <div class="timeline-Tweet-author">
-                                                <div class="TweetAuthor"><a class="TweetAuthor-link" href="#channel"> </a><span class="TweetAuthor-avatar">
-                                                        <div class="Avatar"> </div>
-                                                    </span><span class="TweetAuthor-name">سید سعید حسینی لواسانی</span><span class="Icon Icon--verified"> </span><span class="TweetAuthor-screenName">@HosseiniLavasani_com</span></div>
-                                            </div>
-                                            <div class="timeline-Tweet-text">همه عمر برندارم سر از این خمار مستی. که هنوز من نبودم که تو در دلم نشستینشستینشستینشستینشستینشستینشستینشستی. <a href="#">@khamenei_ir</a><span>!</span><a href="#">#قرآن</a><a href="#"></a></div>
-                                            <div class="timeline-Tweet-metadata"><span class="timeline-Tweet-timestamp">9 ساعت پیش</span></div>
-                                            <ul class="timeline-Tweet-actions">
-                                                <li class="timeline-Tweet-action"><a class="Icon Icon--heart" href="#"></a></li>
-                                                <li class="timeline-Tweet-action"><a class="Icon Icon--share" href="#"></a></li>
-                                            </ul>
-                                        </div> -->
-                                    </div>
-                                </div>
-                                <a href="category/گاه-نوشت/" target="_blank" class="btn">توییت های بیشتر </a>
-                                <div style="clear: both;"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
 
 
