@@ -9,7 +9,7 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>صفحه اصلی - دفتر</title>
-    <link href="favicon.ico" rel="Shortcut Icon">
+    <link href="./esra-theme/images/favicon.ico" rel="Shortcut Icon">
     <link href="./" rel="canonical">
     <link href="./" hreflang="x-default" rel="alternate">
     <link href="./" hreflang="fa-IR" rel="alternate">
@@ -18,11 +18,234 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
     <link href="<?php echo plugin_dir_url(__FILE__) ?>assets/css/main.css" rel="stylesheet" type="text/css">
     <link href="<?php echo plugin_dir_url(__FILE__) ?>assets/css/main(1).css" rel="stylesheet" type="text/css">
     <link href="<?php echo plugin_dir_url(__FILE__) ?>assets/css/main(2).css" rel="stylesheet" type="text/css">
-
+    <script type="text/javascript">
+        /*<![CDATA[*/
+        var Liferay = {
+            Browser: {
+                acceptsGzip: function() {
+                    return true
+                },
+                getMajorVersion: function() {
+                    return 79
+                },
+                getRevision: function() {
+                    return "537.36"
+                },
+                getVersion: function() {
+                    return "79.0.3945.88"
+                },
+                isAir: function() {
+                    return false
+                },
+                isChrome: function() {
+                    return true
+                },
+                isFirefox: function() {
+                    return false
+                },
+                isGecko: function() {
+                    return true
+                },
+                isIe: function() {
+                    return false
+                },
+                isIphone: function() {
+                    return false
+                },
+                isLinux: function() {
+                    return false
+                },
+                isMac: function() {
+                    return false
+                },
+                isMobile: function() {
+                    return false
+                },
+                isMozilla: function() {
+                    return false
+                },
+                isOpera: function() {
+                    return false
+                },
+                isRtf: function() {
+                    return true
+                },
+                isSafari: function() {
+                    return true
+                },
+                isSun: function() {
+                    return false
+                },
+                isWap: function() {
+                    return false
+                },
+                isWapXhtml: function() {
+                    return false
+                },
+                isWebKit: function() {
+                    return true
+                },
+                isWindows: function() {
+                    return true
+                },
+                isWml: function() {
+                    return false
+                }
+            },
+            Data: {
+                isCustomizationView: function() {
+                    return false
+                },
+                notices: [null]
+            },
+            ThemeDisplay: {
+                getCompanyId: function() {
+                    return "10155"
+                },
+                getCompanyGroupId: function() {
+                    return "10193"
+                },
+                getUserId: function() {
+                    return "10159"
+                },
+                getDoAsUserIdEncoded: function() {
+                    return ""
+                },
+                getPlid: function() {
+                    return "881512"
+                },
+                getLayoutId: function() {
+                    return "31"
+                },
+                getLayoutURL: function() {
+                    return "./home"
+                },
+                isPrivateLayout: function() {
+                    return "false"
+                },
+                getParentLayoutId: function() {
+                    return "0"
+                },
+                getScopeGroupId: function() {
+                    return "28506"
+                },
+                getScopeGroupIdOrLiveGroupId: function() {
+                    return "28506"
+                },
+                getParentGroupId: function() {
+                    return "28506"
+                },
+                isImpersonated: function() {
+                    return false
+                },
+                isSignedIn: function() {
+                    return false
+                },
+                getDefaultLanguageId: function() {
+                    return "fa_IR"
+                },
+                getLanguageId: function() {
+                    return "fa_IR"
+                },
+                isAddSessionIdToURL: function() {
+                    return false
+                },
+                isFreeformLayout: function() {
+                    return false
+                },
+                isStateExclusive: function() {
+                    return false
+                },
+                isStateMaximized: function() {
+                    return false
+                },
+                isStatePopUp: function() {
+                    return false
+                },
+                getPathContext: function() {
+                    return ""
+                },
+                getPathImage: function() {
+                    return "/image"
+                },
+                getPathJavaScript: function() {
+                    return "/html/js"
+                },
+                getPathMain: function() {
+                    return "/c"
+                },
+                getPathThemeImages: function() {
+                    return "/esra-theme/images"
+                },
+                getPathThemeRoot: function() {
+                    return "/esra-theme/"
+                },
+                getURLHome: function() {
+                    return "./web/esra-portal"
+                },
+                getSessionId: function() {
+                    return "288733C6023796620453ED2AD2B69475"
+                },
+                getPortletSetupShowBordersDefault: function() {
+                    return true
+                }
+            },
+            PropsValues: {
+                NTLM_AUTH_ENABLED: false
+            }
+        };
+        var themeDisplay = Liferay.ThemeDisplay;
+        Liferay.AUI = {
+            getBaseURL: function() {
+                return "./html/js/aui/"
+            },
+            getCombine: function() {
+                return true
+            },
+            getComboPath: function() {
+                return "/combo/?browserId=other&minifierType=&languageId=fa_IR&b=6100&t=1571499367000&p=/html/js&"
+            },
+            getFilter: function() {
+                return {
+                    replaceStr: function(c, b, a) {
+                        return b + "m=" + (c.split("/html/js")[1] || "")
+                    },
+                    searchExp: "(\\?|&)/([^&]+)"
+                }
+            },
+            getJavaScriptRootPath: function() {
+                return "/html/js"
+            },
+            getLangPath: function() {
+                return "aui_lang.jsp?browserId=other&themeId=esra_WAR_esratheme&colorSchemeId=01&minifierType=js&languageId=fa_IR&b=6100&t=1571499367000"
+            },
+            getRootPath: function() {
+                return "/html/js/aui/"
+            }
+        };
+        window.YUI_config = {
+            base: Liferay.AUI.getBaseURL(),
+            comboBase: Liferay.AUI.getComboPath(),
+            fetchCSS: true,
+            filter: Liferay.AUI.getFilter(),
+            root: Liferay.AUI.getRootPath(),
+            useBrowserConsole: false
+        };
+        Liferay.currentURL = "\x2f";
+        Liferay.currentURLEncoded = "%2F"; /*]]>*/
+    </script>
+    <script src="<?php echo plugin_dir_url(__FILE__) ?>assets/barebone.jsp" type="text/javascript"></script>
+    <script type="text/javascript">
+        /*<![CDATA[*/
+        Liferay.Portlet.list = ["56_INSTANCE_0pBzG5bAU6nD", "101_INSTANCE_u4WITwIcfjPS", "56_INSTANCE_PAuOKE0xrebd", "56_INSTANCE_Ib0uNxYYmh3S", "118_INSTANCE_GLSMo6d7vSgB", "118_INSTANCE_9pfVMsCLeHvy", "56_INSTANCE_qDFjvN9ZKIG8", "101_INSTANCE_yz5GYlekwPmY", "118_INSTANCE_EZBPB2ElWPgk", "101_INSTANCE_0mlBSOfu6TpQ", "101_INSTANCE_Cj1mJpYdufV7", "101_INSTANCE_m8eg3UQsTVm2", "101_INSTANCE_B1jYkb8G5mfl", "101_INSTANCE_Svc6SL2iJkeV", "101_INSTANCE_yH953ndVMLZG", "101_INSTANCE_PCXSp7tTrfmo", "101_INSTANCE_lpuaXrRhep3Q"]; /*]]>*/
+    </script>
     <script type="text/javascript" src="<?php echo plugin_dir_url(__FILE__) ?>assets/js/jquery-1.9.1.min.js"></script>
     <script type="text/javascript" src="<?php echo plugin_dir_url(__FILE__) ?>assets/js/jquery-migrate-git.min.js"></script>
+    <meta content="./home?p_p_id=101_INSTANCE_B1jYkb8G5mfl&amp;p_p_lifecycle=0&amp;p_p_state=normal&amp;p_p_mode=view&amp;p_p_col_id=_118_INSTANCE_EZBPB2ElWPgk__column-2&amp;p_p_col_count=1" property="og:url">
     <meta content="article" property="og:type">
     <meta content="رحمت بی انتها .." property="og:title">
+    <meta content="/image/journal/article?img_id=2658267&amp;t=1577587899145" property="og:image">
+    <meta content="./home?p_p_id=101_INSTANCE_Svc6SL2iJkeV&amp;p_p_lifecycle=0&amp;p_p_state=normal&amp;p_p_mode=view&amp;p_p_col_id=_118_INSTANCE_EZBPB2ElWPgk__column-1&amp;p_p_col_count=1" property="og:url">
     <meta content="article" property="og:type">
     <meta content="ویدئو؛ رحمت پروردگار" property="og:title">
     <meta content="/image/journal/article?img_id=2658082&amp;t=1577587899189" property="og:image">
@@ -818,6 +1041,9 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
     <link rel="stylesheet" href="<?php echo plugin_dir_url(__FILE__) ?>assets/css/creative_rtl.css">
     <script src="<?php echo plugin_dir_url(__FILE__) ?>assets/js/respond.min.js"></script>
     <script src="<?php echo plugin_dir_url(__FILE__) ?>assets/js/respond.matchmedia.addListener.min.js"></script>
+    <link id="aui_3_4_0_1_57" type="text/css" rel="stylesheet" href="<?php echo plugin_dir_url(__FILE__) ?>assets/saved_resource" charset="utf-8">
+    <link id="aui_3_4_0_1_89" type="text/css" rel="stylesheet" href="<?php echo plugin_dir_url(__FILE__) ?>assets/saved_resource(1)" charset="utf-8">
+    <script id="aui_3_4_0_1_194" type="text/javascript" src="<?php echo plugin_dir_url(__FILE__) ?>assets/saved_resource(2)" charset="utf-8"></script>
     <style type="text/css">
         @font-face {
             font-family: 'bnazanin';
@@ -925,28 +1151,21 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                 <div class="portlet-body">
                                     <script src="<?php echo plugin_dir_url(__FILE__) ?>assets/js/responsiveslides.js"></script>
 
-
+                                    <script>
+                                        jQuery(function ($) {
+                                            $("#_101_INSTANCE_u4WITwIcfjPS_rslides").responsiveSlides();
+                                        });
+                                    </script>
                                     <script type="text/javascript">
                                         /*<![CDATA[*/
-                                        jQuery(function($) {
+                                        jQuery(function ($) {
                                             $("#_101_INSTANCE_u4WITwIcfjPS_rslides").responsiveSlides({
-                                                auto: true, // Boolean: Animate automatically, true or false
-                                                speed: 500, // Integer: Speed of the transition, in milliseconds
-                                                timeout: 4000, // Integer: Time between slide transitions, in milliseconds
-                                                pager: false, // Boolean: Show pager, true or false
-                                                nav: false, // Boolean: Show navigation, true or false
-                                                random: false, // Boolean: Randomize the order of the slides, true or false
-                                                pause: true, // Boolean: Pause on hover, true or false
-                                                pauseControls: true, // Boolean: Pause when hovering controls, true or false
-                                                prevText: "Previous", // String: Text for the "previous" button
-                                                nextText: "Next", // String: Text for the "next" button
-                                                maxwidth: "", // Integer: Max-width of the slideshow, in pixels
-                                                navContainer: "", // Selector: Where controls should be appended to, default is after the 'ul'
-                                                manualControls: "", // Selector: Declare custom pager navigation
-                                                namespace: "rslides", // String: Change the default namespace used
-                                                before: function() {}, // Function: Before callback
-                                                after: function() {} // Function: After callback
-                                            });
+                                                auto: true,
+                                                pager: false,
+                                                nav: true,
+                                                speed: 500,
+                                                before: function() {}
+                                            })
                                         }); /*]]>*/
                                     </script>
                                     <link rel="stylesheet" href="<?php echo plugin_dir_url(__FILE__) ?>assets/css/style.css">
@@ -977,7 +1196,7 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                             // the query
                                             $the_query = new WP_Query(array(
                                                 'category_name' => 'خبرمتنی',
-                                                'posts_per_page' => 4,
+                                                'posts_per_page' => 5,
                                             ));
                                             ?>
 
@@ -1098,7 +1317,7 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                                                         foreach ($recent_posts as $recent) {
 
 
-                                                                            echo '<li class="title-list content default-icon"> <span> <a class="taglib-icon" href="' . get_permalink($recent["ID"]) . '" id="_101_INSTANCE_0mlBSOfu6TpQ_bqvz" > <img class="icon" src="' . plugin_dir_url(__FILE__) . 'assets/png/spacer.png" alt="" style="background-image: url(&#39;' . plugin_dir_url(__FILE__) . 'assets/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">' . $recent["post_title"] . '</span> </a> </span>
+                                                                            echo '<li class="title-list content default-icon"> <span> <a class="taglib-icon" href="' . get_permalink($recent["ID"]) . '" id="_101_INSTANCE_0mlBSOfu6TpQ_bqvz" > <img class="icon" src="' . plugin_dir_url(__FILE__) . 'assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">' . $recent["post_title"] . '</span> </a> </span>
                                                                                 <div class="asset-metadata"> </div>
                                                                                 </li>';
                                                                         }
@@ -1138,7 +1357,7 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                                                         foreach ($recent_posts as $recent) {
 
 
-                                                                            echo '<li class="title-list content default-icon"> <span> <a class="taglib-icon" href="' . get_permalink($recent["ID"]) . '" id="_101_INSTANCE_0mlBSOfu6TpQ_bqvz" > <img class="icon" src="' . plugin_dir_url(__FILE__) . 'assets/png/spacer.png" alt="" style="background-image: url(&#39;' . plugin_dir_url(__FILE__) . 'assets/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">' . $recent["post_title"] . '</span> </a> </span>
+                                                                            echo '<li class="title-list content default-icon"> <span> <a class="taglib-icon" href="' . get_permalink($recent["ID"]) . '" id="_101_INSTANCE_0mlBSOfu6TpQ_bqvz" > <img class="icon" src="' . plugin_dir_url(__FILE__) . 'assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">' . $recent["post_title"] . '</span> </a> </span>
                                                                                 <div class="asset-metadata"> </div>
                                                                                 </li>';
                                                                         }
@@ -1178,7 +1397,7 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                                                         foreach ($recent_posts as $recent) {
 
 
-                                                                            echo '<li class="title-list content default-icon"> <span> <a class="taglib-icon" href="' . get_permalink($recent["ID"]) . '" id="_101_INSTANCE_0mlBSOfu6TpQ_bqvz" > <img class="icon" src="' . plugin_dir_url(__FILE__) . 'assets/png/spacer.png" alt="" style="background-image: url(&#39;' . plugin_dir_url(__FILE__) . 'assets/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">' . $recent["post_title"] . '</span> </a> </span>
+                                                                            echo '<li class="title-list content default-icon"> <span> <a class="taglib-icon" href="' . get_permalink($recent["ID"]) . '" id="_101_INSTANCE_0mlBSOfu6TpQ_bqvz" > <img class="icon" src="' . plugin_dir_url(__FILE__) . 'assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">' . $recent["post_title"] . '</span> </a> </span>
                                                                                 <div class="asset-metadata"> </div>
                                                                                 </li>';
                                                                         }
@@ -1213,13 +1432,13 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                                                 <div class="portlet-body">
                                                                     <link type="text/css" href="<?php echo plugin_dir_url(__FILE__) ?>assets/css/rtl.css" rel="stylesheet">
                                                                     <ul class="title-list default-icon">
-                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D8%A7%DB%8C%D8%A7-%D8%A7%D8%B3%D8%AA%D8%B9%D9%85%D8%A7%D9%84-%D8%AA%D8%AA%D9%86-%D9%88-%D8%B3%DB%8C%DA%AF%D8%A7%D8%B1-%D8%B1%D9%88%D8%B2%D9%87-%D8%B1%D8%A7-%D8%A8%D8%A7%D8%B7%D9%84-%D9%85%DB%8C-%DA%A9%D9%86%D8%AF%D8%9F" id="_101_INSTANCE_yH953ndVMLZG_zyuh"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;/wp-content/plugins/javadi.esra.ir-wordpress-template-/assets/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">آیا استعمال تتن و سیگار روزه را باطل می کند؟</span> </a> </span>
+                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D8%A7%DB%8C%D8%A7-%D8%A7%D8%B3%D8%AA%D8%B9%D9%85%D8%A7%D9%84-%D8%AA%D8%AA%D9%86-%D9%88-%D8%B3%DB%8C%DA%AF%D8%A7%D8%B1-%D8%B1%D9%88%D8%B2%D9%87-%D8%B1%D8%A7-%D8%A8%D8%A7%D8%B7%D9%84-%D9%85%DB%8C-%DA%A9%D9%86%D8%AF%D8%9F" id="_101_INSTANCE_yH953ndVMLZG_zyuh"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">آیا استعمال تتن و سیگار روزه را باطل می کند؟</span> </a> </span>
                                                                             <div class="asset-metadata"> </div>
                                                                         </li>
-                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D8%A7%D8%AE%D8%AA%D8%B5%D8%A7%D8%B5-%D9%81%D8%B6%D8%A7%DB%8C%DB%8C-%D8%A7%D8%B2-%D9%85%D8%B3%D8%AC%D8%AF-%D8%A8%D9%87-%D9%83%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87" id="_101_INSTANCE_yH953ndVMLZG_ozlt"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;/wp-content/plugins/javadi.esra.ir-wordpress-template-/assets/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">اختصاص فضایی از مسجد به كتابخانه</span> </a> </span>
+                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D8%A7%D8%AE%D8%AA%D8%B5%D8%A7%D8%B5-%D9%81%D8%B6%D8%A7%DB%8C%DB%8C-%D8%A7%D8%B2-%D9%85%D8%B3%D8%AC%D8%AF-%D8%A8%D9%87-%D9%83%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87" id="_101_INSTANCE_yH953ndVMLZG_ozlt"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">اختصاص فضایی از مسجد به كتابخانه</span> </a> </span>
                                                                             <div class="asset-metadata"> </div>
                                                                         </li>
-                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D9%81%D8%B1%D9%88%D8%B4-%D9%85%D9%84%D9%83-%D9%88%D9%82%D9%81%E2%80%8C%D8%B4%D8%AF%D9%87" id="_101_INSTANCE_yH953ndVMLZG_rpwo"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;/wp-content/plugins/javadi.esra.ir-wordpress-template-/assets/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">فروش ملك وقف‌شده</span> </a> </span>
+                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D9%81%D8%B1%D9%88%D8%B4-%D9%85%D9%84%D9%83-%D9%88%D9%82%D9%81%E2%80%8C%D8%B4%D8%AF%D9%87" id="_101_INSTANCE_yH953ndVMLZG_rpwo"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">فروش ملك وقف‌شده</span> </a> </span>
                                                                             <div class="asset-metadata"> </div>
                                                                         </li>
                                                                     </ul>
@@ -1239,13 +1458,13 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                                                 <div class="portlet-body">
                                                                     <link type="text/css" href="<?php echo plugin_dir_url(__FILE__) ?>assets/css/rtl.css" rel="stylesheet">
                                                                     <ul class="title-list default-icon">
-                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D8%A7%D9%8A%D9%86%D8%AF%D9%87-%D8%AC%D9%87%D8%A7%D9%86-%D8%A7%D8%B2-%D9%86%D8%B8%D8%B1-%D8%A7%D8%B3%D9%84%D8%A7%D9%85" id="_101_INSTANCE_PCXSp7tTrfmo_rjus"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;/wp-content/plugins/javadi.esra.ir-wordpress-template-/assets/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">آينده جهان از نظر اسلام</span> </a> </span>
+                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D8%A7%D9%8A%D9%86%D8%AF%D9%87-%D8%AC%D9%87%D8%A7%D9%86-%D8%A7%D8%B2-%D9%86%D8%B8%D8%B1-%D8%A7%D8%B3%D9%84%D8%A7%D9%85" id="_101_INSTANCE_PCXSp7tTrfmo_rjus"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">آينده جهان از نظر اسلام</span> </a> </span>
                                                                             <div class="asset-metadata"> </div>
                                                                         </li>
-                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D9%87%D9%85%D8%AA%D8%A7%D9%8A%D9%8A-%D8%AD%D8%B6%D8%B1%D8%AA-%D9%81%D8%A7%D8%B7%D9%85%D9%87-%D9%88-%D8%B9%D9%84%D9%8A-%D8%B9%D9%84%D9%8A%D9%87%D9%85%D8%A7%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85" id="_101_INSTANCE_PCXSp7tTrfmo_ctvk"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;/wp-content/plugins/javadi.esra.ir-wordpress-template-/assets/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">همتايي حضرت فاطمه و علي (عليهماالسلام)</span> </a> </span>
+                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D9%87%D9%85%D8%AA%D8%A7%D9%8A%D9%8A-%D8%AD%D8%B6%D8%B1%D8%AA-%D9%81%D8%A7%D8%B7%D9%85%D9%87-%D9%88-%D8%B9%D9%84%D9%8A-%D8%B9%D9%84%D9%8A%D9%87%D9%85%D8%A7%D8%A7%D9%84%D8%B3%D9%84%D8%A7%D9%85" id="_101_INSTANCE_PCXSp7tTrfmo_ctvk"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">همتايي حضرت فاطمه و علي (عليهماالسلام)</span> </a> </span>
                                                                             <div class="asset-metadata"> </div>
                                                                         </li>
-                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D8%A7%D9%82%D8%AA%D8%AF%D8%A7%D9%8A-%D8%A7%D9%85%D8%A7%D9%85-%D8%AE%D9%85%D9%8A%D9%86%D9%8A-%D8%A8%D9%87-%D9%86%D9%87%D8%B6%D8%AA-%D8%A7%D9%85%D8%A7%D9%85-%D8%AD%D8%B3%D9%8A%D9%86-%D8%B9" id="_101_INSTANCE_PCXSp7tTrfmo_suxb"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;/wp-content/plugins/javadi.esra.ir-wordpress-template-/assets/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">اقتداي امام خميني به نهضت امام حسين(ع)</span> </a> </span>
+                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D8%A7%D9%82%D8%AA%D8%AF%D8%A7%D9%8A-%D8%A7%D9%85%D8%A7%D9%85-%D8%AE%D9%85%D9%8A%D9%86%D9%8A-%D8%A8%D9%87-%D9%86%D9%87%D8%B6%D8%AA-%D8%A7%D9%85%D8%A7%D9%85-%D8%AD%D8%B3%D9%8A%D9%86-%D8%B9" id="_101_INSTANCE_PCXSp7tTrfmo_suxb"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">اقتداي امام خميني به نهضت امام حسين(ع)</span> </a> </span>
                                                                             <div class="asset-metadata"> </div>
                                                                         </li>
                                                                     </ul>
@@ -1265,13 +1484,13 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
                                                                 <div class="portlet-body">
                                                                     <link type="text/css" href="<?php echo plugin_dir_url(__FILE__) ?>assets/css/rtl.css" rel="stylesheet">
                                                                     <ul class="title-list default-icon">
-                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D9%BE%DB%8C%D8%A7%D9%85-%D8%A8%D9%87-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%D9%85%D9%84%DB%8C-%C2%AB%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C-%D8%A7%D8%B1%D8%A7%D8%A1-%D9%88-%D8%A7%D9%86%D8%AF%DB%8C%D8%B4%D9%87-%D9%87%D8%A7%DB%8C-%D8%AA%D9%81%D8%B3%DB%8C%D8%B1%DB%8C-%D8%A7%DB%8C%D8%AA-%D8%A7%D9%84%D9%84%D9%87-%D8%A7%D9%84%D8%B9%D8%B8%D9%85%DB%8C-%D8%AC%D9%88%D8%A7%D8%AF%DB%8C-%D8%A7%D9%85%D9%84%DB%8C%C2%BB" id="_101_INSTANCE_lpuaXrRhep3Q_gezi"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;/wp-content/plugins/javadi.esra.ir-wordpress-template-/assets/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">پیام به همایش ملی «بررسی آراء و اندیشه های تفسیری آیت الله العظمی جوادی آملی»</span> </a> </span>
+                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D9%BE%DB%8C%D8%A7%D9%85-%D8%A8%D9%87-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%D9%85%D9%84%DB%8C-%C2%AB%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C-%D8%A7%D8%B1%D8%A7%D8%A1-%D9%88-%D8%A7%D9%86%D8%AF%DB%8C%D8%B4%D9%87-%D9%87%D8%A7%DB%8C-%D8%AA%D9%81%D8%B3%DB%8C%D8%B1%DB%8C-%D8%A7%DB%8C%D8%AA-%D8%A7%D9%84%D9%84%D9%87-%D8%A7%D9%84%D8%B9%D8%B8%D9%85%DB%8C-%D8%AC%D9%88%D8%A7%D8%AF%DB%8C-%D8%A7%D9%85%D9%84%DB%8C%C2%BB" id="_101_INSTANCE_lpuaXrRhep3Q_gezi"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">پیام به همایش ملی «بررسی آراء و اندیشه های تفسیری آیت الله العظمی جوادی آملی»</span> </a> </span>
                                                                             <div class="asset-metadata"> </div>
                                                                         </li>
-                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D9%BE%DB%8C%D8%A7%D9%85-%D8%A8%D9%87-%DA%86%D9%87%D8%A7%D8%B1%D9%85%DB%8C%D9%86-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%D8%A8%DB%8C%D9%86%E2%80%8C%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C-%C2%AB%D8%B3%DB%8C%D8%B1%D9%87-%D9%86%D8%A8%D9%88%DB%8C-%D8%AF%D8%B1-%D8%B7%D8%A8%C2%BB-%D8%AF%D8%B1-%D8%B4%DB%8C%D8%B1%D8%A7%D8%B2" id="_101_INSTANCE_lpuaXrRhep3Q_fmzi"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;/wp-content/plugins/javadi.esra.ir-wordpress-template-/assets/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">پیام به چهارمین همایش بین‌المللی «سیره نبوی در طب» در شیراز</span> </a> </span>
+                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D9%BE%DB%8C%D8%A7%D9%85-%D8%A8%D9%87-%DA%86%D9%87%D8%A7%D8%B1%D9%85%DB%8C%D9%86-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%D8%A8%DB%8C%D9%86%E2%80%8C%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C-%C2%AB%D8%B3%DB%8C%D8%B1%D9%87-%D9%86%D8%A8%D9%88%DB%8C-%D8%AF%D8%B1-%D8%B7%D8%A8%C2%BB-%D8%AF%D8%B1-%D8%B4%DB%8C%D8%B1%D8%A7%D8%B2" id="_101_INSTANCE_lpuaXrRhep3Q_fmzi"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">پیام به چهارمین همایش بین‌المللی «سیره نبوی در طب» در شیراز</span> </a> </span>
                                                                             <div class="asset-metadata"> </div>
                                                                         </li>
-                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D9%BE%DB%8C%D8%A7%D9%85-%D8%A8%D9%87-%DA%86%D9%87%D8%A7%D8%B1%D9%85%DB%8C%D9%86-%D8%A7%D8%AC%D9%84%D8%A7%D8%B3%DB%8C%D9%87-%C2%AB%D9%85%D8%AC%D8%A7%D9%87%D8%AF%D8%A7%D9%86-%D8%AF%D8%B1-%D8%BA%D8%B1%D8%A8%D8%AA%C2%BB" id="_101_INSTANCE_lpuaXrRhep3Q_mefv"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;/wp-content/plugins/javadi.esra.ir-wordpress-template-/assets/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">پیام به چهارمین اجلاسیه «مجاهدان در غربت»</span> </a> </span>
+                                                                        <li class="title-list content default-icon"> <span> <a class="taglib-icon" href="./-/%D9%BE%DB%8C%D8%A7%D9%85-%D8%A8%D9%87-%DA%86%D9%87%D8%A7%D8%B1%D9%85%DB%8C%D9%86-%D8%A7%D8%AC%D9%84%D8%A7%D8%B3%DB%8C%D9%87-%C2%AB%D9%85%D8%AC%D8%A7%D9%87%D8%AF%D8%A7%D9%86-%D8%AF%D8%B1-%D8%BA%D8%B1%D8%A8%D8%AA%C2%BB" id="_101_INSTANCE_lpuaXrRhep3Q_mefv"> <img class="icon" src="<?php echo plugin_dir_url(__FILE__) ?>assets/png/spacer.png" alt="" style="background-image: url(&#39;./esra-theme/images/common/_sprite.png&#39;); background-position: 50% -657px; background-repeat: no-repeat; height: 16px; width: 16px;"> <span class="taglib-text">پیام به چهارمین اجلاسیه «مجاهدان در غربت»</span> </a> </span>
                                                                             <div class="asset-metadata"> </div>
                                                                         </li>
                                                                     </ul>
@@ -1722,7 +1941,281 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
     <script src="<?php echo plugin_dir_url(__FILE__) ?>assets/js/jquery.fittext.js"></script>
     <script src="<?php echo plugin_dir_url(__FILE__) ?>assets/js/wow.min.js"></script>
     <!--<script src="assets/js/creative.js"></script> -->
-
+    <script type="text/javascript">
+        /*<![CDATA[*/
+        Liferay.Util.addInputFocus(); /*]]>*/
+    </script>
+    <script type="text/javascript">
+        /*<![CDATA[*/
+        Liferay.Portlet.onLoad({
+            canEditTitle: false,
+            columnPos: 0,
+            isStatic: "end",
+            namespacedId: "p_p_id_103_",
+            portletId: "103",
+            refreshURL: "\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d881512\x26p_p_id\x3d103\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3d\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d0\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F"
+        });
+        Liferay.Portlet.onLoad({
+            canEditTitle: false,
+            columnPos: 0,
+            isStatic: "end",
+            namespacedId: "p_p_id_101_INSTANCE_PCXSp7tTrfmo_",
+            portletId: "101_INSTANCE_PCXSp7tTrfmo",
+            refreshURL: "\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d881512\x26p_p_id\x3d101_INSTANCE_PCXSp7tTrfmo\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3d_118_INSTANCE_9pfVMsCLeHvy__column-2\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F"
+        });
+        Liferay.Portlet.onLoad({
+            canEditTitle: false,
+            columnPos: 0,
+            isStatic: "end",
+            namespacedId: "p_p_id_101_INSTANCE_lpuaXrRhep3Q_",
+            portletId: "101_INSTANCE_lpuaXrRhep3Q",
+            refreshURL: "\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d881512\x26p_p_id\x3d101_INSTANCE_lpuaXrRhep3Q\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3d_118_INSTANCE_9pfVMsCLeHvy__column-3\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F"
+        });
+        Liferay.Portlet.onLoad({
+            canEditTitle: false,
+            columnPos: 0,
+            isStatic: "end",
+            namespacedId: "p_p_id_101_INSTANCE_yH953ndVMLZG_",
+            portletId: "101_INSTANCE_yH953ndVMLZG",
+            refreshURL: "\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d881512\x26p_p_id\x3d101_INSTANCE_yH953ndVMLZG\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3d_118_INSTANCE_9pfVMsCLeHvy__column-1\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F"
+        });
+        Liferay.Portlet.onLoad({
+            canEditTitle: false,
+            columnPos: 5,
+            isStatic: "end",
+            namespacedId: "p_p_id_118_INSTANCE_9pfVMsCLeHvy_",
+            portletId: "118_INSTANCE_9pfVMsCLeHvy",
+            refreshURL: "\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d881512\x26p_p_id\x3d101_INSTANCE_yH953ndVMLZG\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3d_118_INSTANCE_9pfVMsCLeHvy__column-1\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F"
+        });
+        Liferay.Portlet.onLoad({
+            canEditTitle: false,
+            columnPos: 0,
+            isStatic: "end",
+            namespacedId: "p_p_id_101_INSTANCE_B1jYkb8G5mfl_",
+            portletId: "101_INSTANCE_B1jYkb8G5mfl",
+            refreshURL: "\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d881512\x26p_p_id\x3d101_INSTANCE_B1jYkb8G5mfl\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3d_118_INSTANCE_EZBPB2ElWPgk__column-2\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F"
+        });
+        Liferay.Portlet.onLoad({
+            canEditTitle: false,
+            columnPos: 0,
+            isStatic: "end",
+            namespacedId: "p_p_id_101_INSTANCE_Svc6SL2iJkeV_",
+            portletId: "101_INSTANCE_Svc6SL2iJkeV",
+            refreshURL: "\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d881512\x26p_p_id\x3d101_INSTANCE_Svc6SL2iJkeV\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3d_118_INSTANCE_EZBPB2ElWPgk__column-1\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F"
+        });
+        Liferay.Portlet.onLoad({
+            canEditTitle: false,
+            columnPos: 8,
+            isStatic: "end",
+            namespacedId: "p_p_id_118_INSTANCE_EZBPB2ElWPgk_",
+            portletId: "118_INSTANCE_EZBPB2ElWPgk",
+            refreshURL: "\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d881512\x26p_p_id\x3d101_INSTANCE_Svc6SL2iJkeV\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3d_118_INSTANCE_EZBPB2ElWPgk__column-1\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F"
+        });
+        Liferay.Portlet.onLoad({
+            canEditTitle: false,
+            columnPos: 0,
+            isStatic: "end",
+            namespacedId: "p_p_id_101_INSTANCE_0mlBSOfu6TpQ_",
+            portletId: "101_INSTANCE_0mlBSOfu6TpQ",
+            refreshURL: "\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d881512\x26p_p_id\x3d101_INSTANCE_0mlBSOfu6TpQ\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3d_118_INSTANCE_GLSMo6d7vSgB__column-1\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F"
+        });
+        Liferay.Portlet.onLoad({
+            canEditTitle: false,
+            columnPos: 0,
+            isStatic: "end",
+            namespacedId: "p_p_id_101_INSTANCE_Cj1mJpYdufV7_",
+            portletId: "101_INSTANCE_Cj1mJpYdufV7",
+            refreshURL: "\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d881512\x26p_p_id\x3d101_INSTANCE_Cj1mJpYdufV7\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3d_118_INSTANCE_GLSMo6d7vSgB__column-2\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F"
+        });
+        Liferay.Portlet.onLoad({
+            canEditTitle: false,
+            columnPos: 0,
+            isStatic: "end",
+            namespacedId: "p_p_id_101_INSTANCE_m8eg3UQsTVm2_",
+            portletId: "101_INSTANCE_m8eg3UQsTVm2",
+            refreshURL: "\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d881512\x26p_p_id\x3d101_INSTANCE_m8eg3UQsTVm2\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3d_118_INSTANCE_GLSMo6d7vSgB__column-3\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F"
+        });
+        Liferay.Portlet.onLoad({
+            canEditTitle: false,
+            columnPos: 4,
+            isStatic: "end",
+            namespacedId: "p_p_id_118_INSTANCE_GLSMo6d7vSgB_",
+            portletId: "118_INSTANCE_GLSMo6d7vSgB",
+            refreshURL: "\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d881512\x26p_p_id\x3d101_INSTANCE_m8eg3UQsTVm2\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3d_118_INSTANCE_GLSMo6d7vSgB__column-3\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d1\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F"
+        });
+        Liferay.Portlet.onLoad({
+            canEditTitle: false,
+            columnPos: 0,
+            isStatic: "end",
+            namespacedId: "p_p_id_56_INSTANCE_0pBzG5bAU6nD_",
+            portletId: "56_INSTANCE_0pBzG5bAU6nD",
+            refreshURL: "\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d881512\x26p_p_id\x3d56_INSTANCE_0pBzG5bAU6nD\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d0\x26p_p_col_count\x3d9\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F"
+        });
+        Liferay.Portlet.onLoad({
+            canEditTitle: false,
+            columnPos: 3,
+            isStatic: "end",
+            namespacedId: "p_p_id_56_INSTANCE_Ib0uNxYYmh3S_",
+            portletId: "56_INSTANCE_Ib0uNxYYmh3S",
+            refreshURL: "\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d881512\x26p_p_id\x3d56_INSTANCE_Ib0uNxYYmh3S\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d3\x26p_p_col_count\x3d9\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F"
+        });
+        Liferay.Portlet.onLoad({
+            canEditTitle: false,
+            columnPos: 2,
+            isStatic: "end",
+            namespacedId: "p_p_id_56_INSTANCE_PAuOKE0xrebd_",
+            portletId: "56_INSTANCE_PAuOKE0xrebd",
+            refreshURL: "\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d881512\x26p_p_id\x3d56_INSTANCE_PAuOKE0xrebd\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d2\x26p_p_col_count\x3d9\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F"
+        });
+        Liferay.Portlet.onLoad({
+            canEditTitle: false,
+            columnPos: 6,
+            isStatic: "end",
+            namespacedId: "p_p_id_56_INSTANCE_qDFjvN9ZKIG8_",
+            portletId: "56_INSTANCE_qDFjvN9ZKIG8",
+            refreshURL: "\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d881512\x26p_p_id\x3d56_INSTANCE_qDFjvN9ZKIG8\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d6\x26p_p_col_count\x3d9\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F"
+        });
+        Liferay.Portlet.onLoad({
+            canEditTitle: false,
+            columnPos: 1,
+            isStatic: "end",
+            namespacedId: "p_p_id_101_INSTANCE_u4WITwIcfjPS_",
+            portletId: "101_INSTANCE_u4WITwIcfjPS",
+            refreshURL: "\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d881512\x26p_p_id\x3d101_INSTANCE_u4WITwIcfjPS\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d1\x26p_p_col_count\x3d9\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F"
+        });
+        Liferay.Portlet.onLoad({
+            canEditTitle: false,
+            columnPos: 7,
+            isStatic: "end",
+            namespacedId: "p_p_id_101_INSTANCE_yz5GYlekwPmY_",
+            portletId: "101_INSTANCE_yz5GYlekwPmY",
+            refreshURL: "\x2fc\x2fportal\x2frender_portlet\x3fp_l_id\x3d881512\x26p_p_id\x3d101_INSTANCE_yz5GYlekwPmY\x26p_p_lifecycle\x3d0\x26p_t_lifecycle\x3d0\x26p_p_state\x3dnormal\x26p_p_mode\x3dview\x26p_p_col_id\x3dcolumn-1\x26p_p_col_pos\x3d7\x26p_p_col_count\x3d9\x26p_p_isolated\x3d1\x26currentURL\x3d\x252F"
+        });
+        AUI().use("aui-base", "liferay-icon", "liferay-menu", "liferay-notice", "liferay-poller", function(a) {
+            (function() {
+                Liferay.Icon.register({
+                    forcePost: true,
+                    id: "_101_INSTANCE_PCXSp7tTrfmo_rjus"
+                })
+            })();
+            (function() {
+                Liferay.Icon.register({
+                    forcePost: true,
+                    id: "_101_INSTANCE_PCXSp7tTrfmo_ctvk"
+                })
+            })();
+            (function() {
+                Liferay.Icon.register({
+                    forcePost: true,
+                    id: "_101_INSTANCE_PCXSp7tTrfmo_suxb"
+                })
+            })();
+            (function() {
+                Liferay.Icon.register({
+                    forcePost: true,
+                    id: "_101_INSTANCE_lpuaXrRhep3Q_gezi"
+                })
+            })();
+            (function() {
+                Liferay.Icon.register({
+                    forcePost: true,
+                    id: "_101_INSTANCE_lpuaXrRhep3Q_fmzi"
+                })
+            })();
+            (function() {
+                Liferay.Icon.register({
+                    forcePost: true,
+                    id: "_101_INSTANCE_lpuaXrRhep3Q_mefv"
+                })
+            })();
+            (function() {
+                Liferay.Icon.register({
+                    forcePost: true,
+                    id: "_101_INSTANCE_yH953ndVMLZG_zyuh"
+                })
+            })();
+            (function() {
+                Liferay.Icon.register({
+                    forcePost: true,
+                    id: "_101_INSTANCE_yH953ndVMLZG_ozlt"
+                })
+            })();
+            (function() {
+                Liferay.Icon.register({
+                    forcePost: true,
+                    id: "_101_INSTANCE_yH953ndVMLZG_rpwo"
+                })
+            })();
+            (function() {
+                Liferay.Icon.register({
+                    forcePost: true,
+                    id: "_101_INSTANCE_0mlBSOfu6TpQ_bhfa"
+                })
+            })();
+            (function() {
+                Liferay.Icon.register({
+                    forcePost: true,
+                    id: "_101_INSTANCE_0mlBSOfu6TpQ_bqvz"
+                })
+            })();
+            (function() {
+                Liferay.Icon.register({
+                    forcePost: true,
+                    id: "_101_INSTANCE_0mlBSOfu6TpQ_rlip"
+                })
+            })();
+            (function() {
+                Liferay.Icon.register({
+                    forcePost: true,
+                    id: "_101_INSTANCE_Cj1mJpYdufV7_kwje"
+                })
+            })();
+            (function() {
+                Liferay.Icon.register({
+                    forcePost: true,
+                    id: "_101_INSTANCE_Cj1mJpYdufV7_hhdj"
+                })
+            })();
+            (function() {
+                Liferay.Icon.register({
+                    forcePost: true,
+                    id: "_101_INSTANCE_Cj1mJpYdufV7_owel"
+                })
+            })();
+            (function() {
+                Liferay.Icon.register({
+                    forcePost: true,
+                    id: "_101_INSTANCE_m8eg3UQsTVm2_xnby"
+                })
+            })();
+            (function() {
+                Liferay.Icon.register({
+                    forcePost: true,
+                    id: "_101_INSTANCE_m8eg3UQsTVm2_tbsm"
+                })
+            })();
+            (function() {
+                Liferay.Icon.register({
+                    forcePost: true,
+                    id: "_101_INSTANCE_m8eg3UQsTVm2_kunf"
+                })
+            })();
+            (function() {
+                Liferay.Util.addInputType();
+                Liferay.Portlet.ready(function(b, c) {
+                    Liferay.Util.addInputType(c)
+                })
+            })();
+            (function() {
+                new Liferay.Menu();
+                var b = Liferay.Data.notices;
+                for (var c = 1; c < b.length; c++) {
+                    new Liferay.Notice(b[c])
+                }
+            })()
+        }); /*]]>*/
+    </script>
+    <script src="<?php echo plugin_dir_url(__FILE__) ?>assets/js/main.js" type="text/javascript"></script>
     <script type="text/javascript">
         /*<![CDATA[*/
         $(document).ready(function() {
