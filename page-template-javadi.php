@@ -27,6 +27,7 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
     <meta content="ویدئو؛ رحمت پروردگار" property="og:title">
     <meta content="/image/journal/article?img_id=2658082&amp;t=1577587899189" property="og:image">
     <link class="lfr-css-file" href="<?php echo plugin_dir_url(__FILE__) ?>assets/css/main(3).css" rel="stylesheet" type="text/css">
+    <link href="<?php echo plugin_dir_url(__FILE__) ?>assets/css/responsiveslides.css" rel="stylesheet" type="text/css">
     <style type="text/css">
         .bottomMenu>div {
             display: block;
