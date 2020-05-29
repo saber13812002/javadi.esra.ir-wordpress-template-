@@ -141,7 +141,11 @@ JAVADi TEPLATE PAGE
 
 در نوشته های نوع اخبار میتوانید برای اینکه متن خبر ها از باکس اخبار بیرون نزدند از ادامه ی خبر استفاده کنید
 
+# search page:
 
+search box should added in widget into header and footer of the theme
+
+حتما از طریق بخش ابزارک جستجو رو به هدر و فوتر صفحه و قالب خودتان اضافه کنید
  
 
 (توضیحات بیشتر درباره ی قالب سایت اسرا و قالب سایت جوادی آملی) [https://virgool.io/@saber.tabatabaee/%D9%82%D8%A7%D9%84%D8%A8-%D8%B3%D8%A7%DB%8C%D8%AA-%D8%A2%DB%8C%D8%AA-%D8%A7%D9%84%D9%84%D9%87-%D8%AC%D9%88%D8%A7%D8%AF%DB%8C-%D8%A2%D9%85%D9%84%DB%8C-%D8%A8%D8%B1%D8%A7%DB%8C-%D9%88%D8%B1%D8%AF%D9%BE%D8%B1%D8%B3-pec2n3axzo4u]

@@ -29,6 +29,18 @@ require_once dirname(__FILE__) . '/../../../wp-includes/option.php';
     <link class="lfr-css-file" href="<?php echo plugin_dir_url(__FILE__) ?>assets/css/main(3).css" rel="stylesheet" type="text/css">
     <link href="<?php echo plugin_dir_url(__FILE__) ?>assets/css/responsiveslides.css" rel="stylesheet" type="text/css">
     <style type="text/css">
+        .search-field {
+            width: 90%;
+            height: 55px;
+            font-size: 33px;
+        }
+
+        .search-submit {
+            line-height: 3;
+
+        }
+
+
         .bottomMenu>div {
             display: block;
         }
